@@ -30,7 +30,7 @@ export const HowToPlay = () => {
           </ul>
 
           <span className="text-sm italic pt-8">
-            This little game was created by D. Mirpuri and R. Torres
+            This little game was created by <a href="https://twitter.com/d_vatvani">D. Vatvani</> and <a href="https://twitter.com/ricardcodes">R. Torres</>
           </span>
         </div>
       </ModalFM>
