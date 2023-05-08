@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 2157,
+  "target_tvdb_id": 8691,
+  "source_imdb_id": "nm0000245",
+  "target_imdb_id": "nm0757855",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000245",
+      "type": "Actor",
+      "name": "Robin Williams",
+      "tvdb_id": 2157
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0102057",
+      "votes": 262088,
+      "rating": 6.8,
+      "name": "Hook",
+      "tvdb_id": 879
+    },
+    {
+      "imdb_id": "nm0000335",
+      "type": "Actor",
+      "name": "Glenn Close",
+      "tvdb_id": 515
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2015381",
+      "votes": 1202667,
+      "rating": 8.0,
+      "name": "Guardians of the Galaxy",
+      "tvdb_id": 118340
+    },
+    {
+      "imdb_id": "nm0757855",
+      "type": "Actor",
+      "name": "Zoe Saldana",
+      "tvdb_id": 8691
+    }
+  ]
+}

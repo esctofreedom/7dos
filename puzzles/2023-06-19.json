@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 4756,
+  "target_tvdb_id": 22226,
+  "source_imdb_id": "nm0000111",
+  "target_imdb_id": "nm0748620",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000111",
+      "type": "Actor",
+      "name": "Matthew Broderick",
+      "tvdb_id": 4756
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0115798",
+      "votes": 170281,
+      "rating": 6.1,
+      "name": "The Cable Guy",
+      "tvdb_id": 9894
+    },
+    {
+      "imdb_id": "nm0005182",
+      "type": "Actor",
+      "name": "Leslie Mann",
+      "tvdb_id": 41087
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0478311",
+      "votes": 375637,
+      "rating": 6.9,
+      "name": "Knocked Up",
+      "tvdb_id": 4964
+    },
+    {
+      "imdb_id": "nm0748620",
+      "type": "Actor",
+      "name": "Paul Rudd",
+      "tvdb_id": 22226
+    }
+  ]
+}

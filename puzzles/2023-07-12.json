@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 4483,
+  "target_tvdb_id": 3967,
+  "source_imdb_id": "nm0000163",
+  "target_imdb_id": "nm0000295",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000163",
+      "type": "Actor",
+      "name": "Dustin Hoffman",
+      "tvdb_id": 4483
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2267968",
+      "votes": 168500,
+      "rating": 7.1,
+      "name": "Kung Fu Panda 3",
+      "tvdb_id": 140300
+    },
+    {
+      "imdb_id": "nm0186505",
+      "type": "Actor",
+      "name": "Bryan Cranston",
+      "tvdb_id": 17419
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1386703",
+      "votes": 259277,
+      "rating": 6.2,
+      "name": "Total Recall",
+      "tvdb_id": 64635
+    },
+    {
+      "imdb_id": "nm0000295",
+      "type": "Actor",
+      "name": "Kate Beckinsale",
+      "tvdb_id": 3967
+    }
+  ]
+}

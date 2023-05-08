@@ -1,0 +1,57 @@
+{
+  "source_tvdb_id": 228,
+  "target_tvdb_id": 854,
+  "source_imdb_id": "nm0000438",
+  "target_imdb_id": "nm0000071",
+  "min_moves_to_solve": 5,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000438",
+      "type": "Actor",
+      "name": "Ed Harris",
+      "tvdb_id": 228
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0104348",
+      "votes": 109840,
+      "rating": 7.7,
+      "name": "Glengarry Glen Ross",
+      "tvdb_id": 9504
+    },
+    {
+      "imdb_id": "nm0000199",
+      "type": "Actor",
+      "name": "Al Pacino",
+      "tvdb_id": 1158
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0071562",
+      "votes": 1296165,
+      "rating": 9.0,
+      "name": "The Godfather Part II",
+      "tvdb_id": 240
+    },
+    {
+      "imdb_id": "nm0045803",
+      "type": "Actor",
+      "name": "Margaret Bacon",
+      "tvdb_id": null
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0052357",
+      "votes": 409713,
+      "rating": 8.3,
+      "name": "Vertigo",
+      "tvdb_id": 426
+    },
+    {
+      "imdb_id": "nm0000071",
+      "type": "Actor",
+      "name": "James Stewart",
+      "tvdb_id": 854
+    }
+  ]
+}

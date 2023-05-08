@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 1204,
+  "target_tvdb_id": 1231,
+  "source_imdb_id": "nm0000210",
+  "target_imdb_id": "nm0000194",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000210",
+      "type": "Actor",
+      "name": "Julia Roberts",
+      "tvdb_id": 1204
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0472062",
+      "votes": 121255,
+      "rating": 7.0,
+      "name": "Charlie Wilson's War",
+      "tvdb_id": 6538
+    },
+    {
+      "imdb_id": "nm0000450",
+      "type": "Actor",
+      "name": "Philip Seymour Hoffman",
+      "tvdb_id": 1233
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0118715",
+      "votes": 824543,
+      "rating": 8.1,
+      "name": "The Big Lebowski",
+      "tvdb_id": 115
+    },
+    {
+      "imdb_id": "nm0000194",
+      "type": "Actor",
+      "name": "Julianne Moore",
+      "tvdb_id": 1231
+    }
+  ]
+}

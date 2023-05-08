@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 4483,
+  "target_tvdb_id": 1328,
+  "source_imdb_id": "nm0000163",
+  "target_imdb_id": "nm0000276",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000163",
+      "type": "Actor",
+      "name": "Dustin Hoffman",
+      "tvdb_id": 4483
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2883512",
+      "votes": 221829,
+      "rating": 7.3,
+      "name": "Chef",
+      "tvdb_id": 212778
+    },
+    {
+      "imdb_id": "nm0269463",
+      "type": "Actor",
+      "name": "Jon Favreau",
+      "tvdb_id": 15277
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0108002",
+      "votes": 65853,
+      "rating": 7.5,
+      "name": "Rudy",
+      "tvdb_id": 14534
+    },
+    {
+      "imdb_id": "nm0000276",
+      "type": "Actor",
+      "name": "Sean Astin",
+      "tvdb_id": 1328
+    }
+  ]
+}

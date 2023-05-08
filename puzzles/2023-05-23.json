@@ -1,0 +1,57 @@
+{
+  "source_tvdb_id": 585902,
+  "target_tvdb_id": 53714,
+  "source_imdb_id": "nm0032370",
+  "target_imdb_id": "nm1046097",
+  "min_moves_to_solve": 5,
+  "best_solution": [
+    {
+      "imdb_id": "nm0032370",
+      "type": "Actor",
+      "name": "Noel Appleby",
+      "tvdb_id": 585902
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0167260",
+      "votes": 1880701,
+      "rating": 9.0,
+      "name": "The Lord of the Rings: The Return of the King",
+      "tvdb_id": 122
+    },
+    {
+      "imdb_id": "nm0000949",
+      "type": "Actor",
+      "name": "Cate Blanchett",
+      "tvdb_id": 112
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3501632",
+      "votes": 771855,
+      "rating": 7.9,
+      "name": "Thor: Ragnarok",
+      "tvdb_id": 284053
+    },
+    {
+      "imdb_id": "nm1212722",
+      "type": "Actor",
+      "name": "Benedict Cumberbatch",
+      "tvdb_id": 71580
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1211837",
+      "votes": 761886,
+      "rating": 7.5,
+      "name": "Doctor Strange",
+      "tvdb_id": 284052
+    },
+    {
+      "imdb_id": "nm1046097",
+      "type": "Actor",
+      "name": "Rachel McAdams",
+      "tvdb_id": 53714
+    }
+  ]
+}

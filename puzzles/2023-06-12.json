@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 18269,
+  "target_tvdb_id": 41091,
+  "source_imdb_id": "nm0000409",
+  "target_imdb_id": "nm1325419",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000409",
+      "type": "Actor",
+      "name": "Brendan Fraser",
+      "tvdb_id": 18269
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0375679",
+      "votes": 441805,
+      "rating": 7.7,
+      "name": "Crash",
+      "tvdb_id": 1640
+    },
+    {
+      "imdb_id": "nm0671567",
+      "type": "Actor",
+      "name": "Michael Pe\u00f1a",
+      "tvdb_id": 454
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3659388",
+      "votes": 875852,
+      "rating": 8.0,
+      "name": "The Martian",
+      "tvdb_id": 286217
+    },
+    {
+      "imdb_id": "nm1325419",
+      "type": "Actor",
+      "name": "Kristen Wiig",
+      "tvdb_id": 41091
+    }
+  ]
+}

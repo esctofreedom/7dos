@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 38673,
+  "target_tvdb_id": 193,
+  "source_imdb_id": "nm1475594",
+  "target_imdb_id": "nm0000432",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm1475594",
+      "type": "Actor",
+      "name": "Channing Tatum",
+      "tvdb_id": 38673
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1490017",
+      "votes": 366969,
+      "rating": 7.7,
+      "name": "The Lego Movie",
+      "tvdb_id": 137106
+    },
+    {
+      "imdb_id": "nm0000151",
+      "type": "Actor",
+      "name": "Morgan Freeman",
+      "tvdb_id": 192
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0105695",
+      "votes": 419562,
+      "rating": 8.2,
+      "name": "Unforgiven",
+      "tvdb_id": 33
+    },
+    {
+      "imdb_id": "nm0000432",
+      "type": "Actor",
+      "name": "Gene Hackman",
+      "tvdb_id": 193
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 5472,
+  "target_tvdb_id": 190,
+  "source_imdb_id": "nm0000147",
+  "target_imdb_id": "nm0000142",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000147",
+      "type": "Actor",
+      "name": "Colin Firth",
+      "tvdb_id": 5472
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0116209",
+      "votes": 194559,
+      "rating": 7.4,
+      "name": "The English Patient",
+      "tvdb_id": 409
+    },
+    {
+      "imdb_id": "nm0720082",
+      "type": "Actor",
+      "name": "Liisa Repo-Martell",
+      "tvdb_id": 5481
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0105695",
+      "votes": 419562,
+      "rating": 8.2,
+      "name": "Unforgiven",
+      "tvdb_id": 33
+    },
+    {
+      "imdb_id": "nm0000142",
+      "type": "Actor",
+      "name": "Clint Eastwood",
+      "tvdb_id": 190
+    }
+  ]
+}

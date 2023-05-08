@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 976,
+  "target_tvdb_id": 27578,
+  "source_imdb_id": "nm0005458",
+  "target_imdb_id": "nm0680983",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0005458",
+      "type": "Actor",
+      "name": "Jason Statham",
+      "tvdb_id": 976
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120735",
+      "votes": 593453,
+      "rating": 8.1,
+      "name": "Lock, Stock and Two Smoking Barrels",
+      "tvdb_id": 100
+    },
+    {
+      "imdb_id": "nm4798882",
+      "type": "Actor",
+      "name": "Brad Jacobowitz",
+      "tvdb_id": null
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1375666",
+      "votes": 2403153,
+      "rating": 8.8,
+      "name": "Inception",
+      "tvdb_id": 27205
+    },
+    {
+      "imdb_id": "nm0680983",
+      "type": "Actor",
+      "name": "Elliot Page",
+      "tvdb_id": 27578
+    }
+  ]
+}

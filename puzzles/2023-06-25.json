@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 70851,
+  "target_tvdb_id": 884,
+  "source_imdb_id": "nm0085312",
+  "target_imdb_id": "nm0000114",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0085312",
+      "type": "Actor",
+      "name": "Jack Black",
+      "tvdb_id": 70851
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0441773",
+      "votes": 486444,
+      "rating": 7.6,
+      "name": "Kung Fu Panda",
+      "tvdb_id": 9502
+    },
+    {
+      "imdb_id": "nm0003817",
+      "type": "Actor",
+      "name": "Michael Clarke Duncan",
+      "tvdb_id": 61981
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120591",
+      "votes": 435147,
+      "rating": 6.7,
+      "name": "Armageddon",
+      "tvdb_id": 95
+    },
+    {
+      "imdb_id": "nm0000114",
+      "type": "Actor",
+      "name": "Steve Buscemi",
+      "tvdb_id": 884
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 1100,
+  "target_tvdb_id": 6161,
+  "source_imdb_id": "nm0000216",
+  "target_imdb_id": "nm0000124",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000216",
+      "type": "Actor",
+      "name": "Arnold Schwarzenegger",
+      "tvdb_id": 1100
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0146675",
+      "votes": 113052,
+      "rating": 5.8,
+      "name": "End of Days",
+      "tvdb_id": 9946
+    },
+    {
+      "imdb_id": "nm0546797",
+      "type": "Actor",
+      "name": "Mark Margolis",
+      "tvdb_id": 1173
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0180093",
+      "votes": 858944,
+      "rating": 8.3,
+      "name": "Requiem for a Dream",
+      "tvdb_id": 641
+    },
+    {
+      "imdb_id": "nm0000124",
+      "type": "Actor",
+      "name": "Jennifer Connelly",
+      "tvdb_id": 6161
+    }
+  ]
+}

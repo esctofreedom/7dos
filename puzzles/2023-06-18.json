@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 3967,
+  "target_tvdb_id": 4756,
+  "source_imdb_id": "nm0000295",
+  "target_imdb_id": "nm0000111",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000295",
+      "type": "Actor",
+      "name": "Kate Beckinsale",
+      "tvdb_id": 3967
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0389860",
+      "votes": 340933,
+      "rating": 6.4,
+      "name": "Click",
+      "tvdb_id": 9339
+    },
+    {
+      "imdb_id": "nm0000469",
+      "type": "Actor",
+      "name": "James Earl Jones",
+      "tvdb_id": 15152
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0110357",
+      "votes": 1080805,
+      "rating": 8.5,
+      "name": "The Lion King",
+      "tvdb_id": 8587
+    },
+    {
+      "imdb_id": "nm0000111",
+      "type": "Actor",
+      "name": "Matthew Broderick",
+      "tvdb_id": 4756
+    }
+  ]
+}

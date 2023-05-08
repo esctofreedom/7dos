@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 8167,
+  "target_tvdb_id": 3084,
+  "source_imdb_id": "nm0908094",
+  "target_imdb_id": "nm0000008",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0908094",
+      "type": "Actor",
+      "name": "Paul Walker",
+      "tvdb_id": 8167
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0418689",
+      "votes": 125901,
+      "rating": 7.1,
+      "name": "Flags of Our Fathers",
+      "tvdb_id": 3683
+    },
+    {
+      "imdb_id": "nm0556985",
+      "type": "Actor",
+      "name": "Tom Mason",
+      "tvdb_id": 80874
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0078788",
+      "votes": 680101,
+      "rating": 8.5,
+      "name": "Apocalypse Now",
+      "tvdb_id": 28
+    },
+    {
+      "imdb_id": "nm0000008",
+      "type": "Actor",
+      "name": "Marlon Brando",
+      "tvdb_id": 3084
+    }
+  ]
+}

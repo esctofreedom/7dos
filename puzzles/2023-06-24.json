@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 70851,
+  "target_tvdb_id": 71580,
+  "source_imdb_id": "nm0085312",
+  "target_imdb_id": "nm1212722",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0085312",
+      "type": "Actor",
+      "name": "Jack Black",
+      "tvdb_id": 70851
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2267968",
+      "votes": 168500,
+      "rating": 7.1,
+      "name": "Kung Fu Panda 3",
+      "tvdb_id": 140300
+    },
+    {
+      "imdb_id": "nm0799777",
+      "type": "Actor",
+      "name": "J.K. Simmons",
+      "tvdb_id": 18999
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt10872600",
+      "votes": 789409,
+      "rating": 8.2,
+      "name": "Spider-Man: No Way Home",
+      "tvdb_id": 634649
+    },
+    {
+      "imdb_id": "nm1212722",
+      "type": "Actor",
+      "name": "Benedict Cumberbatch",
+      "tvdb_id": 71580
+    }
+  ]
+}

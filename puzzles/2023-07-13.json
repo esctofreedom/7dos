@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 368,
+  "target_tvdb_id": 7060,
+  "source_imdb_id": "nm0000702",
+  "target_imdb_id": "nm0293509",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000702",
+      "type": "Actor",
+      "name": "Reese Witherspoon",
+      "tvdb_id": 368
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1596350",
+      "votes": 190062,
+      "rating": 6.3,
+      "name": "This Means War",
+      "tvdb_id": 59962
+    },
+    {
+      "imdb_id": "nm0000291",
+      "type": "Actor",
+      "name": "Angela Bassett",
+      "tvdb_id": 9780
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1825683",
+      "votes": 798599,
+      "rating": 7.3,
+      "name": "Black Panther",
+      "tvdb_id": 284054
+    },
+    {
+      "imdb_id": "nm0293509",
+      "type": "Actor",
+      "name": "Martin Freeman",
+      "tvdb_id": 7060
+    }
+  ]
+}

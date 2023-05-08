@@ -1,0 +1,167 @@
+/* ./styles/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@layer base {
+
+  body {
+@apply bg-gradient-to-b from-black via-[#021836] to-black
+  }
+
+  main {
+    @apply bg-gradient-radial from-purple-500 via-pink-500 to-red-500;
+  }
+
+  h1 {
+    /* @apply text-xl  font-bold text-purple-600 dark:text-white; */
+    @apply text-4xl  font-extrabold text-white  pb-0;
+  }
+
+  h2 {
+    @apply text-3xl  font-extrabold  text-white pb-0;
+  }
+
+  h3 {
+    @apply text-2xl font-bold  text-denim-100 pb-0 pr-2;
+  }
+
+  h4 {
+    @apply text-xl font-bold  text-white pb-0;
+  }
+
+  h5 {
+
+    @apply text-lg font-bold  text-denim-300 pb-0;
+  }
+
+  h6 {
+    /* Used for Titles of Smaller Stuff like Cards */
+    @apply text-base font-semibold  text-white pb-0;
+  }
+
+
+  p {
+    @apply font-medium text-base text-slate-100 mb-4;
+  }
+
+  li {
+    @apply font-medium text-base text-slate-100 mb-4 list-disc list-inside
+  }
+
+  
+
+  span {
+    @apply text-white;
+  }
+
+  a {
+    @apply text-denim-100 border-b-2 border-transparent  transition ease-in-out hover:border-purple-500 hover:text-purple-400;
+  }
+
+  hr {
+    @apply text-denim-600  my-4;
+  }
+
+  label {
+    @apply font-medium text-base text-left md:text-sm text-denim-400  block;
+  }
+
+
+
+
+
+  /* dark:text-dc-text */
+}
+
+@layer components {
+  /* This givs all the styles a card needs, and is conditional on theme */
+  .card {
+    @apply flex-col h-auto my-0 md:my-4 mx-0 md:mx-2 items-center text-left justify-center   
+      rounded-md overflow-visible
+    bg-white dark:bg-transparent
+    /* dark:md:bg-gradient-to-br to-dc-400 from-dc-600 shadow-none  */
+    dark:md:bg-denim-800
+    md:shadow-lg dark:md:shadow-xl
+    relative;
+  }
+
+  /* This card retains shadow in mobile */
+  .small-card {
+    @apply flex-col h-auto my-0 md:my-4 mx-0 md:mx-2 items-center text-center justify-center shadow-lg 
+      dark:shadow-border   rounded-md overflow-hidden bg-white dark:bg-denim-800
+      md:shadow-lg relative border-1 border-gray-100 dark:border-none;
+  }
+
+  .blurred-background {
+    @apply fixed overflow-hidden bg-slate-900/20 backdrop-blur-sm  inset-0 transform z-20 ease-in-out flex items-center justify-center 
+    lg:ml-[240px] lg:mt-[55px]
+    md:ml-[80px] md:mt-[50px]
+    mb-[74px] md:mb-0
+  }
+
+  
+
+  /* Buttons */
+  .button {
+    @apply w-full rounded-md py-2 px-4  
+    text-white text-sm font-semibold uppercase hover:bg-opacity-90 hover:shadow-lg 
+     transform transition ease-in-out hover:-translate-y-px 
+     disabled:hover:bg-opacity-100 disabled:hover:-translate-y-0 disabled:hover:shadow-none;
+  }
+
+  .button-one {
+    @apply bg-gradient-to-r from-pink-600  to-purple-700 
+    text-white text-sm font-semibold uppercase hover:from-pink-500 hover:to-purple-600
+    disabled:from-gray-200 disabled:to-gray-200 disabled:text-gray-400
+    dark:disabled:from-denim-500 dark:disabled:to-denim-500 dark:disabled:text-denim-400;
+  }
+
+  .button-gray {
+    @apply bg-slate-200 text-slate-600 dark:bg-denim-600 dark:text-denim-200
+     text-sm font-semibold uppercase hover:shadow-none;
+  }
+
+  .button-delete {
+    @apply bg-gradient-to-r from-pink-600  to-purple-700 
+    text-white text-sm font-semibold uppercase hover:from-pink-500 hover:to-purple-600;
+  }
+
+
+}
+
+@layer utilities {
+  .value-great {
+    @apply text-lime-500;
+  }
+
+  .value-good {
+    @apply text-teal-500;
+  }
+
+  .value-ok {
+    @apply text-amber-500;
+  }
+
+  .value-bad {
+    @apply text-rose-500;
+  }
+
+  .text-shadow {
+    text-shadow: 0px 1px 2px rgb(30 29 39 / 19%),
+      1px 2px 4px rgb(54 64 147 / 18%);
+  }
+
+
+
+  /* My custom Dark Theme Styles */
+
+  
+  
+  /* .rbt {
+    @apply w-full h-full;
+  } */
+}

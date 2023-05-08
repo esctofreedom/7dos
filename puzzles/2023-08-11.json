@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 37917,
+  "target_tvdb_id": 1100,
+  "source_imdb_id": "nm0829576",
+  "target_imdb_id": "nm0000216",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0829576",
+      "type": "Actor",
+      "name": "Kristen Stewart",
+      "tvdb_id": 37917
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1099212",
+      "votes": 470393,
+      "rating": 5.3,
+      "name": "Twilight",
+      "tvdb_id": 8966
+    },
+    {
+      "imdb_id": "nm1553725",
+      "type": "Actor",
+      "name": "Kellan Lutz",
+      "tvdb_id": 34502
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2333784",
+      "votes": 187193,
+      "rating": 6.1,
+      "name": "The Expendables 3",
+      "tvdb_id": 138103
+    },
+    {
+      "imdb_id": "nm0000216",
+      "type": "Actor",
+      "name": "Arnold Schwarzenegger",
+      "tvdb_id": 1100
+    }
+  ]
+}

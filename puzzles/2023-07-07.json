@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 13240,
+  "target_tvdb_id": 4,
+  "source_imdb_id": "nm0000242",
+  "target_imdb_id": "nm0000402",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000242",
+      "type": "Actor",
+      "name": "Mark Wahlberg",
+      "tvdb_id": 13240
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0133152",
+      "votes": 223240,
+      "rating": 5.7,
+      "name": "Planet of the Apes",
+      "tvdb_id": 869
+    },
+    {
+      "imdb_id": "nm0746989",
+      "type": "Actor",
+      "name": "Deep Roy",
+      "tvdb_id": 1295
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0080684",
+      "votes": 1316162,
+      "rating": 8.7,
+      "name": "Star Wars: Episode V - The Empire Strikes Back",
+      "tvdb_id": 1891
+    },
+    {
+      "imdb_id": "nm0000402",
+      "type": "Actor",
+      "name": "Carrie Fisher",
+      "tvdb_id": 4
+    }
+  ]
+}

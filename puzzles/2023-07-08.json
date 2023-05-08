@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 5576,
+  "target_tvdb_id": 54693,
+  "source_imdb_id": "nm0000174",
+  "target_imdb_id": "nm1297015",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000174",
+      "type": "Actor",
+      "name": "Val Kilmer",
+      "tvdb_id": 5576
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1095217",
+      "votes": 78886,
+      "rating": 6.6,
+      "name": "Bad Lieutenant: Port of Call New Orleans",
+      "tvdb_id": 11699
+    },
+    {
+      "imdb_id": "nm0000115",
+      "type": "Actor",
+      "name": "Nicolas Cage",
+      "tvdb_id": 2963
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0481499",
+      "votes": 221696,
+      "rating": 7.2,
+      "name": "The Croods",
+      "tvdb_id": 49519
+    },
+    {
+      "imdb_id": "nm1297015",
+      "type": "Actor",
+      "name": "Emma Stone",
+      "tvdb_id": 54693
+    }
+  ]
+}

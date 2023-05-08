@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 6161,
+  "target_tvdb_id": 10205,
+  "source_imdb_id": "nm0000124",
+  "target_imdb_id": "nm0000244",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000124",
+      "type": "Actor",
+      "name": "Jennifer Connelly",
+      "tvdb_id": 6161
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0404203",
+      "votes": 113446,
+      "rating": 7.5,
+      "name": "Little Children",
+      "tvdb_id": 1440
+    },
+    {
+      "imdb_id": "nm0000701",
+      "type": "Actor",
+      "name": "Kate Winslet",
+      "tvdb_id": 204
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1630029",
+      "votes": 369719,
+      "rating": 7.7,
+      "name": "Avatar: The Way of Water",
+      "tvdb_id": 76600
+    },
+    {
+      "imdb_id": "nm0000244",
+      "type": "Actor",
+      "name": "Sigourney Weaver",
+      "tvdb_id": 10205
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 27428,
+  "target_tvdb_id": 19292,
+  "source_imdb_id": "nm1093951",
+  "target_imdb_id": "nm0001191",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm1093951",
+      "type": "Actor",
+      "name": "Aaron Taylor-Johnson",
+      "tvdb_id": 27428
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0443543",
+      "votes": 379380,
+      "rating": 7.5,
+      "name": "The Illusionist",
+      "tvdb_id": 1491
+    },
+    {
+      "imdb_id": "nm0004754",
+      "type": "Actor",
+      "name": "Jessica Biel",
+      "tvdb_id": 10860
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0762107",
+      "votes": 150279,
+      "rating": 5.9,
+      "name": "I Now Pronounce You Chuck & Larry",
+      "tvdb_id": 3563
+    },
+    {
+      "imdb_id": "nm0001191",
+      "type": "Actor",
+      "name": "Adam Sandler",
+      "tvdb_id": 19292
+    }
+  ]
+}

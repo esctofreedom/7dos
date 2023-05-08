@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 10959,
+  "target_tvdb_id": 4517,
+  "source_imdb_id": "nm0479471",
+  "target_imdb_id": "nm0000582",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0479471",
+      "type": "Actor",
+      "name": "Shia LaBeouf",
+      "tvdb_id": 10959
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0423294",
+      "votes": 84152,
+      "rating": 6.7,
+      "name": "Surf's Up",
+      "tvdb_id": 9408
+    },
+    {
+      "imdb_id": "nm0000249",
+      "type": "Actor",
+      "name": "James Woods",
+      "tvdb_id": 4512
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0112641",
+      "votes": 532516,
+      "rating": 8.2,
+      "name": "Casino",
+      "tvdb_id": 524
+    },
+    {
+      "imdb_id": "nm0000582",
+      "type": "Actor",
+      "name": "Joe Pesci",
+      "tvdb_id": 4517
+    }
+  ]
+}

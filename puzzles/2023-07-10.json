@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 8167,
+  "target_tvdb_id": 2178,
+  "source_imdb_id": "nm0908094",
+  "target_imdb_id": "nm0001845",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0908094",
+      "type": "Actor",
+      "name": "Paul Walker",
+      "tvdb_id": 8167
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1596343",
+      "votes": 389039,
+      "rating": 7.3,
+      "name": "Fast Five",
+      "tvdb_id": 51497
+    },
+    {
+      "imdb_id": "nm0176085",
+      "type": "Actor",
+      "name": "Yorgo Constantine",
+      "tvdb_id": 21051
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0183649",
+      "votes": 275592,
+      "rating": 7.1,
+      "name": "Phone Booth",
+      "tvdb_id": 1817
+    },
+    {
+      "imdb_id": "nm0001845",
+      "type": "Actor",
+      "name": "Forest Whitaker",
+      "tvdb_id": 2178
+    }
+  ]
+}

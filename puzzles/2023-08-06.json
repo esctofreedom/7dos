@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 173431,
+  "target_tvdb_id": 139,
+  "source_imdb_id": "nm0021600",
+  "target_imdb_id": "nm0000235",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0021600",
+      "type": "Actor",
+      "name": "Bruce Allpress",
+      "tvdb_id": 173431
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0167261",
+      "votes": 1697780,
+      "rating": 8.8,
+      "name": "The Lord of the Rings: The Two Towers",
+      "tvdb_id": 121
+    },
+    {
+      "imdb_id": "nm0000293",
+      "type": "Actor",
+      "name": "Sean Bean",
+      "tvdb_id": 48
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0814255",
+      "votes": 193436,
+      "rating": 5.8,
+      "name": "Percy Jackson & the Olympians: The Lightning Thief",
+      "tvdb_id": 32657
+    },
+    {
+      "imdb_id": "nm0000235",
+      "type": "Actor",
+      "name": "Uma Thurman",
+      "tvdb_id": 139
+    }
+  ]
+}

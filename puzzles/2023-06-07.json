@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 6730,
+  "target_tvdb_id": 57755,
+  "source_imdb_id": "nm0056187",
+  "target_imdb_id": "nm0000437",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0056187",
+      "type": "Actor",
+      "name": "Sacha Baron Cohen",
+      "tvdb_id": 6730
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0970179",
+      "votes": 328128,
+      "rating": 7.5,
+      "name": "Hugo",
+      "tvdb_id": 44826
+    },
+    {
+      "imdb_id": "nm0001426",
+      "type": "Actor",
+      "name": "Ben Kingsley",
+      "tvdb_id": 2282
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0800241",
+      "votes": 53807,
+      "rating": 6.6,
+      "name": "Transsiberian",
+      "tvdb_id": 6687
+    },
+    {
+      "imdb_id": "nm0000437",
+      "type": "Actor",
+      "name": "Woody Harrelson",
+      "tvdb_id": 57755
+    }
+  ]
+}

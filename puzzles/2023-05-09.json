@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 19292,
+  "target_tvdb_id": 1003,
+  "source_imdb_id": "nm0001191",
+  "target_imdb_id": "nm0000606",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0001191",
+      "type": "Actor",
+      "name": "Adam Sandler",
+      "tvdb_id": 19292
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0762107",
+      "votes": 150279,
+      "rating": 5.9,
+      "name": "I Now Pronounce You Chuck & Larry",
+      "tvdb_id": 3563
+    },
+    {
+      "imdb_id": "nm0000609",
+      "type": "Actor",
+      "name": "Ving Rhames",
+      "tvdb_id": 10182
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0117060",
+      "votes": 437118,
+      "rating": 7.1,
+      "name": "Mission: Impossible",
+      "tvdb_id": 954
+    },
+    {
+      "imdb_id": "nm0000606",
+      "type": "Actor",
+      "name": "Jean Reno",
+      "tvdb_id": 1003
+    }
+  ]
+}

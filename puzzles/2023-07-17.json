@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 1230,
+  "target_tvdb_id": 8167,
+  "source_imdb_id": "nm0000422",
+  "target_imdb_id": "nm0908094",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000422",
+      "type": "Actor",
+      "name": "John Goodman",
+      "tvdb_id": 1230
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3731562",
+      "votes": 328607,
+      "rating": 6.6,
+      "name": "Kong: Skull Island",
+      "tvdb_id": 293167
+    },
+    {
+      "imdb_id": "nm0651159",
+      "type": "Actor",
+      "name": "John Ortiz",
+      "tvdb_id": 40543
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1013752",
+      "votes": 294626,
+      "rating": 6.5,
+      "name": "Fast & Furious",
+      "tvdb_id": 13804
+    },
+    {
+      "imdb_id": "nm0908094",
+      "type": "Actor",
+      "name": "Paul Walker",
+      "tvdb_id": 8167
+    }
+  ]
+}

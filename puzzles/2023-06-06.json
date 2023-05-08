@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 569,
+  "target_tvdb_id": 1327,
+  "source_imdb_id": "nm0000160",
+  "target_imdb_id": "nm0005212",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000160",
+      "type": "Actor",
+      "name": "Ethan Hawke",
+      "tvdb_id": 569
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt11138512",
+      "votes": 225973,
+      "rating": 7.0,
+      "name": "The Northman",
+      "tvdb_id": 639933
+    },
+    {
+      "imdb_id": "nm0000173",
+      "type": "Actor",
+      "name": "Nicole Kidman",
+      "tvdb_id": 2227
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0385752",
+      "votes": 192228,
+      "rating": 6.1,
+      "name": "The Golden Compass",
+      "tvdb_id": 2268
+    },
+    {
+      "imdb_id": "nm0005212",
+      "type": "Actor",
+      "name": "Ian McKellen",
+      "tvdb_id": 1327
+    }
+  ]
+}

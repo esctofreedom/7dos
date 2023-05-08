@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 134,
+  "target_tvdb_id": 738,
+  "source_imdb_id": "nm0004937",
+  "target_imdb_id": "nm0000125",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0004937",
+      "type": "Actor",
+      "name": "Jamie Foxx",
+      "tvdb_id": 134
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0350258",
+      "votes": 151577,
+      "rating": 7.7,
+      "name": "Ray",
+      "tvdb_id": 1677
+    },
+    {
+      "imdb_id": "nm0940158",
+      "type": "Actor",
+      "name": "Bokeem Woodbine",
+      "tvdb_id": 71913
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0117500",
+      "votes": 345978,
+      "rating": 7.4,
+      "name": "The Rock",
+      "tvdb_id": 9802
+    },
+    {
+      "imdb_id": "nm0000125",
+      "type": "Actor",
+      "name": "Sean Connery",
+      "tvdb_id": 738
+    }
+  ]
+}

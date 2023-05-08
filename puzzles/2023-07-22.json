@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 2283,
+  "target_tvdb_id": 776,
+  "source_imdb_id": "nm0001804",
+  "target_imdb_id": "nm0000552",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0001804",
+      "type": "Actor",
+      "name": "Stanley Tucci",
+      "tvdb_id": 2283
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0362227",
+      "votes": 471100,
+      "rating": 7.4,
+      "name": "The Terminal",
+      "tvdb_id": 594
+    },
+    {
+      "imdb_id": "nm0377106",
+      "type": "Actor",
+      "name": "Barry Shabaka Henley",
+      "tvdb_id": 8689
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0123964",
+      "votes": 52710,
+      "rating": 6.8,
+      "name": "Life",
+      "tvdb_id": 6522
+    },
+    {
+      "imdb_id": "nm0000552",
+      "type": "Actor",
+      "name": "Eddie Murphy",
+      "tvdb_id": 776
+    }
+  ]
+}

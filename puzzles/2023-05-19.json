@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 1327,
+  "target_tvdb_id": 854,
+  "source_imdb_id": "nm0005212",
+  "target_imdb_id": "nm0000071",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0005212",
+      "type": "Actor",
+      "name": "Ian McKellen",
+      "tvdb_id": 1327
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0376994",
+      "votes": 525602,
+      "rating": 6.6,
+      "name": "X-Men: The Last Stand",
+      "tvdb_id": 36668
+    },
+    {
+      "imdb_id": "nm0004886",
+      "type": "Actor",
+      "name": "Bill Duke",
+      "tvdb_id": 1103
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0107554",
+      "votes": 61419,
+      "rating": 7.5,
+      "name": "Menace II Society",
+      "tvdb_id": 9516
+    },
+    {
+      "imdb_id": "nm0000071",
+      "type": "Actor",
+      "name": "James Stewart",
+      "tvdb_id": 854
+    }
+  ]
+}

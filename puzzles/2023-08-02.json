@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 5292,
+  "target_tvdb_id": 530,
+  "source_imdb_id": "nm0000243",
+  "target_imdb_id": "nm0005251",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000243",
+      "type": "Actor",
+      "name": "Denzel Washington",
+      "tvdb_id": 5292
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0455944",
+      "votes": 382725,
+      "rating": 7.2,
+      "name": "The Equalizer",
+      "tvdb_id": 156022
+    },
+    {
+      "imdb_id": "nm0003482",
+      "type": "Actor",
+      "name": "Nash Edgerton",
+      "tvdb_id": 75131
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0133093",
+      "votes": 1950577,
+      "rating": 8.7,
+      "name": "The Matrix",
+      "tvdb_id": 603
+    },
+    {
+      "imdb_id": "nm0005251",
+      "type": "Actor",
+      "name": "Carrie-Anne Moss",
+      "tvdb_id": 530
+    }
+  ]
+}

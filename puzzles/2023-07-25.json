@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 2228,
+  "target_tvdb_id": 7060,
+  "source_imdb_id": "nm0000576",
+  "target_imdb_id": "nm0293509",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000576",
+      "type": "Actor",
+      "name": "Sean Penn",
+      "tvdb_id": 2228
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0327056",
+      "votes": 466393,
+      "rating": 7.9,
+      "name": "Mystic River",
+      "tvdb_id": 322
+    },
+    {
+      "imdb_id": "nm0001473",
+      "type": "Actor",
+      "name": "Laura Linney",
+      "tvdb_id": 350
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0314331",
+      "votes": 502629,
+      "rating": 7.6,
+      "name": "Love Actually",
+      "tvdb_id": 508
+    },
+    {
+      "imdb_id": "nm0293509",
+      "type": "Actor",
+      "name": "Martin Freeman",
+      "tvdb_id": 7060
+    }
+  ]
+}

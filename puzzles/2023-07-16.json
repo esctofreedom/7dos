@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 18918,
+  "target_tvdb_id": 569,
+  "source_imdb_id": "nm0425005",
+  "target_imdb_id": "nm0000160",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0425005",
+      "type": "Actor",
+      "name": "Dwayne Johnson",
+      "tvdb_id": 18918
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1433108",
+      "votes": 109638,
+      "rating": 6.4,
+      "name": "Faster",
+      "tvdb_id": 41283
+    },
+    {
+      "imdb_id": "nm0000297",
+      "type": "Actor",
+      "name": "Tom Berenger",
+      "tvdb_id": 13022
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0139654",
+      "votes": 448538,
+      "rating": 7.7,
+      "name": "Training Day",
+      "tvdb_id": 2034
+    },
+    {
+      "imdb_id": "nm0000160",
+      "type": "Actor",
+      "name": "Ethan Hawke",
+      "tvdb_id": 569
+    }
+  ]
+}

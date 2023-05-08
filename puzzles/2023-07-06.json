@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 6383,
+  "target_tvdb_id": 54693,
+  "source_imdb_id": "nm0001173",
+  "target_imdb_id": "nm1297015",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0001173",
+      "type": "Actor",
+      "name": "Aaron Eckhart",
+      "tvdb_id": 6383
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0427944",
+      "votes": 224830,
+      "rating": 7.5,
+      "name": "Thank You for Smoking",
+      "tvdb_id": 9388
+    },
+    {
+      "imdb_id": "nm0799777",
+      "type": "Actor",
+      "name": "J.K. Simmons",
+      "tvdb_id": 18999
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3783958",
+      "votes": 612272,
+      "rating": 8.0,
+      "name": "La La Land",
+      "tvdb_id": 313369
+    },
+    {
+      "imdb_id": "nm1297015",
+      "type": "Actor",
+      "name": "Emma Stone",
+      "tvdb_id": 54693
+    }
+  ]
+}

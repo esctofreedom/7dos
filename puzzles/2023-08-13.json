@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 65731,
+  "target_tvdb_id": 5081,
+  "source_imdb_id": "nm0941777",
+  "target_imdb_id": "nm1289434",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0941777",
+      "type": "Actor",
+      "name": "Sam Worthington",
+      "tvdb_id": 65731
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0800320",
+      "votes": 286593,
+      "rating": 5.8,
+      "name": "Clash of the Titans",
+      "tvdb_id": 18823
+    },
+    {
+      "imdb_id": "nm1812656",
+      "type": "Actor",
+      "name": "Luke Evans",
+      "tvdb_id": 114019
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3631112",
+      "votes": 192096,
+      "rating": 6.5,
+      "name": "The Girl on the Train",
+      "tvdb_id": 346685
+    },
+    {
+      "imdb_id": "nm1289434",
+      "type": "Actor",
+      "name": "Emily Blunt",
+      "tvdb_id": 5081
+    }
+  ]
+}

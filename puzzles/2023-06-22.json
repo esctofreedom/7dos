@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 530,
+  "target_tvdb_id": 4483,
+  "source_imdb_id": "nm0005251",
+  "target_imdb_id": "nm0000163",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0005251",
+      "type": "Actor",
+      "name": "Carrie-Anne Moss",
+      "tvdb_id": 530
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0914863",
+      "votes": 89879,
+      "rating": 7.0,
+      "name": "Unthinkable",
+      "tvdb_id": 38199
+    },
+    {
+      "imdb_id": "nm0000168",
+      "type": "Actor",
+      "name": "Samuel L. Jackson",
+      "tvdb_id": 2231
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120184",
+      "votes": 108945,
+      "rating": 6.1,
+      "name": "Sphere",
+      "tvdb_id": 10153
+    },
+    {
+      "imdb_id": "nm0000163",
+      "type": "Actor",
+      "name": "Dustin Hoffman",
+      "tvdb_id": 4483
+    }
+  ]
+}

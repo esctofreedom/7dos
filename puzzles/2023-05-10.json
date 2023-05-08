@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 5472,
+  "target_tvdb_id": 6161,
+  "source_imdb_id": "nm0000147",
+  "target_imdb_id": "nm0000124",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000147",
+      "type": "Actor",
+      "name": "Colin Firth",
+      "tvdb_id": 5472
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1504320",
+      "votes": 690511,
+      "rating": 8.0,
+      "name": "The King's Speech",
+      "tvdb_id": 45269
+    },
+    {
+      "imdb_id": "nm1994157",
+      "type": "Actor",
+      "name": "Julie Eagleton",
+      "tvdb_id": null
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0450259",
+      "votes": 562068,
+      "rating": 8.0,
+      "name": "Blood Diamond",
+      "tvdb_id": 1372
+    },
+    {
+      "imdb_id": "nm0000124",
+      "type": "Actor",
+      "name": "Jennifer Connelly",
+      "tvdb_id": 6161
+    }
+  ]
+}

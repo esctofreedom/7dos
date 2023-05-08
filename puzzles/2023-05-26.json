@@ -1,0 +1,43 @@
+{
+  "source_tvdb_id": 18269,
+  "target_tvdb_id": 514,
+  "source_imdb_id": "nm0000409",
+  "target_imdb_id": "nm0000197",
+  "min_moves_to_solve": 3,
+  "best_solution": [
+    {
+      "imdb_id": "nm0000409",
+      "type": "Actor",
+      "name": "Brendan Fraser",
+      "tvdb_id": 18269
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120616",
+      "votes": 442485,
+      "rating": 7.1,
+      "name": "The Mummy",
+      "tvdb_id": 564
+    },
+    {
+      "imdb_id": "nm0153704",
+      "type": "Actor",
+      "name": "Carl Chase",
+      "tvdb_id": 127166
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0096895",
+      "votes": 385918,
+      "rating": 7.5,
+      "name": "Batman",
+      "tvdb_id": 268
+    },
+    {
+      "imdb_id": "nm0000197",
+      "type": "Actor",
+      "name": "Jack Nicholson",
+      "tvdb_id": 514
+    }
+  ]
+}
