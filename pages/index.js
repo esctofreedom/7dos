@@ -32,7 +32,7 @@ export async function getServerSideProps({ query }) {
   const baseUrl = "https://api.themoviedb.org/3/";
 
   const getActorData = async (actorId) => {
-    const url = `${baseUrl}person/${actorId}?api_key=${process.env.API_KEY}&append_to_response=credits,images`;
+    const url = `${baseUrl}person/${actorId}?NEXT_PUBLIC_API_KEY=${process.env.NEXT_PUBLIC_API_KEY}&append_to_response=credits,images`;
 
     const response = await axios.get(url);
     const actor = response.data;

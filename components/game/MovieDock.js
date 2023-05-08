@@ -60,7 +60,7 @@ export function MovieDock({
   const onMovieClick = async (movie) => {
     const url = `
         
-    https://api.themoviedb.org/3/movie/${movie.id}?api_key=${process.env.NEXT_PUBLIC_API_KEY}&append_to_response=credits`;
+    https://api.themoviedb.org/3/movie/${movie.id}?NEXT_PUBLIC_API_KEY=${process.env.NEXT_PUBLIC_NEXT_PUBLIC_API_KEY}&append_to_response=credits`;
 
     // console.log("url", url);
     await axios // get movie credits
@@ -81,7 +81,7 @@ export function MovieDock({
   };
 
   const onActorClick = async (actor) => {
-    const url = `https://api.themoviedb.org/3/person/${actor.id}?api_key=${process.env.NEXT_PUBLIC_API_KEY}&append_to_response=credits`;
+    const url = `https://api.themoviedb.org/3/person/${actor.id}?NEXT_PUBLIC_API_KEY=${process.env.NEXT_PUBLIC_NEXT_PUBLIC_API_KEY}&append_to_response=credits`;
 
     // console.log("url", url);
     await axios // get movie credits

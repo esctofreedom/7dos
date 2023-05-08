@@ -11,7 +11,8 @@ export const SearchMovie = () => {
     // wait until user has not typed for 2 seconds
     const baseUrl = "https://api.themoviedb.org/3/";
     const key = "b00fb54297384d5eaa45556b05fbb775";
-    const url = baseUrl + "search/movie?api_key=" + key + "&query=" + search;
+    const url =
+      baseUrl + "search/movie?NEXT_PUBLIC_API_KEY=" + key + "&query=" + search;
 
     const response = await axios.get(url);
     const data = response.data;
