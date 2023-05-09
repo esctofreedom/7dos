@@ -1,17 +1,9 @@
-import {
-  MotionValue,
-  motion,
-  useMotionValue,
-  useSpring,
-  useTransform,
-} from "framer-motion";
+import { motion, useMotionValue, useTransform } from "framer-motion";
 import { useRef, useState } from "react";
-import { GameMovieCard } from "./GameMovieCard";
 import dayjs from "dayjs";
 import axios from "axios";
-import { GameActorCard } from "./GameActorCard";
 import { GameCard } from "./GameCard";
-import { isSameOrBefore } from "dayjs/plugin/isSameOrBefore";
+import { filterMovieData } from "../../utils/filterMovieData";
 
 export function MovieDock({
   type,
@@ -66,12 +58,15 @@ export function MovieDock({
     await axios // get movie credits
       .get(url)
       .then((response) => {
-        const newData = response.data.credits.cast;
-        const newItem = {
-          type: "movie",
-          item: movie,
-          data: newData,
-        };
+        const newData = response.data;
+
+        // const newItem = {
+        //   type: "movie",
+        //   item: movie,
+        //   data: newData,
+        // };
+
+        const newItem = filterMovieData(newData);
         const newGameState = [...gameState, newItem];
         setGameState(newGameState);
       });

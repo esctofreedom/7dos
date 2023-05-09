@@ -59,7 +59,7 @@
   }
 
   a {
-    @apply text-denim-100 border-b-2 border-transparent  transition ease-in-out hover:border-purple-500 hover:text-purple-400;
+    @apply text-white font-semibold border-y-2 border-transparent  transition ease-in-out hover:border-b-blue-500 hover:text-blue-400;
   }
 
   hr {

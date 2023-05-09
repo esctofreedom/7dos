@@ -1,1 +1,11 @@
-export const checkLost = (gameState, startingActor, endingActor) => {};
+export const checkLost = (hasWon, movesLeft) => {
+  if (hasWon) {
+    return false;
+  }
+
+  if (movesLeft === 0) {
+    return true;
+  }
+
+  return false;
+};
