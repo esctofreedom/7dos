@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 21007,
+  "target_tvdb_id": 1229,
+  "source_imdb_id": "nm1706767",
+  "target_imdb_id": "nm0000313",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1706767",
+      "tvdb_id": 21007,
+      "name": "Jonah Hill"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0993846",
+      "votes": 1455112,
+      "rating": 8.2,
+      "name": "The Wolf of Wall Street",
+      "tvdb_id": 106646
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0269463",
+      "tvdb_id": 15277,
+      "name": "Jon Favreau"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0371746",
+      "votes": 1078315,
+      "rating": 7.9,
+      "name": "Iron Man",
+      "tvdb_id": 1726
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000313",
+      "tvdb_id": 1229,
+      "name": "Jeff Bridges"
+    }
+  ]
+}

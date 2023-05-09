@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 134,
+  "target_tvdb_id": 10959,
+  "source_imdb_id": "nm0004937",
+  "target_imdb_id": "nm0479471",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004937",
+      "tvdb_id": 134,
+      "name": "Jamie Foxx"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1853728",
+      "votes": 1592500,
+      "rating": 8.4,
+      "name": "Django Unchained",
+      "tvdb_id": 68718
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001664",
+      "tvdb_id": 1736,
+      "name": "James Remar"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1399103",
+      "votes": 416771,
+      "rating": 6.2,
+      "name": "Transformers: Dark of the Moon",
+      "tvdb_id": 38356
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0479471",
+      "tvdb_id": 10959,
+      "name": "Shia LaBeouf"
+    }
+  ]
+}

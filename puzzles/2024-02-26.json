@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 10959,
+  "target_tvdb_id": 368,
+  "source_imdb_id": "nm0479471",
+  "target_imdb_id": "nm0000702",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0479471",
+      "tvdb_id": 10959,
+      "name": "Shia LaBeouf"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1212450",
+      "votes": 246541,
+      "rating": 7.2,
+      "name": "Lawless",
+      "tvdb_id": 82633
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0362766",
+      "tvdb_id": 2524,
+      "name": "Tom Hardy"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1596350",
+      "votes": 190062,
+      "rating": 6.3,
+      "name": "This Means War",
+      "tvdb_id": 59962
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000702",
+      "tvdb_id": 368,
+      "name": "Reese Witherspoon"
+    }
+  ]
+}

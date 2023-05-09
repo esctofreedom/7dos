@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 17288,
+  "target_tvdb_id": 4173,
+  "source_imdb_id": "nm1055413",
+  "target_imdb_id": "nm0000164",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1055413",
+      "tvdb_id": 17288,
+      "name": "Michael Fassbender"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0361748",
+      "votes": 1485428,
+      "rating": 8.3,
+      "name": "Inglourious Basterds",
+      "tvdb_id": 16869
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000093",
+      "tvdb_id": 287,
+      "name": "Brad Pitt"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0119643",
+      "votes": 251071,
+      "rating": 7.2,
+      "name": "Meet Joe Black",
+      "tvdb_id": 297
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000164",
+      "tvdb_id": 4173,
+      "name": "Anthony Hopkins"
+    }
+  ]
+}

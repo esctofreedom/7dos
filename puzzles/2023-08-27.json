@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 65731,
+  "target_tvdb_id": 21007,
+  "source_imdb_id": "nm0941777",
+  "target_imdb_id": "nm1706767",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0941777",
+      "tvdb_id": 65731,
+      "name": "Sam Worthington"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1568338",
+      "votes": 155207,
+      "rating": 6.6,
+      "name": "Man on a Ledge",
+      "tvdb_id": 49527
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0167024",
+      "tvdb_id": 2256,
+      "name": "Robert Clohessy"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0993846",
+      "votes": 1455112,
+      "rating": 8.2,
+      "name": "The Wolf of Wall Street",
+      "tvdb_id": 106646
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1706767",
+      "tvdb_id": 21007,
+      "name": "Jonah Hill"
+    }
+  ]
+}

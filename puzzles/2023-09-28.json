@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 3489,
+  "target_tvdb_id": 2176,
+  "source_imdb_id": "nm0915208",
+  "target_imdb_id": "nm0000169",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0915208",
+      "tvdb_id": 3489,
+      "name": "Naomi Watts"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0298130",
+      "votes": 358944,
+      "rating": 7.1,
+      "name": "The Ring",
+      "tvdb_id": 565
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0132625",
+      "tvdb_id": 15318,
+      "name": "Keith Campbell"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0119654",
+      "votes": 582276,
+      "rating": 7.3,
+      "name": "Men in Black",
+      "tvdb_id": 607
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000169",
+      "tvdb_id": 2176,
+      "name": "Tommy Lee Jones"
+    }
+  ]
+}

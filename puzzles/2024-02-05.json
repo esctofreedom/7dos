@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 12073,
+  "target_tvdb_id": 3129,
+  "source_imdb_id": "nm0000196",
+  "target_imdb_id": "nm0000619",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000196",
+      "tvdb_id": 12073,
+      "name": "Mike Myers"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0361748",
+      "votes": 1485428,
+      "rating": 8.3,
+      "name": "Inglourious Basterds",
+      "tvdb_id": 16869
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000168",
+      "tvdb_id": 2231,
+      "name": "Samuel L. Jackson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0110912",
+      "votes": 2101050,
+      "rating": 8.9,
+      "name": "Pulp Fiction",
+      "tvdb_id": 680
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000619",
+      "tvdb_id": 3129,
+      "name": "Tim Roth"
+    }
+  ]
+}

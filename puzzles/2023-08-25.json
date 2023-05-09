@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 738,
+  "target_tvdb_id": 2283,
+  "source_imdb_id": "nm0000125",
+  "target_imdb_id": "nm0001804",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000125",
+      "tvdb_id": 738,
+      "name": "Sean Connery"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0137494",
+      "votes": 119829,
+      "rating": 6.3,
+      "name": "Entrapment",
+      "tvdb_id": 1844
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001876",
+      "tvdb_id": 1922,
+      "name": "Catherine Zeta-Jones"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0362227",
+      "votes": 471100,
+      "rating": 7.4,
+      "name": "The Terminal",
+      "tvdb_id": 594
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001804",
+      "tvdb_id": 2283,
+      "name": "Stanley Tucci"
+    }
+  ]
+}

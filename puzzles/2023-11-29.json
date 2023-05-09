@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 134,
+  "target_tvdb_id": 17178,
+  "source_imdb_id": "nm0004937",
+  "target_imdb_id": "nm0933940",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004937",
+      "tvdb_id": 134,
+      "name": "Jamie Foxx"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1853728",
+      "votes": 1592500,
+      "rating": 8.4,
+      "name": "Django Unchained",
+      "tvdb_id": 68718
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000168",
+      "tvdb_id": 2231,
+      "name": "Samuel L. Jackson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0947802",
+      "votes": 53857,
+      "rating": 6.2,
+      "name": "Lakeview Terrace",
+      "tvdb_id": 13279
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0933940",
+      "tvdb_id": 17178,
+      "name": "Patrick Wilson"
+    }
+  ]
+}

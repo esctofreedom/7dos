@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 17604,
+  "target_tvdb_id": 3,
+  "source_imdb_id": "nm0719637",
+  "target_imdb_id": "nm0000148",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0719637",
+      "tvdb_id": 17604,
+      "name": "Jeremy Renner"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2381249",
+      "votes": 382513,
+      "rating": 7.4,
+      "name": "Mission: Impossible - Rogue Nation",
+      "tvdb_id": 177677
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0670408",
+      "tvdb_id": 11108,
+      "name": "Simon Pegg"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2488496",
+      "votes": 944891,
+      "rating": 7.8,
+      "name": "Star Wars: Episode VII - The Force Awakens",
+      "tvdb_id": 140607
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000148",
+      "tvdb_id": 3,
+      "name": "Harrison Ford"
+    }
+  ]
+}

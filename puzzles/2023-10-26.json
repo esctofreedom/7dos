@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 1204,
+  "target_tvdb_id": 12073,
+  "source_imdb_id": "nm0000210",
+  "target_imdb_id": "nm0000196",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000210",
+      "tvdb_id": 1204,
+      "name": "Julia Roberts"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0349903",
+      "votes": 399386,
+      "rating": 6.5,
+      "name": "Ocean's Twelve",
+      "tvdb_id": 163
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000093",
+      "tvdb_id": 287,
+      "name": "Brad Pitt"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0361748",
+      "votes": 1485428,
+      "rating": 8.3,
+      "name": "Inglourious Basterds",
+      "tvdb_id": 16869
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000196",
+      "tvdb_id": 12073,
+      "name": "Mike Myers"
+    }
+  ]
+}

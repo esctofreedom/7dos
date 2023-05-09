@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 18999,
+  "target_tvdb_id": 738,
+  "source_imdb_id": "nm0799777",
+  "target_imdb_id": "nm0000125",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0799777",
+      "tvdb_id": 18999,
+      "name": "J.K. Simmons"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2582802",
+      "votes": 898359,
+      "rating": 8.5,
+      "name": "Whiplash",
+      "tvdb_id": 244786
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0333318",
+      "tvdb_id": 10691,
+      "name": "April Grace"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0181536",
+      "votes": 87627,
+      "rating": 7.3,
+      "name": "Finding Forrester",
+      "tvdb_id": 711
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000125",
+      "tvdb_id": 738,
+      "name": "Sean Connery"
+    }
+  ]
+}

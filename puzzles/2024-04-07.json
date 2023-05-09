@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 934,
+  "target_tvdb_id": 380,
+  "source_imdb_id": "nm0000128",
+  "target_imdb_id": "nm0000134",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000128",
+      "tvdb_id": 934,
+      "name": "Russell Crowe"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0140352",
+      "votes": 174514,
+      "rating": 7.8,
+      "name": "The Insider",
+      "tvdb_id": 9008
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000199",
+      "tvdb_id": 1158,
+      "name": "Al Pacino"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0071562",
+      "votes": 1296165,
+      "rating": 9.0,
+      "name": "The Godfather Part II",
+      "tvdb_id": 240
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000134",
+      "tvdb_id": 380,
+      "name": "Robert De Niro"
+    }
+  ]
+}

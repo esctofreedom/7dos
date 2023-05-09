@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 1136406,
+  "target_tvdb_id": 192,
+  "source_imdb_id": "nm4043618",
+  "target_imdb_id": "nm0000151",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm4043618",
+      "tvdb_id": 1136406,
+      "name": "Tom Holland"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2250912",
+      "votes": 676089,
+      "rating": 7.4,
+      "name": "Spider-Man: Homecoming",
+      "tvdb_id": 315635
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000569",
+      "tvdb_id": 12052,
+      "name": "Gwyneth Paltrow"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0114369",
+      "votes": 1690351,
+      "rating": 8.6,
+      "name": "Se7en",
+      "tvdb_id": 807
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000151",
+      "tvdb_id": 192,
+      "name": "Morgan Freeman"
+    }
+  ]
+}

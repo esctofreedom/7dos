@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 24045,
+  "target_tvdb_id": 4517,
+  "source_imdb_id": "nm0330687",
+  "target_imdb_id": "nm0000582",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0330687",
+      "tvdb_id": 24045,
+      "name": "Joseph Gordon-Levitt"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0458481",
+      "votes": 165569,
+      "rating": 6.5,
+      "name": "Sin City: A Dame to Kill For",
+      "tvdb_id": 189
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000501",
+      "tvdb_id": 11477,
+      "name": "Ray Liotta"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0099685",
+      "votes": 1186782,
+      "rating": 8.7,
+      "name": "Goodfellas",
+      "tvdb_id": 769
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000582",
+      "tvdb_id": 4517,
+      "name": "Joe Pesci"
+    }
+  ]
+}

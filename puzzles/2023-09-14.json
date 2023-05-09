@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 4783,
+  "target_tvdb_id": 18269,
+  "source_imdb_id": "nm0000554",
+  "target_imdb_id": "nm0000409",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000554",
+      "tvdb_id": 4783,
+      "name": "Sam Neill"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0099810",
+      "votes": 206218,
+      "rating": 7.5,
+      "name": "The Hunt for Red October",
+      "tvdb_id": 1669
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1433660",
+      "tvdb_id": 27678,
+      "name": "Tom Fisher"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0209163",
+      "votes": 334054,
+      "rating": 6.4,
+      "name": "The Mummy Returns",
+      "tvdb_id": 1734
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000409",
+      "tvdb_id": 18269,
+      "name": "Brendan Fraser"
+    }
+  ]
+}

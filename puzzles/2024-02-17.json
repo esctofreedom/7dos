@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 24045,
+  "target_tvdb_id": 3392,
+  "source_imdb_id": "nm0330687",
+  "target_imdb_id": "nm0000140",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0330687",
+      "tvdb_id": 24045,
+      "name": "Joseph Gordon-Levitt"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1375666",
+      "votes": 2403153,
+      "rating": 8.8,
+      "name": "Inception",
+      "tvdb_id": 27205
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0645785",
+      "tvdb_id": 56120,
+      "name": "Yuji Okumoto"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0119174",
+      "votes": 407687,
+      "rating": 7.7,
+      "name": "The Game",
+      "tvdb_id": 2649
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000140",
+      "tvdb_id": 3392,
+      "name": "Michael Douglas"
+    }
+  ]
+}

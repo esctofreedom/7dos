@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 1158,
+  "target_tvdb_id": 73968,
+  "source_imdb_id": "nm0000199",
+  "target_imdb_id": "nm0147147",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000199",
+      "tvdb_id": 1158,
+      "name": "Al Pacino"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0140352",
+      "votes": 174514,
+      "rating": 7.8,
+      "name": "The Insider",
+      "tvdb_id": 9008
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000128",
+      "tvdb_id": 934,
+      "name": "Russell Crowe"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0770828",
+      "votes": 784138,
+      "rating": 7.1,
+      "name": "Man of Steel",
+      "tvdb_id": 49521
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0147147",
+      "tvdb_id": 73968,
+      "name": "Henry Cavill"
+    }
+  ]
+}

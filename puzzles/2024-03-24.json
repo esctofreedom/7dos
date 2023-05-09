@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 2283,
+  "target_tvdb_id": 62064,
+  "source_imdb_id": "nm0001804",
+  "target_imdb_id": "nm1517976",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001804",
+      "tvdb_id": 2283,
+      "name": "Stanley Tucci"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0362227",
+      "votes": 471100,
+      "rating": 7.4,
+      "name": "The Terminal",
+      "tvdb_id": 594
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0757855",
+      "tvdb_id": 8691,
+      "name": "Zoe Saldana"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0796366",
+      "votes": 609483,
+      "rating": 7.9,
+      "name": "Star Trek",
+      "tvdb_id": 13475
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1517976",
+      "tvdb_id": 62064,
+      "name": "Chris Pine"
+    }
+  ]
+}

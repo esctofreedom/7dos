@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 73968,
+  "target_tvdb_id": 27578,
+  "source_imdb_id": "nm0147147",
+  "target_imdb_id": "nm0680983",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0147147",
+      "tvdb_id": 73968,
+      "name": "Henry Cavill"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0974015",
+      "votes": 461723,
+      "rating": 6.1,
+      "name": "Justice League",
+      "tvdb_id": 141052
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0799777",
+      "tvdb_id": 18999,
+      "name": "J.K. Simmons"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0467406",
+      "votes": 531704,
+      "rating": 7.5,
+      "name": "Juno",
+      "tvdb_id": 7326
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0680983",
+      "tvdb_id": 27578,
+      "name": "Elliot Page"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 996701,
+  "target_tvdb_id": 5469,
+  "source_imdb_id": "nm1886602",
+  "target_imdb_id": "nm0000146",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1886602",
+      "tvdb_id": 996701,
+      "name": "Miles Teller"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1745960",
+      "votes": 577408,
+      "rating": 8.3,
+      "name": "Top Gun: Maverick",
+      "tvdb_id": 361743
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000174",
+      "tvdb_id": 5576,
+      "name": "Val Kilmer"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120794",
+      "votes": 137962,
+      "rating": 7.2,
+      "name": "The Prince of Egypt",
+      "tvdb_id": 9837
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000146",
+      "tvdb_id": 5469,
+      "name": "Ralph Fiennes"
+    }
+  ]
+}

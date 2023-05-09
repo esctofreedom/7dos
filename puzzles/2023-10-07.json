@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 30614,
+  "target_tvdb_id": 73968,
+  "source_imdb_id": "nm0331516",
+  "target_imdb_id": "nm0147147",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0331516",
+      "tvdb_id": 30614,
+      "name": "Ryan Gosling"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3799694",
+      "votes": 340579,
+      "rating": 7.3,
+      "name": "The Nice Guys",
+      "tvdb_id": 290250
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000128",
+      "tvdb_id": 934,
+      "name": "Russell Crowe"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0770828",
+      "votes": 784138,
+      "rating": 7.1,
+      "name": "Man of Steel",
+      "tvdb_id": 49521
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0147147",
+      "tvdb_id": 73968,
+      "name": "Henry Cavill"
+    }
+  ]
+}

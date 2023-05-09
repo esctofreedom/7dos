@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 2461,
+  "target_tvdb_id": 31,
+  "source_imdb_id": "nm0000154",
+  "target_imdb_id": "nm0000158",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000154",
+      "tvdb_id": 2461,
+      "name": "Mel Gibson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0277434",
+      "votes": 146036,
+      "rating": 7.1,
+      "name": "We Were Soldiers",
+      "tvdb_id": 10590
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001608",
+      "tvdb_id": 12834,
+      "name": "Barry Pepper"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120815",
+      "votes": 1418419,
+      "rating": 8.6,
+      "name": "Saving Private Ryan",
+      "tvdb_id": 857
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000158",
+      "tvdb_id": 31,
+      "name": "Tom Hanks"
+    }
+  ]
+}

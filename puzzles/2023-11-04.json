@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 10297,
+  "target_tvdb_id": 8691,
+  "source_imdb_id": "nm0000190",
+  "target_imdb_id": "nm0757855",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000190",
+      "tvdb_id": 10297,
+      "name": "Matthew McConaughey"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3470600",
+      "votes": 177756,
+      "rating": 7.1,
+      "name": "Sing",
+      "tvdb_id": 335797
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000604",
+      "tvdb_id": 4764,
+      "name": "John C. Reilly"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2015381",
+      "votes": 1202667,
+      "rating": 8.0,
+      "name": "Guardians of the Galaxy",
+      "tvdb_id": 118340
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0757855",
+      "tvdb_id": 8691,
+      "name": "Zoe Saldana"
+    }
+  ]
+}

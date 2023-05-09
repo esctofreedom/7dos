@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 73421,
+  "target_tvdb_id": 16483,
+  "source_imdb_id": "nm0001618",
+  "target_imdb_id": "nm0000230",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001618",
+      "tvdb_id": 73421,
+      "name": "Joaquin Phoenix"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1798709",
+      "votes": 632987,
+      "rating": 8.0,
+      "name": "Her",
+      "tvdb_id": 152601
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0695435",
+      "tvdb_id": 73457,
+      "name": "Chris Pratt"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3896198",
+      "votes": 700926,
+      "rating": 7.6,
+      "name": "Guardians of the Galaxy Vol. 2",
+      "tvdb_id": 283995
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000230",
+      "tvdb_id": 16483,
+      "name": "Sylvester Stallone"
+    }
+  ]
+}

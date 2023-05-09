@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 7399,
-  "target_tvdb_id": 5472,
-  "source_imdb_id": "nm0001774",
-  "target_imdb_id": "nm0000147",
+  "source_tvdb_id": 6885,
+  "target_tvdb_id": 103,
+  "source_imdb_id": "nm0000234",
+  "target_imdb_id": "nm0749263",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0001774",
       "type": "Actor",
-      "name": "Ben Stiller",
-      "tvdb_id": 7399
+      "imdb_id": "nm0000234",
+      "tvdb_id": 6885,
+      "name": "Charlize Theron"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0115798",
-      "votes": 170281,
+      "imdb_id": "tt1735898",
+      "votes": 294509,
       "rating": 6.1,
-      "name": "The Cable Guy",
-      "tvdb_id": 9894
+      "name": "Snow White and the Huntsman",
+      "tvdb_id": 58595
     },
     {
-      "imdb_id": "nm0000120",
       "type": "Actor",
-      "name": "Jim Carrey",
-      "tvdb_id": 206
+      "imdb_id": "nm1165110",
+      "tvdb_id": 74568,
+      "name": "Chris Hemsworth"
     },
     {
       "type": "Film",
-      "imdb_id": "tt1067106",
-      "votes": 122010,
-      "rating": 6.8,
-      "name": "A Christmas Carol",
-      "tvdb_id": 17979
+      "imdb_id": "tt0848228",
+      "votes": 1411541,
+      "rating": 8.0,
+      "name": "The Avengers",
+      "tvdb_id": 24428
     },
     {
-      "imdb_id": "nm0000147",
       "type": "Actor",
-      "name": "Colin Firth",
-      "tvdb_id": 5472
+      "imdb_id": "nm0749263",
+      "tvdb_id": 103,
+      "name": "Mark Ruffalo"
     }
   ]
 }

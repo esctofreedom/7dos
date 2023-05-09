@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 7399,
+  "target_tvdb_id": 4,
+  "source_imdb_id": "nm0001774",
+  "target_imdb_id": "nm0000402",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001774",
+      "tvdb_id": 7399,
+      "name": "Ben Stiller"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0196229",
+      "votes": 280270,
+      "rating": 6.5,
+      "name": "Zoolander",
+      "tvdb_id": 9398
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0295103",
+      "tvdb_id": 52860,
+      "name": "Judah Friedlander"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2488496",
+      "votes": 944891,
+      "rating": 7.8,
+      "name": "Star Wars: Episode VII - The Force Awakens",
+      "tvdb_id": 140607
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000402",
+      "tvdb_id": 4,
+      "name": "Carrie Fisher"
+    }
+  ]
+}

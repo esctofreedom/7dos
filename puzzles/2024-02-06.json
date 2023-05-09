@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 13240,
+  "target_tvdb_id": 73968,
+  "source_imdb_id": "nm0000242",
+  "target_imdb_id": "nm0147147",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000242",
+      "tvdb_id": 13240,
+      "name": "Mark Wahlberg"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0964517",
+      "votes": 376098,
+      "rating": 7.8,
+      "name": "The Fighter",
+      "tvdb_id": 45317
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0010736",
+      "tvdb_id": 9273,
+      "name": "Amy Adams"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0770828",
+      "votes": 784138,
+      "rating": 7.1,
+      "name": "Man of Steel",
+      "tvdb_id": 49521
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0147147",
+      "tvdb_id": 73968,
+      "name": "Henry Cavill"
+    }
+  ]
+}

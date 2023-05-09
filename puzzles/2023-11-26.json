@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 934,
+  "target_tvdb_id": 996701,
+  "source_imdb_id": "nm0000128",
+  "target_imdb_id": "nm1886602",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000128",
+      "tvdb_id": 934,
+      "name": "Russell Crowe"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0268978",
+      "votes": 947632,
+      "rating": 8.2,
+      "name": "A Beautiful Mind",
+      "tvdb_id": 453
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000124",
+      "tvdb_id": 6161,
+      "name": "Jennifer Connelly"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1745960",
+      "votes": 577408,
+      "rating": 8.3,
+      "name": "Top Gun: Maverick",
+      "tvdb_id": 361743
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1886602",
+      "tvdb_id": 996701,
+      "name": "Miles Teller"
+    }
+  ]
+}

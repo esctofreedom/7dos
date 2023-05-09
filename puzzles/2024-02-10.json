@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 116,
+  "target_tvdb_id": 70851,
+  "source_imdb_id": "nm0461136",
+  "target_imdb_id": "nm0085312",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0461136",
+      "tvdb_id": 116,
+      "name": "Keira Knightley"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0366627",
+      "votes": 116214,
+      "rating": 7.1,
+      "name": "The Jacket",
+      "tvdb_id": 9667
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004778",
+      "tvdb_id": 3490,
+      "name": "Adrien Brody"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0360717",
+      "votes": 432227,
+      "rating": 7.2,
+      "name": "King Kong",
+      "tvdb_id": 254
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0085312",
+      "tvdb_id": 70851,
+      "name": "Jack Black"
+    }
+  ]
+}

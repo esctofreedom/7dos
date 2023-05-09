@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 11108,
-  "target_tvdb_id": 12073,
-  "source_imdb_id": "nm0670408",
-  "target_imdb_id": "nm0000196",
+  "source_tvdb_id": 880,
+  "target_tvdb_id": 569,
+  "source_imdb_id": "nm0000255",
+  "target_imdb_id": "nm0000160",
   "min_moves_to_solve": 3,
+  "source_birthday": false,
   "best_solution": [
     {
-      "imdb_id": "nm0670408",
       "type": "Actor",
-      "name": "Simon Pegg",
-      "tvdb_id": 11108
+      "imdb_id": "nm0000255",
+      "tvdb_id": 880,
+      "name": "Ben Affleck"
     },
     {
       "type": "Film",
-      "imdb_id": "tt1229238",
-      "votes": 500030,
-      "rating": 7.4,
-      "name": "Mission: Impossible - Ghost Protocol",
-      "tvdb_id": 56292
+      "imdb_id": "tt0119217",
+      "votes": 998916,
+      "rating": 8.3,
+      "name": "Good Will Hunting",
+      "tvdb_id": 489
     },
     {
-      "imdb_id": "nm0000129",
       "type": "Actor",
-      "name": "Tom Cruise",
-      "tvdb_id": 500
+      "imdb_id": "nm0000245",
+      "tvdb_id": 2157,
+      "name": "Robin Williams"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0295178",
-      "votes": 215087,
-      "rating": 6.2,
-      "name": "Austin Powers in Goldmember",
-      "tvdb_id": 818
+      "imdb_id": "tt0097165",
+      "votes": 507205,
+      "rating": 8.1,
+      "name": "Dead Poets Society",
+      "tvdb_id": 207
     },
     {
-      "imdb_id": "nm0000196",
       "type": "Actor",
-      "name": "Mike Myers",
-      "tvdb_id": 12073
+      "imdb_id": "nm0000160",
+      "tvdb_id": 569,
+      "name": "Ethan Hawke"
     }
   ]
 }

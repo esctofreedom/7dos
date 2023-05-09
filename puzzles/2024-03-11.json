@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 74568,
+  "target_tvdb_id": 139,
+  "source_imdb_id": "nm1165110",
+  "target_imdb_id": "nm0000235",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1165110",
+      "tvdb_id": 74568,
+      "name": "Chris Hemsworth"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2395427",
+      "votes": 881783,
+      "rating": 7.3,
+      "name": "Avengers: Age of Ultron",
+      "tvdb_id": 99861
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000168",
+      "tvdb_id": 2231,
+      "name": "Samuel L. Jackson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0110912",
+      "votes": 2101050,
+      "rating": 8.9,
+      "name": "Pulp Fiction",
+      "tvdb_id": 680
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000235",
+      "tvdb_id": 139,
+      "name": "Uma Thurman"
+    }
+  ]
+}

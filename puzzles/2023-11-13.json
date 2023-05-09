@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 17276,
+  "target_tvdb_id": 1204,
+  "source_imdb_id": "nm0124930",
+  "target_imdb_id": "nm0000210",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0124930",
+      "tvdb_id": 17276,
+      "name": "Gerard Butler"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0416449",
+      "votes": 834419,
+      "rating": 7.6,
+      "name": "300",
+      "tvdb_id": 1271
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0922035",
+      "tvdb_id": 17287,
+      "name": "Dominic West"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2241351",
+      "votes": 102077,
+      "rating": 6.5,
+      "name": "Money Monster",
+      "tvdb_id": 303858
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000210",
+      "tvdb_id": 1204,
+      "name": "Julia Roberts"
+    }
+  ]
+}

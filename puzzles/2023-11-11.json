@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 6193,
+  "target_tvdb_id": 13,
+  "source_imdb_id": "nm0000138",
+  "target_imdb_id": "nm0000983",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000138",
+      "tvdb_id": 6193,
+      "name": "Leonardo DiCaprio"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0338751",
+      "votes": 370181,
+      "rating": 7.5,
+      "name": "The Aviator",
+      "tvdb_id": 2567
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000353",
+      "tvdb_id": 5293,
+      "name": "Willem Dafoe"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0266543",
+      "votes": 1062914,
+      "rating": 8.2,
+      "name": "Finding Nemo",
+      "tvdb_id": 12
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000983",
+      "tvdb_id": 13,
+      "name": "Albert Brooks"
+    }
+  ]
+}

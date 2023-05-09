@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 2963,
+  "target_tvdb_id": 880,
+  "source_imdb_id": "nm0000115",
+  "target_imdb_id": "nm0000255",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000115",
+      "tvdb_id": 2963,
+      "name": "Nicolas Cage"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt11291274",
+      "votes": 120284,
+      "rating": 7.0,
+      "name": "The Unbearable Weight of Massive Talent",
+      "tvdb_id": 648579
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000439",
+      "tvdb_id": 41686,
+      "name": "Neil Patrick Harris"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2267998",
+      "votes": 1004941,
+      "rating": 8.1,
+      "name": "Gone Girl",
+      "tvdb_id": 210577
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000255",
+      "tvdb_id": 880,
+      "name": "Ben Affleck"
+    }
+  ]
+}

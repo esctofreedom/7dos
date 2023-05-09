@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 6384,
+  "target_tvdb_id": 1327,
+  "source_imdb_id": "nm0000206",
+  "target_imdb_id": "nm0005212",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000206",
+      "tvdb_id": 6384,
+      "name": "Keanu Reeves"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0133093",
+      "votes": 1950577,
+      "rating": 8.7,
+      "name": "The Matrix",
+      "tvdb_id": 603
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0915989",
+      "tvdb_id": 1331,
+      "name": "Hugo Weaving"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0903624",
+      "votes": 842123,
+      "rating": 7.8,
+      "name": "The Hobbit: An Unexpected Journey",
+      "tvdb_id": 49051
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0005212",
+      "tvdb_id": 1327,
+      "name": "Ian McKellen"
+    }
+  ]
+}

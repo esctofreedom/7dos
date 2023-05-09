@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 504,
-  "target_tvdb_id": 1367,
-  "source_imdb_id": "nm0000209",
-  "target_imdb_id": "nm0397102",
+  "source_tvdb_id": 65731,
+  "target_tvdb_id": 7399,
+  "source_imdb_id": "nm0941777",
+  "target_imdb_id": "nm0001774",
   "min_moves_to_solve": 3,
+  "source_birthday": false,
   "best_solution": [
     {
-      "imdb_id": "nm0000209",
       "type": "Actor",
-      "name": "Tim Robbins",
-      "tvdb_id": 504
+      "imdb_id": "nm0941777",
+      "tvdb_id": 65731,
+      "name": "Sam Worthington"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0407304",
-      "votes": 458497,
-      "rating": 6.5,
-      "name": "War of the Worlds",
-      "tvdb_id": 74
+      "imdb_id": "tt0499549",
+      "votes": 1338763,
+      "rating": 7.9,
+      "name": "Avatar",
+      "tvdb_id": 19995
     },
     {
-      "imdb_id": "nm0001584",
       "type": "Actor",
-      "name": "Miranda Otto",
-      "tvdb_id": 502
+      "imdb_id": "nm0601376",
+      "tvdb_id": 59231,
+      "name": "Joel David Moore"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0167260",
-      "votes": 1880701,
-      "rating": 9.0,
-      "name": "The Lord of the Rings: The Return of the King",
-      "tvdb_id": 122
+      "imdb_id": "tt0364725",
+      "votes": 256857,
+      "rating": 6.7,
+      "name": "Dodgeball: A True Underdog Story",
+      "tvdb_id": 9472
     },
     {
-      "imdb_id": "nm0397102",
       "type": "Actor",
-      "name": "Alan Howard",
-      "tvdb_id": 1367
+      "imdb_id": "nm0001774",
+      "tvdb_id": 7399,
+      "name": "Ben Stiller"
     }
   ]
 }

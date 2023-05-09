@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 16828,
-  "target_tvdb_id": 521,
-  "source_imdb_id": "nm0262635",
-  "target_imdb_id": "nm0000150",
+  "source_tvdb_id": 3036,
+  "target_tvdb_id": 6162,
+  "source_imdb_id": "nm0000131",
+  "target_imdb_id": "nm0079273",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0262635",
       "type": "Actor",
-      "name": "Chris Evans",
-      "tvdb_id": 16828
+      "imdb_id": "nm0000131",
+      "tvdb_id": 3036,
+      "name": "John Cusack"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0848228",
-      "votes": 1411541,
-      "rating": 8.0,
-      "name": "The Avengers",
-      "tvdb_id": 24428
-    },
-    {
-      "imdb_id": "nm0804592",
-      "type": "Actor",
-      "name": "Jerzy Skolimowski",
-      "tvdb_id": 43553
-    },
-    {
-      "type": "Film",
-      "imdb_id": "tt0116996",
-      "votes": 233754,
+      "imdb_id": "tt1231587",
+      "votes": 179559,
       "rating": 6.4,
-      "name": "Mars Attacks!",
-      "tvdb_id": 75
+      "name": "Hot Tub Time Machine",
+      "tvdb_id": 23048
     },
     {
-      "imdb_id": "nm0000150",
       "type": "Actor",
-      "name": "Michael J. Fox",
-      "tvdb_id": 521
+      "imdb_id": "nm1659221",
+      "tvdb_id": 60898,
+      "name": "Sebastian Stan"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3498820",
+      "votes": 807650,
+      "rating": 7.8,
+      "name": "Captain America: Civil War",
+      "tvdb_id": 271110
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0079273",
+      "tvdb_id": 6162,
+      "name": "Paul Bettany"
     }
   ]
 }

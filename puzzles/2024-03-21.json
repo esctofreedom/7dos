@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 64,
+  "target_tvdb_id": 3087,
+  "source_imdb_id": "nm0000198",
+  "target_imdb_id": "nm0000380",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000198",
+      "tvdb_id": 64,
+      "name": "Gary Oldman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0110413",
+      "votes": 1184637,
+      "rating": 8.5,
+      "name": "L\u00e9on: The Professional",
+      "tvdb_id": 101
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000732",
+      "tvdb_id": 1004,
+      "name": "Danny Aiello"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0071562",
+      "votes": 1296165,
+      "rating": 9.0,
+      "name": "The Godfather Part II",
+      "tvdb_id": 240
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000380",
+      "tvdb_id": 3087,
+      "name": "Robert Duvall"
+    }
+  ]
+}

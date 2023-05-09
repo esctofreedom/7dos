@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 4173,
+  "target_tvdb_id": 3392,
+  "source_imdb_id": "nm0000164",
+  "target_imdb_id": "nm0000140",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000164",
+      "tvdb_id": 4173,
+      "name": "Anthony Hopkins"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0289765",
+      "votes": 280472,
+      "rating": 7.2,
+      "name": "Red Dragon",
+      "tvdb_id": 9533
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0219324",
+      "tvdb_id": 154954,
+      "name": "Elizabeth Dennehy"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0119174",
+      "votes": 407687,
+      "rating": 7.7,
+      "name": "The Game",
+      "tvdb_id": 2649
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000140",
+      "tvdb_id": 3392,
+      "name": "Michael Douglas"
+    }
+  ]
+}

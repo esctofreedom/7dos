@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 3036,
+  "target_tvdb_id": 1813,
+  "source_imdb_id": "nm0000131",
+  "target_imdb_id": "nm0004266",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000131",
+      "tvdb_id": 3036,
+      "name": "John Cusack"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1190080",
+      "votes": 385247,
+      "rating": 5.8,
+      "name": "2012",
+      "tvdb_id": 14161
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001624",
+      "tvdb_id": 17485,
+      "name": "Oliver Platt"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0758752",
+      "votes": 210456,
+      "rating": 6.7,
+      "name": "Love & Other Drugs",
+      "tvdb_id": 43347
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004266",
+      "tvdb_id": 1813,
+      "name": "Anne Hathaway"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 19274,
+  "target_tvdb_id": 8289,
+  "source_imdb_id": "nm0736622",
+  "target_imdb_id": "nm0001082",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0736622",
+      "tvdb_id": 19274,
+      "name": "Seth Rogen"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0910936",
+      "votes": 346971,
+      "rating": 6.9,
+      "name": "Pineapple Express",
+      "tvdb_id": 10189
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1144419",
+      "tvdb_id": 62862,
+      "name": "Danny McBride"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2316204",
+      "votes": 288740,
+      "rating": 6.4,
+      "name": "Alien: Covenant",
+      "tvdb_id": 126889
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001082",
+      "tvdb_id": 8289,
+      "name": "Billy Crudup"
+    }
+  ]
+}

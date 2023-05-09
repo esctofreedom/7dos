@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 8784,
+  "target_tvdb_id": 12073,
+  "source_imdb_id": "nm0185819",
+  "target_imdb_id": "nm0000196",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0185819",
+      "tvdb_id": 8784,
+      "name": "Daniel Craig"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2379713",
+      "votes": 449737,
+      "rating": 6.8,
+      "name": "Spectre",
+      "tvdb_id": 206647
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0910607",
+      "tvdb_id": 27319,
+      "name": "Christoph Waltz"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0361748",
+      "votes": 1485428,
+      "rating": 8.3,
+      "name": "Inglourious Basterds",
+      "tvdb_id": 16869
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000196",
+      "tvdb_id": 12073,
+      "name": "Mike Myers"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 8784,
+  "target_tvdb_id": 22226,
+  "source_imdb_id": "nm0185819",
+  "target_imdb_id": "nm0748620",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0185819",
+      "tvdb_id": 8784,
+      "name": "Daniel Craig"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt11564570",
+      "votes": 385583,
+      "rating": 7.1,
+      "name": "Glass Onion",
+      "tvdb_id": 661374
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1063517",
+      "tvdb_id": 17696,
+      "name": "Kathryn Hahn"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0357413",
+      "votes": 365542,
+      "rating": 7.1,
+      "name": "Anchorman: The Legend of Ron Burgundy",
+      "tvdb_id": 8699
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0748620",
+      "tvdb_id": 22226,
+      "name": "Paul Rudd"
+    }
+  ]
+}

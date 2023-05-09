@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 37625,
+  "target_tvdb_id": 6941,
+  "source_imdb_id": "nm1940449",
+  "target_imdb_id": "nm0000139",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1940449",
+      "tvdb_id": 37625,
+      "name": "Andrew Garfield"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1872181",
+      "votes": 510599,
+      "rating": 6.6,
+      "name": "The Amazing Spider-Man 2",
+      "tvdb_id": 102382
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004937",
+      "tvdb_id": 134,
+      "name": "Jamie Foxx"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0146838",
+      "votes": 122619,
+      "rating": 6.9,
+      "name": "Any Given Sunday",
+      "tvdb_id": 9563
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000139",
+      "tvdb_id": 6941,
+      "name": "Cameron Diaz"
+    }
+  ]
+}

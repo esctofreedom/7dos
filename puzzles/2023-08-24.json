@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 1230,
+  "target_tvdb_id": 6730,
+  "source_imdb_id": "nm0000422",
+  "target_imdb_id": "nm0056187",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000422",
+      "tvdb_id": 1230,
+      "name": "John Goodman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1655442",
+      "votes": 244505,
+      "rating": 7.9,
+      "name": "The Artist",
+      "tvdb_id": 74643
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0205772",
+      "tvdb_id": 6734,
+      "name": "Ken Davitian"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0443453",
+      "votes": 421379,
+      "rating": 7.4,
+      "name": "Borat",
+      "tvdb_id": 496
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0056187",
+      "tvdb_id": 6730,
+      "name": "Sacha Baron Cohen"
+    }
+  ]
+}

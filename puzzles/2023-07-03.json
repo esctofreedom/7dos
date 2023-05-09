@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 17178,
-  "target_tvdb_id": 1204,
-  "source_imdb_id": "nm0933940",
-  "target_imdb_id": "nm0000210",
+  "source_tvdb_id": 500,
+  "target_tvdb_id": 368,
+  "source_imdb_id": "nm0000129",
+  "target_imdb_id": "nm0000702",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0933940",
       "type": "Actor",
-      "name": "Patrick Wilson",
-      "tvdb_id": 17178
+      "imdb_id": "nm0000129",
+      "tvdb_id": 500,
+      "name": "Tom Cruise"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0409459",
-      "votes": 561574,
-      "rating": 7.6,
-      "name": "Watchmen",
-      "tvdb_id": 13183
+      "imdb_id": "tt0369339",
+      "votes": 414730,
+      "rating": 7.5,
+      "name": "Collateral",
+      "tvdb_id": 1538
     },
     {
-      "imdb_id": "nm0001082",
       "type": "Actor",
-      "name": "Billy Crudup",
-      "tvdb_id": 8289
+      "imdb_id": "nm0749263",
+      "tvdb_id": 103,
+      "name": "Mark Ruffalo"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0879870",
-      "votes": 100931,
-      "rating": 5.8,
-      "name": "Eat Pray Love",
-      "tvdb_id": 38167
+      "imdb_id": "tt0425123",
+      "votes": 113684,
+      "rating": 6.7,
+      "name": "Just Like Heaven",
+      "tvdb_id": 9007
     },
     {
-      "imdb_id": "nm0000210",
       "type": "Actor",
-      "name": "Julia Roberts",
-      "tvdb_id": 1204
+      "imdb_id": "nm0000702",
+      "tvdb_id": 368,
+      "name": "Reese Witherspoon"
     }
   ]
 }

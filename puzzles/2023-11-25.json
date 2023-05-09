@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 54693,
+  "target_tvdb_id": 8691,
+  "source_imdb_id": "nm1297015",
+  "target_imdb_id": "nm0757855",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1297015",
+      "tvdb_id": 54693,
+      "name": "Emma Stone"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1243974",
+      "votes": 68574,
+      "rating": 5.4,
+      "name": "Aloha",
+      "tvdb_id": 222936
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0177896",
+      "tvdb_id": 51329,
+      "name": "Bradley Cooper"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2015381",
+      "votes": 1202667,
+      "rating": 8.0,
+      "name": "Guardians of the Galaxy",
+      "tvdb_id": 118340
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0757855",
+      "tvdb_id": 8691,
+      "name": "Zoe Saldana"
+    }
+  ]
+}

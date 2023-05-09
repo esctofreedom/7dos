@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 1245,
+  "target_tvdb_id": 4756,
+  "source_imdb_id": "nm0424060",
+  "target_imdb_id": "nm0000111",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0424060",
+      "tvdb_id": 1245,
+      "name": "Scarlett Johansson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2872732",
+      "votes": 509899,
+      "rating": 6.4,
+      "name": "Lucy",
+      "tvdb_id": 240832
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000151",
+      "tvdb_id": 192,
+      "name": "Morgan Freeman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0097441",
+      "votes": 138396,
+      "rating": 7.8,
+      "name": "Glory",
+      "tvdb_id": 9665
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000111",
+      "tvdb_id": 4756,
+      "name": "Matthew Broderick"
+    }
+  ]
+}

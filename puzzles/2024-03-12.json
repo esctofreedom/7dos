@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 6383,
+  "target_tvdb_id": 18277,
+  "source_imdb_id": "nm0001173",
+  "target_imdb_id": "nm0000113",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001173",
+      "tvdb_id": 6383,
+      "name": "Aaron Eckhart"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0468569",
+      "votes": 2707279,
+      "rating": 9.0,
+      "name": "The Dark Knight",
+      "tvdb_id": 155
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000323",
+      "tvdb_id": 3895,
+      "name": "Michael Caine"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0212346",
+      "votes": 218001,
+      "rating": 6.3,
+      "name": "Miss Congeniality",
+      "tvdb_id": 1493
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000113",
+      "tvdb_id": 18277,
+      "name": "Sandra Bullock"
+    }
+  ]
+}

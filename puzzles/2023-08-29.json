@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 6856,
+  "target_tvdb_id": 3894,
+  "source_imdb_id": "nm0000621",
+  "target_imdb_id": "nm0000288",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000621",
+      "tvdb_id": 6856,
+      "name": "Kurt Russell"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3460252",
+      "votes": 620842,
+      "rating": 7.8,
+      "name": "The Hateful Eight",
+      "tvdb_id": 273248
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000492",
+      "tvdb_id": 10431,
+      "name": "Jennifer Jason Leigh"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0361862",
+      "votes": 399714,
+      "rating": 7.7,
+      "name": "The Machinist",
+      "tvdb_id": 4553
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000288",
+      "tvdb_id": 3894,
+      "name": "Christian Bale"
+    }
+  ]
+}

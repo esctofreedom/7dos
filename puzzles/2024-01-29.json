@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 18269,
+  "target_tvdb_id": 976,
+  "source_imdb_id": "nm0000409",
+  "target_imdb_id": "nm0005458",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000409",
+      "tvdb_id": 18269,
+      "name": "Brendan Fraser"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0859163",
+      "votes": 165439,
+      "rating": 5.2,
+      "name": "The Mummy: Tomb of the Dragon Emperor",
+      "tvdb_id": 1735
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001472",
+      "tvdb_id": 1336,
+      "name": "Jet Li"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1320253",
+      "votes": 352287,
+      "rating": 6.4,
+      "name": "The Expendables",
+      "tvdb_id": 27578
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0005458",
+      "tvdb_id": 976,
+      "name": "Jason Statham"
+    }
+  ]
+}

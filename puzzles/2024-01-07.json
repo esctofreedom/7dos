@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 2963,
+  "target_tvdb_id": 1461,
+  "source_imdb_id": "nm0000115",
+  "target_imdb_id": "nm0000123",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000115",
+      "tvdb_id": 2963,
+      "name": "Nicolas Cage"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0117500",
+      "votes": 345978,
+      "rating": 7.4,
+      "name": "The Rock",
+      "tvdb_id": 9802
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000438",
+      "tvdb_id": 228,
+      "name": "Ed Harris"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1454468",
+      "votes": 838982,
+      "rating": 7.7,
+      "name": "Gravity",
+      "tvdb_id": 49047
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000123",
+      "tvdb_id": 1461,
+      "name": "George Clooney"
+    }
+  ]
+}

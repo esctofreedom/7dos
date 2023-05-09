@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 19292,
+  "target_tvdb_id": 6384,
+  "source_imdb_id": "nm0001191",
+  "target_imdb_id": "nm0000206",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001191",
+      "tvdb_id": 19292,
+      "name": "Adam Sandler"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0810913",
+      "votes": 86909,
+      "rating": 3.3,
+      "name": "Jack and Jill",
+      "tvdb_id": 71880
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000199",
+      "tvdb_id": 1158,
+      "name": "Al Pacino"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0118971",
+      "votes": 383056,
+      "rating": 7.5,
+      "name": "The Devil's Advocate",
+      "tvdb_id": 1813
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000206",
+      "tvdb_id": 6384,
+      "name": "Keanu Reeves"
+    }
+  ]
+}

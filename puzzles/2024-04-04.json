@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 3223,
+  "target_tvdb_id": 173431,
+  "source_imdb_id": "nm0000375",
+  "target_imdb_id": "nm0021600",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000375",
+      "tvdb_id": 3223,
+      "name": "Robert Downey Jr."
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1300854",
+      "votes": 866335,
+      "rating": 7.1,
+      "name": "Iron Man 3",
+      "tvdb_id": 68721
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1019674",
+      "tvdb_id": 1366,
+      "name": "Sala Baker"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0167261",
+      "votes": 1697780,
+      "rating": 8.8,
+      "name": "The Lord of the Rings: The Two Towers",
+      "tvdb_id": 121
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0021600",
+      "tvdb_id": 173431,
+      "name": "Bruce Allpress"
+    }
+  ]
+}

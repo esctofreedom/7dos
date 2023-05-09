@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 5292,
+  "target_tvdb_id": 1003,
+  "source_imdb_id": "nm0000243",
+  "target_imdb_id": "nm0000606",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000243",
+      "tvdb_id": 5292,
+      "name": "Denzel Washington"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1037705",
+      "votes": 325917,
+      "rating": 6.8,
+      "name": "The Book of Eli",
+      "tvdb_id": 20504
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000198",
+      "tvdb_id": 64,
+      "name": "Gary Oldman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0110413",
+      "votes": 1184637,
+      "rating": 8.5,
+      "name": "L\u00e9on: The Professional",
+      "tvdb_id": 101
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000606",
+      "tvdb_id": 1003,
+      "name": "Jean Reno"
+    }
+  ]
+}

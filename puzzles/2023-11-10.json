@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 12898,
+  "target_tvdb_id": 17178,
+  "source_imdb_id": "nm0000741",
+  "target_imdb_id": "nm0933940",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000741",
+      "tvdb_id": 12898,
+      "name": "Tim Allen"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120363",
+      "votes": 593599,
+      "rating": 7.9,
+      "name": "Toy Story 2",
+      "tvdb_id": 863
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0123553",
+      "tvdb_id": 35219,
+      "name": "Corey Burton"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0429493",
+      "votes": 262991,
+      "rating": 6.7,
+      "name": "The A-Team",
+      "tvdb_id": 34544
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0933940",
+      "tvdb_id": 17178,
+      "name": "Patrick Wilson"
+    }
+  ]
+}

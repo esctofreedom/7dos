@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 70851,
+  "target_tvdb_id": 6885,
+  "source_imdb_id": "nm0085312",
+  "target_imdb_id": "nm0000234",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0085312",
+      "tvdb_id": 70851,
+      "name": "Jack Black"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0307453",
+      "votes": 189400,
+      "rating": 6.0,
+      "name": "Shark Tale",
+      "tvdb_id": 10555
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000226",
+      "tvdb_id": 2888,
+      "name": "Will Smith"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0448157",
+      "votes": 493621,
+      "rating": 6.4,
+      "name": "Hancock",
+      "tvdb_id": 8960
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000234",
+      "tvdb_id": 6885,
+      "name": "Charlize Theron"
+    }
+  ]
+}

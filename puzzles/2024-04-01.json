@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 193,
+  "target_tvdb_id": 134,
+  "source_imdb_id": "nm0000432",
+  "target_imdb_id": "nm0004937",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000432",
+      "tvdb_id": 193,
+      "name": "Gene Hackman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0114214",
+      "votes": 97961,
+      "rating": 6.5,
+      "name": "The Quick and the Dead",
+      "tvdb_id": 12106
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000138",
+      "tvdb_id": 6193,
+      "name": "Leonardo DiCaprio"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1853728",
+      "votes": 1592500,
+      "rating": 8.4,
+      "name": "Django Unchained",
+      "tvdb_id": 68718
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004937",
+      "tvdb_id": 134,
+      "name": "Jamie Foxx"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 30614,
+  "target_tvdb_id": 74568,
+  "source_imdb_id": "nm0331516",
+  "target_imdb_id": "nm1165110",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0331516",
+      "tvdb_id": 30614,
+      "name": "Ryan Gosling"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1649418",
+      "votes": 214927,
+      "rating": 6.5,
+      "name": "The Gray Man",
+      "tvdb_id": 725201
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0262635",
+      "tvdb_id": 16828,
+      "name": "Chris Evans"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0848228",
+      "votes": 1411541,
+      "rating": 8.0,
+      "name": "The Avengers",
+      "tvdb_id": 24428
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1165110",
+      "tvdb_id": 74568,
+      "name": "Chris Hemsworth"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 3490,
+  "target_tvdb_id": 449,
+  "source_imdb_id": "nm0004778",
+  "target_imdb_id": "nm0059431",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004778",
+      "tvdb_id": 3490,
+      "name": "Adrien Brody"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2278388",
+      "votes": 834412,
+      "rating": 8.1,
+      "name": "The Grand Budapest Hotel",
+      "tvdb_id": 120467
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000719",
+      "tvdb_id": 1164,
+      "name": "F. Murray Abraham"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2386490",
+      "votes": 137040,
+      "rating": 7.4,
+      "name": "How to Train Your Dragon: The Hidden World",
+      "tvdb_id": 166428
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0059431",
+      "tvdb_id": 449,
+      "name": "Jay Baruchel"
+    }
+  ]
+}
