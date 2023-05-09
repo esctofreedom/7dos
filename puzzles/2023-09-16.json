@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 17288,
+  "target_tvdb_id": 7447,
+  "source_imdb_id": "nm1055413",
+  "target_imdb_id": "nm0000285",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1055413",
+      "tvdb_id": 17288,
+      "name": "Michael Fassbender"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1877832",
+      "votes": 723350,
+      "rating": 7.9,
+      "name": "X-Men: Days of Future Past",
+      "tvdb_id": 127585
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0413168",
+      "tvdb_id": 6968,
+      "name": "Hugh Jackman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1446192",
+      "votes": 182606,
+      "rating": 7.2,
+      "name": "Rise of the Guardians",
+      "tvdb_id": 81188
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000285",
+      "tvdb_id": 7447,
+      "name": "Alec Baldwin"
+    }
+  ]
+}

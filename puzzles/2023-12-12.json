@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 2440,
+  "target_tvdb_id": 1229,
+  "source_imdb_id": "nm0631490",
+  "target_imdb_id": "nm0000313",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0631490",
+      "tvdb_id": 2440,
+      "name": "Bill Nighy"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2194499",
+      "votes": 362937,
+      "rating": 7.8,
+      "name": "About Time",
+      "tvdb_id": 122906
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1727304",
+      "tvdb_id": 93210,
+      "name": "Domhnall Gleeson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1403865",
+      "votes": 346030,
+      "rating": 7.6,
+      "name": "True Grit",
+      "tvdb_id": 44264
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000313",
+      "tvdb_id": 1229,
+      "name": "Jeff Bridges"
+    }
+  ]
+}

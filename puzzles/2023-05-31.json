@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 18269,
-  "target_tvdb_id": 6941,
-  "source_imdb_id": "nm0000409",
-  "target_imdb_id": "nm0000139",
+  "source_tvdb_id": 190,
+  "target_tvdb_id": 206,
+  "source_imdb_id": "nm0000142",
+  "target_imdb_id": "nm0000120",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0000409",
       "type": "Actor",
-      "name": "Brendan Fraser",
-      "tvdb_id": 18269
+      "imdb_id": "nm0000142",
+      "tvdb_id": 190,
+      "name": "Clint Eastwood"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0375679",
-      "votes": 441805,
-      "rating": 7.7,
-      "name": "Crash",
-      "tvdb_id": 1640
+      "imdb_id": "tt0405159",
+      "votes": 698263,
+      "rating": 8.1,
+      "name": "Million Dollar Baby",
+      "tvdb_id": 70
     },
     {
-      "imdb_id": "nm0000369",
       "type": "Actor",
-      "name": "Matt Dillon",
-      "tvdb_id": 2876
+      "imdb_id": "nm0000151",
+      "tvdb_id": 192,
+      "name": "Morgan Freeman"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0129387",
-      "votes": 318188,
-      "rating": 7.1,
-      "name": "There's Something About Mary",
-      "tvdb_id": 544
+      "imdb_id": "tt0315327",
+      "votes": 414438,
+      "rating": 6.8,
+      "name": "Bruce Almighty",
+      "tvdb_id": 310
     },
     {
-      "imdb_id": "nm0000139",
       "type": "Actor",
-      "name": "Cameron Diaz",
-      "tvdb_id": 6941
+      "imdb_id": "nm0000120",
+      "tvdb_id": 206,
+      "name": "Jim Carrey"
     }
   ]
 }

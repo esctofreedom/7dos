@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 3896,
+  "target_tvdb_id": 529,
+  "source_imdb_id": "nm0000553",
+  "target_imdb_id": "nm0001602",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000553",
+      "tvdb_id": 3896,
+      "name": "Liam Neeson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0372784",
+      "votes": 1497833,
+      "rating": 8.2,
+      "name": "Batman Begins",
+      "tvdb_id": 272
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0095478",
+      "tvdb_id": 534,
+      "name": "Mark Boone Junior"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0209144",
+      "votes": 1259603,
+      "rating": 8.4,
+      "name": "Memento",
+      "tvdb_id": 77
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001602",
+      "tvdb_id": 529,
+      "name": "Guy Pearce"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 1229,
+  "target_tvdb_id": 976,
+  "source_imdb_id": "nm0000313",
+  "target_imdb_id": "nm0005458",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000313",
+      "tvdb_id": 1229,
+      "name": "Jeff Bridges"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2582782",
+      "votes": 238077,
+      "rating": 7.6,
+      "name": "Hell or High Water",
+      "tvdb_id": 338766
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004936",
+      "tvdb_id": 11107,
+      "name": "Ben Foster"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0472399",
+      "votes": 164559,
+      "rating": 6.5,
+      "name": "The Mechanic",
+      "tvdb_id": 27582
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0005458",
+      "tvdb_id": 976,
+      "name": "Jason Statham"
+    }
+  ]
+}

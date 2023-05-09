@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 134,
+  "target_tvdb_id": 3895,
+  "source_imdb_id": "nm0004937",
+  "target_imdb_id": "nm0000323",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004937",
+      "tvdb_id": 134,
+      "name": "Jamie Foxx"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1853728",
+      "votes": 1592500,
+      "rating": 8.4,
+      "name": "Django Unchained",
+      "tvdb_id": 68718
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000138",
+      "tvdb_id": 6193,
+      "name": "Leonardo DiCaprio"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1375666",
+      "votes": 2403153,
+      "rating": 8.8,
+      "name": "Inception",
+      "tvdb_id": 27205
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000323",
+      "tvdb_id": 3895,
+      "name": "Michael Caine"
+    }
+  ]
+}

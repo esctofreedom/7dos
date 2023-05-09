@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 53714,
+  "target_tvdb_id": 12835,
+  "source_imdb_id": "nm1046097",
+  "target_imdb_id": "nm0004874",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1046097",
+      "tvdb_id": 53714,
+      "name": "Rachel McAdams"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0396269",
+      "votes": 364100,
+      "rating": 7.0,
+      "name": "Wedding Crashers",
+      "tvdb_id": 9522
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0177896",
+      "tvdb_id": 51329,
+      "name": "Bradley Cooper"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2015381",
+      "votes": 1202667,
+      "rating": 8.0,
+      "name": "Guardians of the Galaxy",
+      "tvdb_id": 118340
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004874",
+      "tvdb_id": 12835,
+      "name": "Vin Diesel"
+    }
+  ]
+}

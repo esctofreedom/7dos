@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 1979,
+  "target_tvdb_id": 8691,
+  "source_imdb_id": "nm0000228",
+  "target_imdb_id": "nm0757855",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000228",
+      "tvdb_id": 1979,
+      "name": "Kevin Spacey"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0114814",
+      "votes": 1101412,
+      "rating": 8.5,
+      "name": "The Usual Suspects",
+      "tvdb_id": 629
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001125",
+      "tvdb_id": 1121,
+      "name": "Benicio Del Toro"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2015381",
+      "votes": 1202667,
+      "rating": 8.0,
+      "name": "Guardians of the Galaxy",
+      "tvdb_id": 118340
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0757855",
+      "tvdb_id": 8691,
+      "name": "Zoe Saldana"
+    }
+  ]
+}

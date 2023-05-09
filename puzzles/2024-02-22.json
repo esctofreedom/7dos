@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 190,
+  "target_tvdb_id": 2219,
+  "source_imdb_id": "nm0000142",
+  "target_imdb_id": "nm0001497",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000142",
+      "tvdb_id": 190,
+      "name": "Clint Eastwood"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0105695",
+      "votes": 419562,
+      "rating": 8.2,
+      "name": "Unforgiven",
+      "tvdb_id": 33
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0430829",
+      "tvdb_id": 21380,
+      "name": "Larry Joshua"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0145487",
+      "votes": 834989,
+      "rating": 7.4,
+      "name": "Spider-Man",
+      "tvdb_id": 557
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001497",
+      "tvdb_id": 2219,
+      "name": "Tobey Maguire"
+    }
+  ]
+}

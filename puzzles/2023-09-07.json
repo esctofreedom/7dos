@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 4517,
+  "target_tvdb_id": 204,
+  "source_imdb_id": "nm0000582",
+  "target_imdb_id": "nm0000701",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000582",
+      "tvdb_id": 4517,
+      "name": "Joe Pesci"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1302006",
+      "votes": 401561,
+      "rating": 7.8,
+      "name": "The Irishman",
+      "tvdb_id": 398978
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1677477",
+      "tvdb_id": 164094,
+      "name": "Marin Ireland"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0959337",
+      "votes": 218090,
+      "rating": 7.3,
+      "name": "Revolutionary Road",
+      "tvdb_id": 4148
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000701",
+      "tvdb_id": 204,
+      "name": "Kate Winslet"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 4,
+  "target_tvdb_id": 5472,
+  "source_imdb_id": "nm0000402",
+  "target_imdb_id": "nm0000147",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000402",
+      "tvdb_id": 4,
+      "name": "Carrie Fisher"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0076759",
+      "votes": 1388591,
+      "rating": 8.6,
+      "name": "Star Wars: Episode IV - A New Hope",
+      "tvdb_id": 11
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000434",
+      "tvdb_id": 2,
+      "name": "Mark Hamill"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2802144",
+      "votes": 683363,
+      "rating": 7.7,
+      "name": "Kingsman: The Secret Service",
+      "tvdb_id": 207703
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000147",
+      "tvdb_id": 5472,
+      "name": "Colin Firth"
+    }
+  ]
+}

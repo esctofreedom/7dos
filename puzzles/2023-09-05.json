@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 2232,
+  "target_tvdb_id": 4517,
+  "source_imdb_id": "nm0000474",
+  "target_imdb_id": "nm0000582",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000474",
+      "tvdb_id": 2232,
+      "name": "Michael Keaton"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0119396",
+      "votes": 357708,
+      "rating": 7.5,
+      "name": "Jackie Brown",
+      "tvdb_id": 184
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000134",
+      "tvdb_id": 380,
+      "name": "Robert De Niro"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0099685",
+      "votes": 1186782,
+      "rating": 8.7,
+      "name": "Goodfellas",
+      "tvdb_id": 769
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000582",
+      "tvdb_id": 4517,
+      "name": "Joe Pesci"
+    }
+  ]
+}

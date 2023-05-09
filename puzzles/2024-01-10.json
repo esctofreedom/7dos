@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 7399,
+  "target_tvdb_id": 73421,
+  "source_imdb_id": "nm0001774",
+  "target_imdb_id": "nm0001618",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001774",
+      "tvdb_id": 7399,
+      "name": "Ben Stiller"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0359950",
+      "votes": 325658,
+      "rating": 7.3,
+      "name": "The Secret Life of Walter Mitty",
+      "tvdb_id": 116745
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1325419",
+      "tvdb_id": 41091,
+      "name": "Kristen Wiig"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1798709",
+      "votes": 632987,
+      "rating": 8.0,
+      "name": "Her",
+      "tvdb_id": 152601
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001618",
+      "tvdb_id": 73421,
+      "name": "Joaquin Phoenix"
+    }
+  ]
+}

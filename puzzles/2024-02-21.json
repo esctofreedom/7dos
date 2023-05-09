@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 27578,
+  "target_tvdb_id": 504,
+  "source_imdb_id": "nm0680983",
+  "target_imdb_id": "nm0000209",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0680983",
+      "tvdb_id": 27578,
+      "name": "Elliot Page"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1375666",
+      "votes": 2403153,
+      "rating": 8.8,
+      "name": "Inception",
+      "tvdb_id": 27205
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm4798882",
+      "tvdb_id": null,
+      "name": "Brad Jacobowitz"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0111161",
+      "votes": 2734155,
+      "rating": 9.3,
+      "name": "The Shawshank Redemption",
+      "tvdb_id": 278
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000209",
+      "tvdb_id": 504,
+      "name": "Tim Robbins"
+    }
+  ]
+}

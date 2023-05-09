@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 3087,
+  "target_tvdb_id": 2461,
+  "source_imdb_id": "nm0000380",
+  "target_imdb_id": "nm0000154",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000380",
+      "tvdb_id": 3087,
+      "name": "Robert Duvall"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0078788",
+      "votes": 680101,
+      "rating": 8.5,
+      "name": "Apocalypse Now",
+      "tvdb_id": 28
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000148",
+      "tvdb_id": 3,
+      "name": "Harrison Ford"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2333784",
+      "votes": 187193,
+      "rating": 6.1,
+      "name": "The Expendables 3",
+      "tvdb_id": 138103
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000154",
+      "tvdb_id": 2461,
+      "name": "Mel Gibson"
+    }
+  ]
+}

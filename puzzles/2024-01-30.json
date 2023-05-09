@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 3894,
+  "target_tvdb_id": 4756,
+  "source_imdb_id": "nm0000288",
+  "target_imdb_id": "nm0000111",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000288",
+      "tvdb_id": 3894,
+      "name": "Christian Bale"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0468569",
+      "votes": 2707279,
+      "rating": 9.0,
+      "name": "The Dark Knight",
+      "tvdb_id": 155
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000151",
+      "tvdb_id": 192,
+      "name": "Morgan Freeman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0097441",
+      "votes": 138396,
+      "rating": 7.8,
+      "name": "Glory",
+      "tvdb_id": 9665
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000111",
+      "tvdb_id": 4756,
+      "name": "Matthew Broderick"
+    }
+  ]
+}

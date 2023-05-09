@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 996701,
+  "target_tvdb_id": 21657,
+  "source_imdb_id": "nm1886602",
+  "target_imdb_id": "nm0267812",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1886602",
+      "tvdb_id": 996701,
+      "name": "Miles Teller"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2582802",
+      "votes": 898359,
+      "rating": 8.5,
+      "name": "Whiplash",
+      "tvdb_id": 244786
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0799777",
+      "tvdb_id": 18999,
+      "name": "J.K. Simmons"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1193138",
+      "votes": 341335,
+      "rating": 7.4,
+      "name": "Up in the Air",
+      "tvdb_id": 22947
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0267812",
+      "tvdb_id": 21657,
+      "name": "Vera Farmiga"
+    }
+  ]
+}

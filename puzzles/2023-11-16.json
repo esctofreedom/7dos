@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 12073,
+  "target_tvdb_id": 934,
+  "source_imdb_id": "nm0000196",
+  "target_imdb_id": "nm0000128",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000196",
+      "tvdb_id": 12073,
+      "name": "Mike Myers"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0295178",
+      "votes": 215087,
+      "rating": 6.2,
+      "name": "Austin Powers in Goldmember",
+      "tvdb_id": 818
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000228",
+      "tvdb_id": 1979,
+      "name": "Kevin Spacey"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0119488",
+      "votes": 591644,
+      "rating": 8.2,
+      "name": "L.A. Confidential",
+      "tvdb_id": 2118
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000128",
+      "tvdb_id": 934,
+      "name": "Russell Crowe"
+    }
+  ]
+}

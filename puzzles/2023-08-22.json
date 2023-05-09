@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 41091,
+  "target_tvdb_id": 976,
+  "source_imdb_id": "nm1325419",
+  "target_imdb_id": "nm0005458",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1325419",
+      "tvdb_id": 41091,
+      "name": "Kristen Wiig"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1478338",
+      "votes": 298378,
+      "rating": 6.8,
+      "name": "Bridesmaids",
+      "tvdb_id": 55721
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0187719",
+      "tvdb_id": 53256,
+      "name": "Terry Crews"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1764651",
+      "votes": 312651,
+      "rating": 6.6,
+      "name": "The Expendables 2",
+      "tvdb_id": 76163
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0005458",
+      "tvdb_id": 976,
+      "name": "Jason Statham"
+    }
+  ]
+}

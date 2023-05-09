@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 5472,
+  "target_tvdb_id": 31,
+  "source_imdb_id": "nm0000147",
+  "target_imdb_id": "nm0000158",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000147",
+      "tvdb_id": 5472,
+      "name": "Colin Firth"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2802144",
+      "votes": 683363,
+      "rating": 7.7,
+      "name": "Kingsman: The Secret Service",
+      "tvdb_id": 207703
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0424819",
+      "tvdb_id": 17199,
+      "name": "Corey Johnson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120815",
+      "votes": 1418419,
+      "rating": 8.6,
+      "name": "Saving Private Ryan",
+      "tvdb_id": 857
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000158",
+      "tvdb_id": 31,
+      "name": "Tom Hanks"
+    }
+  ]
+}

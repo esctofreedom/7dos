@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 8891,
+  "target_tvdb_id": 3131,
+  "source_imdb_id": "nm0000237",
+  "target_imdb_id": "nm0000104",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000237",
+      "tvdb_id": 8891,
+      "name": "John Travolta"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0110912",
+      "votes": 2101050,
+      "rating": 8.9,
+      "name": "Pulp Fiction",
+      "tvdb_id": 680
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000114",
+      "tvdb_id": 884,
+      "name": "Steve Buscemi"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0112851",
+      "votes": 190570,
+      "rating": 7.1,
+      "name": "Desperado",
+      "tvdb_id": 8068
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000104",
+      "tvdb_id": 3131,
+      "name": "Antonio Banderas"
+    }
+  ]
+}

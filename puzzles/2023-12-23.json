@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 1038,
+  "target_tvdb_id": 18999,
+  "source_imdb_id": "nm0000149",
+  "target_imdb_id": "nm0799777",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000149",
+      "tvdb_id": 1038,
+      "name": "Jodie Foster"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0454848",
+      "votes": 382377,
+      "rating": 7.6,
+      "name": "Inside Man",
+      "tvdb_id": 388
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000353",
+      "tvdb_id": 5293,
+      "name": "Willem Dafoe"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0145487",
+      "votes": 834989,
+      "rating": 7.4,
+      "name": "Spider-Man",
+      "tvdb_id": 557
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0799777",
+      "tvdb_id": 18999,
+      "name": "J.K. Simmons"
+    }
+  ]
+}

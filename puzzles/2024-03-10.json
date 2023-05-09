@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 139,
+  "target_tvdb_id": 12835,
+  "source_imdb_id": "nm0000235",
+  "target_imdb_id": "nm0004874",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000235",
+      "tvdb_id": 139,
+      "name": "Uma Thurman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0110912",
+      "votes": 2101050,
+      "rating": 8.9,
+      "name": "Pulp Fiction",
+      "tvdb_id": 680
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000168",
+      "tvdb_id": 2231,
+      "name": "Samuel L. Jackson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0295701",
+      "votes": 182564,
+      "rating": 5.8,
+      "name": "xXx",
+      "tvdb_id": 7451
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004874",
+      "tvdb_id": 12835,
+      "name": "Vin Diesel"
+    }
+  ]
+}

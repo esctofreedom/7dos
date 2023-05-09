@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 2231,
+  "target_tvdb_id": 6968,
+  "source_imdb_id": "nm0000168",
+  "target_imdb_id": "nm0413168",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000168",
+      "tvdb_id": 2231,
+      "name": "Samuel L. Jackson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1843866",
+      "votes": 862951,
+      "rating": 7.8,
+      "name": "Captain America: The Winter Soldier",
+      "tvdb_id": 100402
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0424060",
+      "tvdb_id": 1245,
+      "name": "Scarlett Johansson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0482571",
+      "votes": 1359502,
+      "rating": 8.5,
+      "name": "The Prestige",
+      "tvdb_id": 1124
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0413168",
+      "tvdb_id": 6968,
+      "name": "Hugh Jackman"
+    }
+  ]
+}

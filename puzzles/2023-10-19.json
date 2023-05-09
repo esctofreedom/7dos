@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 1979,
+  "target_tvdb_id": 1245,
+  "source_imdb_id": "nm0000228",
+  "target_imdb_id": "nm0424060",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000228",
+      "tvdb_id": 1979,
+      "name": "Kevin Spacey"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0114369",
+      "votes": 1690351,
+      "rating": 8.6,
+      "name": "Se7en",
+      "tvdb_id": 807
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000151",
+      "tvdb_id": 192,
+      "name": "Morgan Freeman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2872732",
+      "votes": 509899,
+      "rating": 6.4,
+      "name": "Lucy",
+      "tvdb_id": 240832
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0424060",
+      "tvdb_id": 1245,
+      "name": "Scarlett Johansson"
+    }
+  ]
+}

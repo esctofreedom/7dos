@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 1333,
+  "target_tvdb_id": 1158,
+  "source_imdb_id": "nm0785227",
+  "target_imdb_id": "nm0000199",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0785227",
+      "tvdb_id": 1333,
+      "name": "Andy Serkis"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120737",
+      "votes": 1909585,
+      "rating": 8.8,
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "tvdb_id": 120
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001557",
+      "tvdb_id": 110,
+      "name": "Viggo Mortensen"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0106519",
+      "votes": 223761,
+      "rating": 7.9,
+      "name": "Carlito's Way",
+      "tvdb_id": 6075
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000199",
+      "tvdb_id": 1158,
+      "name": "Al Pacino"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 72129,
+  "target_tvdb_id": 3895,
+  "source_imdb_id": "nm2225369",
+  "target_imdb_id": "nm0000323",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm2225369",
+      "tvdb_id": 72129,
+      "name": "Jennifer Lawrence"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1800241",
+      "votes": 487634,
+      "rating": 7.2,
+      "name": "American Hustle",
+      "tvdb_id": 168672
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000288",
+      "tvdb_id": 3894,
+      "name": "Christian Bale"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0468569",
+      "votes": 2707279,
+      "rating": 9.0,
+      "name": "The Dark Knight",
+      "tvdb_id": 155
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000323",
+      "tvdb_id": 3895,
+      "name": "Michael Caine"
+    }
+  ]
+}

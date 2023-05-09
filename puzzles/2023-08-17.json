@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 380,
+  "target_tvdb_id": 31,
+  "source_imdb_id": "nm0000134",
+  "target_imdb_id": "nm0000158",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000134",
+      "tvdb_id": 380,
+      "name": "Robert De Niro"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0113277",
+      "votes": 670703,
+      "rating": 8.3,
+      "name": "Heat",
+      "tvdb_id": 949
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001744",
+      "tvdb_id": 3197,
+      "name": "Tom Sizemore"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120815",
+      "votes": 1418419,
+      "rating": 8.6,
+      "name": "Saving Private Ryan",
+      "tvdb_id": 857
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000158",
+      "tvdb_id": 31,
+      "name": "Tom Hanks"
+    }
+  ]
+}

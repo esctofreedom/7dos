@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 6730,
-  "target_tvdb_id": 57755,
-  "source_imdb_id": "nm0056187",
-  "target_imdb_id": "nm0000437",
+  "source_tvdb_id": 3896,
+  "target_tvdb_id": 18269,
+  "source_imdb_id": "nm0000553",
+  "target_imdb_id": "nm0000409",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0056187",
       "type": "Actor",
-      "name": "Sacha Baron Cohen",
-      "tvdb_id": 6730
+      "imdb_id": "nm0000553",
+      "tvdb_id": 3896,
+      "name": "Liam Neeson"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0970179",
-      "votes": 328128,
-      "rating": 7.5,
-      "name": "Hugo",
-      "tvdb_id": 44826
+      "imdb_id": "tt0120915",
+      "votes": 821707,
+      "rating": 6.5,
+      "name": "Star Wars: Episode I - The Phantom Menace",
+      "tvdb_id": 1893
     },
     {
-      "imdb_id": "nm0001426",
       "type": "Actor",
-      "name": "Ben Kingsley",
-      "tvdb_id": 2282
+      "imdb_id": "nm2018573",
+      "tvdb_id": 1385097,
+      "name": "Sean Cronin"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0800241",
-      "votes": 53807,
-      "rating": 6.6,
-      "name": "Transsiberian",
-      "tvdb_id": 6687
+      "imdb_id": "tt0120616",
+      "votes": 442485,
+      "rating": 7.1,
+      "name": "The Mummy",
+      "tvdb_id": 564
     },
     {
-      "imdb_id": "nm0000437",
       "type": "Actor",
-      "name": "Woody Harrelson",
-      "tvdb_id": 57755
+      "imdb_id": "nm0000409",
+      "tvdb_id": 18269,
+      "name": "Brendan Fraser"
     }
   ]
 }

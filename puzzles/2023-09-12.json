@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 8167,
+  "target_tvdb_id": 2888,
+  "source_imdb_id": "nm0908094",
+  "target_imdb_id": "nm0000226",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0908094",
+      "tvdb_id": 8167,
+      "name": "Paul Walker"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0322259",
+      "votes": 280975,
+      "rating": 5.9,
+      "name": "2 Fast 2 Furious",
+      "tvdb_id": 584
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0578949",
+      "tvdb_id": 8170,
+      "name": "Eva Mendes"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0386588",
+      "votes": 324142,
+      "rating": 6.6,
+      "name": "Hitch",
+      "tvdb_id": 8488
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000226",
+      "tvdb_id": 2888,
+      "name": "Will Smith"
+    }
+  ]
+}

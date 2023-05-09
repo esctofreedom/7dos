@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 6856,
+  "target_tvdb_id": 6968,
+  "source_imdb_id": "nm0000621",
+  "target_imdb_id": "nm0413168",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000621",
+      "tvdb_id": 6856,
+      "name": "Kurt Russell"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0116253",
+      "votes": 59474,
+      "rating": 6.5,
+      "name": "Executive Decision",
+      "tvdb_id": 2320
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000932",
+      "tvdb_id": 4587,
+      "name": "Halle Berry"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0376994",
+      "votes": 525602,
+      "rating": 6.6,
+      "name": "X-Men: The Last Stand",
+      "tvdb_id": 36668
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0413168",
+      "tvdb_id": 6968,
+      "name": "Hugh Jackman"
+    }
+  ]
+}

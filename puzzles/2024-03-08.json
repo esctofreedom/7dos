@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 880,
+  "target_tvdb_id": 12073,
+  "source_imdb_id": "nm0000255",
+  "target_imdb_id": "nm0000196",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000255",
+      "tvdb_id": 880,
+      "name": "Ben Affleck"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2140479",
+      "votes": 303579,
+      "rating": 7.3,
+      "name": "The Accountant",
+      "tvdb_id": 302946
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001475",
+      "tvdb_id": 12074,
+      "name": "John Lithgow"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0126029",
+      "votes": 697051,
+      "rating": 7.9,
+      "name": "Shrek",
+      "tvdb_id": 808
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000196",
+      "tvdb_id": 12073,
+      "name": "Mike Myers"
+    }
+  ]
+}

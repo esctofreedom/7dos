@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 205,
+  "target_tvdb_id": 8167,
+  "source_imdb_id": "nm0000379",
+  "target_imdb_id": "nm0908094",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000379",
+      "tvdb_id": 205,
+      "name": "Kirsten Dunst"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0145487",
+      "votes": 834989,
+      "rating": 7.4,
+      "name": "Spider-Man",
+      "tvdb_id": 557
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001497",
+      "tvdb_id": 2219,
+      "name": "Tobey Maguire"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120789",
+      "votes": 132060,
+      "rating": 7.5,
+      "name": "Pleasantville",
+      "tvdb_id": 2657
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0908094",
+      "tvdb_id": 8167,
+      "name": "Paul Walker"
+    }
+  ]
+}

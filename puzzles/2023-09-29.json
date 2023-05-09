@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 449,
+  "target_tvdb_id": 819,
+  "source_imdb_id": "nm0059431",
+  "target_imdb_id": "nm0001570",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0059431",
+      "tvdb_id": 449,
+      "name": "Jay Baruchel"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1234721",
+      "votes": 232999,
+      "rating": 6.1,
+      "name": "RoboCop",
+      "tvdb_id": 97020
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0340260",
+      "tvdb_id": 7471,
+      "name": "Zach Grenier"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0137523",
+      "votes": 2176824,
+      "rating": 8.8,
+      "name": "Fight Club",
+      "tvdb_id": 550
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001570",
+      "tvdb_id": 819,
+      "name": "Edward Norton"
+    }
+  ]
+}

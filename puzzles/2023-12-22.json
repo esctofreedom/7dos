@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 5469,
+  "target_tvdb_id": 2228,
+  "source_imdb_id": "nm0000146",
+  "target_imdb_id": "nm0000576",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000146",
+      "tvdb_id": 5469,
+      "name": "Ralph Fiennes"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0387131",
+      "votes": 144863,
+      "rating": 7.4,
+      "name": "The Constant Gardener",
+      "tvdb_id": 1985
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0396812",
+      "tvdb_id": 6413,
+      "name": "Danny Huston"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0315733",
+      "votes": 240834,
+      "rating": 7.6,
+      "name": "21 Grams",
+      "tvdb_id": 470
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000576",
+      "tvdb_id": 2228,
+      "name": "Sean Penn"
+    }
+  ]
+}

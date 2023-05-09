@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 18999,
+  "target_tvdb_id": 887,
+  "source_imdb_id": "nm0799777",
+  "target_imdb_id": "nm0005562",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0799777",
+      "tvdb_id": 18999,
+      "name": "J.K. Simmons"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0145487",
+      "votes": 834989,
+      "rating": 7.4,
+      "name": "Spider-Man",
+      "tvdb_id": 557
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000353",
+      "tvdb_id": 5293,
+      "name": "Willem Dafoe"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2278388",
+      "votes": 834412,
+      "rating": 8.1,
+      "name": "The Grand Budapest Hotel",
+      "tvdb_id": 120467
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0005562",
+      "tvdb_id": 887,
+      "name": "Owen Wilson"
+    }
+  ]
+}

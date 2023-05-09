@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 16851,
+  "target_tvdb_id": 7447,
+  "source_imdb_id": "nm0000982",
+  "target_imdb_id": "nm0000285",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000982",
+      "tvdb_id": 16851,
+      "name": "Josh Brolin"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1403865",
+      "votes": 346030,
+      "rating": 7.6,
+      "name": "True Grit",
+      "tvdb_id": 44264
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000354",
+      "tvdb_id": 1892,
+      "name": "Matt Damon"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0407887",
+      "votes": 1351191,
+      "rating": 8.5,
+      "name": "The Departed",
+      "tvdb_id": 1422
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000285",
+      "tvdb_id": 7447,
+      "name": "Alec Baldwin"
+    }
+  ]
+}

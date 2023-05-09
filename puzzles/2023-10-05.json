@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 44735,
+  "target_tvdb_id": 996701,
+  "source_imdb_id": "nm0251986",
+  "target_imdb_id": "nm1886602",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0251986",
+      "tvdb_id": 44735,
+      "name": "Jesse Eisenberg"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt12361974",
+      "votes": 410571,
+      "rating": 8.0,
+      "name": "Zack Snyder's Justice League",
+      "tvdb_id": 791373
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0799777",
+      "tvdb_id": 18999,
+      "name": "J.K. Simmons"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2582802",
+      "votes": 898359,
+      "rating": 8.5,
+      "name": "Whiplash",
+      "tvdb_id": 244786
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1886602",
+      "tvdb_id": 996701,
+      "name": "Miles Teller"
+    }
+  ]
+}

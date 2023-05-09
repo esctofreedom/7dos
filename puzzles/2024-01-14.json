@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 23532,
+  "target_tvdb_id": 1331,
+  "source_imdb_id": "nm0000867",
+  "target_imdb_id": "nm0915989",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000867",
+      "tvdb_id": 23532,
+      "name": "Jason Bateman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0448157",
+      "votes": 493621,
+      "rating": 6.4,
+      "name": "Hancock",
+      "tvdb_id": 8960
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0550371",
+      "tvdb_id": 1665,
+      "name": "Eddie Marsan"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0434409",
+      "votes": 1138043,
+      "rating": 8.2,
+      "name": "V for Vendetta",
+      "tvdb_id": 752
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0915989",
+      "tvdb_id": 1331,
+      "name": "Hugo Weaving"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 530,
+  "target_tvdb_id": 8784,
+  "source_imdb_id": "nm0005251",
+  "target_imdb_id": "nm0185819",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0005251",
+      "tvdb_id": 530,
+      "name": "Carrie-Anne Moss"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0241303",
+      "votes": 195695,
+      "rating": 7.3,
+      "name": "Chocolat",
+      "tvdb_id": 392
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001132",
+      "tvdb_id": 5309,
+      "name": "Judi Dench"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1074638",
+      "votes": 708153,
+      "rating": 7.8,
+      "name": "Skyfall",
+      "tvdb_id": 37724
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0185819",
+      "tvdb_id": 8784,
+      "name": "Daniel Craig"
+    }
+  ]
+}

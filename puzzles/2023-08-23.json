@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 2228,
+  "target_tvdb_id": 1038,
+  "source_imdb_id": "nm0000576",
+  "target_imdb_id": "nm0000149",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000576",
+      "tvdb_id": 2228,
+      "name": "Sean Penn"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1013753",
+      "votes": 175964,
+      "rating": 7.5,
+      "name": "Milk",
+      "tvdb_id": 10139
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0526019",
+      "tvdb_id": 8688,
+      "name": "Diego Luna"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1535108",
+      "votes": 456360,
+      "rating": 6.6,
+      "name": "Elysium",
+      "tvdb_id": 68724
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000149",
+      "tvdb_id": 1038,
+      "name": "Jodie Foster"
+    }
+  ]
+}

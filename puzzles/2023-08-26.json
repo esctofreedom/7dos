@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 62064,
+  "target_tvdb_id": 2219,
+  "source_imdb_id": "nm1517976",
+  "target_imdb_id": "nm0001497",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1517976",
+      "tvdb_id": 62064,
+      "name": "Chris Pine"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1408101",
+      "votes": 488621,
+      "rating": 7.7,
+      "name": "Star Trek Into Darkness",
+      "tvdb_id": 54138
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1212722",
+      "tvdb_id": 71580,
+      "name": "Benedict Cumberbatch"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt10872600",
+      "votes": 789409,
+      "rating": 8.2,
+      "name": "Spider-Man: No Way Home",
+      "tvdb_id": 634649
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001497",
+      "tvdb_id": 2219,
+      "name": "Tobey Maguire"
+    }
+  ]
+}

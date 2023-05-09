@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 2227,
+  "target_tvdb_id": 5081,
+  "source_imdb_id": "nm0000173",
+  "target_imdb_id": "nm1289434",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000173",
+      "tvdb_id": 2227,
+      "name": "Nicole Kidman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120663",
+      "votes": 353030,
+      "rating": 7.5,
+      "name": "Eyes Wide Shut",
+      "tvdb_id": 345
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000129",
+      "tvdb_id": 500,
+      "name": "Tom Cruise"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1631867",
+      "votes": 696689,
+      "rating": 7.9,
+      "name": "Edge of Tomorrow",
+      "tvdb_id": 137113
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1289434",
+      "tvdb_id": 5081,
+      "name": "Emily Blunt"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 5292,
+  "target_tvdb_id": 7060,
+  "source_imdb_id": "nm0000243",
+  "target_imdb_id": "nm0293509",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000243",
+      "tvdb_id": 5292,
+      "name": "Denzel Washington"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0765429",
+      "votes": 434997,
+      "rating": 7.8,
+      "name": "American Gangster",
+      "tvdb_id": 4982
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0252230",
+      "tvdb_id": 5294,
+      "name": "Chiwetel Ejiofor"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0314331",
+      "votes": 502629,
+      "rating": 7.6,
+      "name": "Love Actually",
+      "tvdb_id": 508
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0293509",
+      "tvdb_id": 7060,
+      "name": "Martin Freeman"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 4483,
+  "target_tvdb_id": 62,
+  "source_imdb_id": "nm0000163",
+  "target_imdb_id": "nm0000246",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000163",
+      "tvdb_id": 4483,
+      "name": "Dustin Hoffman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1302011",
+      "votes": 296968,
+      "rating": 7.2,
+      "name": "Kung Fu Panda 2",
+      "tvdb_id": 49444
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000198",
+      "tvdb_id": 64,
+      "name": "Gary Oldman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0119116",
+      "votes": 484439,
+      "rating": 7.6,
+      "name": "The Fifth Element",
+      "tvdb_id": 18
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000246",
+      "tvdb_id": 62,
+      "name": "Bruce Willis"
+    }
+  ]
+}

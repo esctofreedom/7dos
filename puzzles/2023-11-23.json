@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 9273,
+  "target_tvdb_id": 1229,
+  "source_imdb_id": "nm0010736",
+  "target_imdb_id": "nm0000313",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0010736",
+      "tvdb_id": 9273,
+      "name": "Amy Adams"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0918927",
+      "votes": 132559,
+      "rating": 7.5,
+      "name": "Doubt",
+      "tvdb_id": 14359
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000450",
+      "tvdb_id": 1233,
+      "name": "Philip Seymour Hoffman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0118715",
+      "votes": 824543,
+      "rating": 8.1,
+      "name": "The Big Lebowski",
+      "tvdb_id": 115
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000313",
+      "tvdb_id": 1229,
+      "name": "Jeff Bridges"
+    }
+  ]
+}

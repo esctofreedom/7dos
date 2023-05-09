@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 529,
+  "target_tvdb_id": 2178,
+  "source_imdb_id": "nm0001602",
+  "target_imdb_id": "nm0001845",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001602",
+      "tvdb_id": 529,
+      "name": "Guy Pearce"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0887912",
+      "votes": 460137,
+      "rating": 7.5,
+      "name": "The Hurt Locker",
+      "tvdb_id": 12162
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0719637",
+      "tvdb_id": 17604,
+      "name": "Jeremy Renner"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2543164",
+      "votes": 715446,
+      "rating": 7.9,
+      "name": "Arrival",
+      "tvdb_id": 329865
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001845",
+      "tvdb_id": 2178,
+      "name": "Forest Whitaker"
+    }
+  ]
+}

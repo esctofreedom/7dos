@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 4491,
+  "target_tvdb_id": 3061,
+  "source_imdb_id": "nm0000098",
+  "target_imdb_id": "nm0000191",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000098",
+      "tvdb_id": 4491,
+      "name": "Jennifer Aniston"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1564367",
+      "votes": 252391,
+      "rating": 6.4,
+      "name": "Just Go with It",
+      "tvdb_id": 50546
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000173",
+      "tvdb_id": 2227,
+      "name": "Nicole Kidman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0203009",
+      "votes": 290703,
+      "rating": 7.6,
+      "name": "Moulin Rouge!",
+      "tvdb_id": 824
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000191",
+      "tvdb_id": 3061,
+      "name": "Ewan McGregor"
+    }
+  ]
+}

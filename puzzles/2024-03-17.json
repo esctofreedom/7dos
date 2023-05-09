@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 6856,
+  "target_tvdb_id": 5293,
+  "source_imdb_id": "nm0000621",
+  "target_imdb_id": "nm0000353",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000621",
+      "tvdb_id": 6856,
+      "name": "Kurt Russell"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3460252",
+      "votes": 620842,
+      "rating": 7.8,
+      "name": "The Hateful Eight",
+      "tvdb_id": 273248
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000168",
+      "tvdb_id": 2231,
+      "name": "Samuel L. Jackson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0329774",
+      "votes": 71929,
+      "rating": 4.4,
+      "name": "xXx: State of the Union",
+      "tvdb_id": 11679
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000353",
+      "tvdb_id": 5293,
+      "name": "Willem Dafoe"
+    }
+  ]
+}

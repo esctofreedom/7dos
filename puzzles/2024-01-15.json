@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 504,
+  "target_tvdb_id": 2227,
+  "source_imdb_id": "nm0000209",
+  "target_imdb_id": "nm0000173",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000209",
+      "tvdb_id": 504,
+      "name": "Tim Robbins"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0407304",
+      "votes": 458497,
+      "rating": 6.5,
+      "name": "War of the Worlds",
+      "tvdb_id": 74
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000129",
+      "tvdb_id": 500,
+      "name": "Tom Cruise"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120663",
+      "votes": 353030,
+      "rating": 7.5,
+      "name": "Eyes Wide Shut",
+      "tvdb_id": 345
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000173",
+      "tvdb_id": 2227,
+      "name": "Nicole Kidman"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 206,
+  "target_tvdb_id": 1269,
+  "source_imdb_id": "nm0000120",
+  "target_imdb_id": "nm0000126",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000120",
+      "tvdb_id": 206,
+      "name": "Jim Carrey"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0315327",
+      "votes": 414438,
+      "rating": 6.8,
+      "name": "Bruce Almighty",
+      "tvdb_id": 310
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000151",
+      "tvdb_id": 192,
+      "name": "Morgan Freeman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0102798",
+      "votes": 199967,
+      "rating": 6.9,
+      "name": "Robin Hood: Prince of Thieves",
+      "tvdb_id": 8367
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000126",
+      "tvdb_id": 1269,
+      "name": "Kevin Costner"
+    }
+  ]
+}

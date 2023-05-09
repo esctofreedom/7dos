@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 70851,
-  "target_tvdb_id": 71580,
-  "source_imdb_id": "nm0085312",
-  "target_imdb_id": "nm1212722",
+  "source_tvdb_id": 1331,
+  "target_tvdb_id": 7447,
+  "source_imdb_id": "nm0915989",
+  "target_imdb_id": "nm0000285",
   "min_moves_to_solve": 3,
+  "source_birthday": false,
   "best_solution": [
     {
-      "imdb_id": "nm0085312",
       "type": "Actor",
-      "name": "Jack Black",
-      "tvdb_id": 70851
+      "imdb_id": "nm0915989",
+      "tvdb_id": 1331,
+      "name": "Hugo Weaving"
     },
     {
       "type": "Film",
-      "imdb_id": "tt2267968",
-      "votes": 168500,
-      "rating": 7.1,
-      "name": "Kung Fu Panda 3",
-      "tvdb_id": 140300
+      "imdb_id": "tt0167261",
+      "votes": 1697780,
+      "rating": 8.8,
+      "name": "The Lord of the Rings: The Two Towers",
+      "tvdb_id": 121
     },
     {
-      "imdb_id": "nm0799777",
       "type": "Actor",
-      "name": "J.K. Simmons",
-      "tvdb_id": 18999
+      "imdb_id": "nm0000949",
+      "tvdb_id": 112,
+      "name": "Cate Blanchett"
     },
     {
       "type": "Film",
-      "imdb_id": "tt10872600",
-      "votes": 789409,
-      "rating": 8.2,
-      "name": "Spider-Man: No Way Home",
-      "tvdb_id": 634649
+      "imdb_id": "tt0338751",
+      "votes": 370181,
+      "rating": 7.5,
+      "name": "The Aviator",
+      "tvdb_id": 2567
     },
     {
-      "imdb_id": "nm1212722",
       "type": "Actor",
-      "name": "Benedict Cumberbatch",
-      "tvdb_id": 71580
+      "imdb_id": "nm0000285",
+      "tvdb_id": 7447,
+      "name": "Alec Baldwin"
     }
   ]
 }

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 6384,
+  "target_tvdb_id": 206,
+  "source_imdb_id": "nm0000206",
+  "target_imdb_id": "nm0000120",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000206",
+      "tvdb_id": 6384,
+      "name": "Keanu Reeves"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0111257",
+      "votes": 374742,
+      "rating": 7.3,
+      "name": "Speed",
+      "tvdb_id": 1637
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001099",
+      "tvdb_id": 8447,
+      "name": "Jeff Daniels"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0109686",
+      "votes": 394818,
+      "rating": 7.3,
+      "name": "Dumb and Dumber",
+      "tvdb_id": 8467
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000120",
+      "tvdb_id": 206,
+      "name": "Jim Carrey"
+    }
+  ]
+}

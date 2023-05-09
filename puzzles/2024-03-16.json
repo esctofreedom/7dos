@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 85,
+  "target_tvdb_id": 287,
+  "source_imdb_id": "nm0000136",
+  "target_imdb_id": "nm0000093",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000136",
+      "tvdb_id": 85,
+      "name": "Johnny Depp"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0408236",
+      "votes": 375346,
+      "rating": 7.3,
+      "name": "Sweeney Todd: The Demon Barber of Fleet Street",
+      "tvdb_id": 13885
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000307",
+      "tvdb_id": 1283,
+      "name": "Helena Bonham Carter"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0137523",
+      "votes": 2176824,
+      "rating": 8.8,
+      "name": "Fight Club",
+      "tvdb_id": 550
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000093",
+      "tvdb_id": 287,
+      "name": "Brad Pitt"
+    }
+  ]
+}

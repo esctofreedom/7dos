@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 193,
+  "target_tvdb_id": 6941,
+  "source_imdb_id": "nm0000432",
+  "target_imdb_id": "nm0000139",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000432",
+      "tvdb_id": 193,
+      "name": "Gene Hackman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0265666",
+      "votes": 300100,
+      "rating": 7.6,
+      "name": "The Royal Tenenbaums",
+      "tvdb_id": 9428
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001774",
+      "tvdb_id": 7399,
+      "name": "Ben Stiller"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0129387",
+      "votes": 318188,
+      "rating": 7.1,
+      "name": "There's Something About Mary",
+      "tvdb_id": 544
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000139",
+      "tvdb_id": 6941,
+      "name": "Cameron Diaz"
+    }
+  ]
+}

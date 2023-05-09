@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 9642,
+  "target_tvdb_id": 4491,
+  "source_imdb_id": "nm0000179",
+  "target_imdb_id": "nm0000098",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000179",
+      "tvdb_id": 9642,
+      "name": "Jude Law"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0339291",
+      "votes": 213826,
+      "rating": 6.8,
+      "name": "A Series of Unfortunate Events",
+      "tvdb_id": 11774
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000120",
+      "tvdb_id": 206,
+      "name": "Jim Carrey"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0315327",
+      "votes": 414438,
+      "rating": 6.8,
+      "name": "Bruce Almighty",
+      "tvdb_id": 310
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000098",
+      "tvdb_id": 4491,
+      "name": "Jennifer Aniston"
+    }
+  ]
+}

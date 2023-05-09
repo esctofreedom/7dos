@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 514,
+  "target_tvdb_id": 3392,
+  "source_imdb_id": "nm0000197",
+  "target_imdb_id": "nm0000140",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000197",
+      "tvdb_id": 514,
+      "name": "Jack Nicholson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0825232",
+      "votes": 251064,
+      "rating": 7.4,
+      "name": "The Bucket List",
+      "tvdb_id": 7350
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000151",
+      "tvdb_id": 192,
+      "name": "Morgan Freeman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1204975",
+      "votes": 134231,
+      "rating": 6.6,
+      "name": "Last Vegas",
+      "tvdb_id": 137093
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000140",
+      "tvdb_id": 3392,
+      "name": "Michael Douglas"
+    }
+  ]
+}

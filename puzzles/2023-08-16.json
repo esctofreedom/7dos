@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 4495,
+  "target_tvdb_id": 12898,
+  "source_imdb_id": "nm0136797",
+  "target_imdb_id": "nm0000741",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0136797",
+      "tvdb_id": 4495,
+      "name": "Steve Carell"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1690953",
+      "votes": 409188,
+      "rating": 7.3,
+      "name": "Despicable Me 2",
+      "tvdb_id": 93456
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0029460",
+      "tvdb_id": 19545,
+      "name": "Jack Angel"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0114709",
+      "votes": 1014131,
+      "rating": 8.3,
+      "name": "Toy Story",
+      "tvdb_id": 862
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000741",
+      "tvdb_id": 12898,
+      "name": "Tim Allen"
+    }
+  ]
+}

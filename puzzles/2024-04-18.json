@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 73968,
+  "target_tvdb_id": 6161,
+  "source_imdb_id": "nm0147147",
+  "target_imdb_id": "nm0000124",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0147147",
+      "tvdb_id": 73968,
+      "name": "Henry Cavill"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0770828",
+      "votes": 784138,
+      "rating": 7.1,
+      "name": "Man of Steel",
+      "tvdb_id": 49521
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000128",
+      "tvdb_id": 934,
+      "name": "Russell Crowe"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0268978",
+      "votes": 947632,
+      "rating": 8.2,
+      "name": "A Beautiful Mind",
+      "tvdb_id": 453
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000124",
+      "tvdb_id": 6161,
+      "name": "Jennifer Connelly"
+    }
+  ]
+}

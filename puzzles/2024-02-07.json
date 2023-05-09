@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 85,
+  "target_tvdb_id": 103,
+  "source_imdb_id": "nm0000136",
+  "target_imdb_id": "nm0749263",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000136",
+      "tvdb_id": 85,
+      "name": "Johnny Depp"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0108550",
+      "votes": 243369,
+      "rating": 7.7,
+      "name": "What's Eating Gilbert Grape",
+      "tvdb_id": 1587
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000138",
+      "tvdb_id": 6193,
+      "name": "Leonardo DiCaprio"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1130884",
+      "votes": 1353782,
+      "rating": 8.2,
+      "name": "Shutter Island",
+      "tvdb_id": 11324
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0749263",
+      "tvdb_id": 103,
+      "name": "Mark Ruffalo"
+    }
+  ]
+}

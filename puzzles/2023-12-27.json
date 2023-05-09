@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 23532,
+  "target_tvdb_id": 1367,
+  "source_imdb_id": "nm0000867",
+  "target_imdb_id": "nm0397102",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000867",
+      "tvdb_id": 23532,
+      "name": "Jason Bateman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0431197",
+      "votes": 128174,
+      "rating": 7.0,
+      "name": "The Kingdom",
+      "tvdb_id": 4349
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1019674",
+      "tvdb_id": 1366,
+      "name": "Sala Baker"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120737",
+      "votes": 1909585,
+      "rating": 8.8,
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "tvdb_id": 120
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0397102",
+      "tvdb_id": 1367,
+      "name": "Alan Howard"
+    }
+  ]
+}

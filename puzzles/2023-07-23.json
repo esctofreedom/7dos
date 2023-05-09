@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 5472,
-  "target_tvdb_id": 190,
-  "source_imdb_id": "nm0000147",
-  "target_imdb_id": "nm0000142",
+  "source_tvdb_id": 10980,
+  "target_tvdb_id": 934,
+  "source_imdb_id": "nm0705356",
+  "target_imdb_id": "nm0000128",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0000147",
       "type": "Actor",
-      "name": "Colin Firth",
-      "tvdb_id": 5472
+      "imdb_id": "nm0705356",
+      "tvdb_id": 10980,
+      "name": "Daniel Radcliffe"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0116209",
-      "votes": 194559,
-      "rating": 7.4,
-      "name": "The English Patient",
-      "tvdb_id": 409
+      "imdb_id": "tt0241527",
+      "votes": 806134,
+      "rating": 7.6,
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "tvdb_id": 671
     },
     {
-      "imdb_id": "nm0720082",
       "type": "Actor",
-      "name": "Liisa Repo-Martell",
-      "tvdb_id": 5481
+      "imdb_id": "nm0001321",
+      "tvdb_id": 194,
+      "name": "Richard Harris"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0105695",
-      "votes": 419562,
-      "rating": 8.2,
-      "name": "Unforgiven",
-      "tvdb_id": 33
+      "imdb_id": "tt0172495",
+      "votes": 1530321,
+      "rating": 8.5,
+      "name": "Gladiator",
+      "tvdb_id": 98
     },
     {
-      "imdb_id": "nm0000142",
       "type": "Actor",
-      "name": "Clint Eastwood",
-      "tvdb_id": 190
+      "imdb_id": "nm0000128",
+      "tvdb_id": 934,
+      "name": "Russell Crowe"
     }
   ]
 }
