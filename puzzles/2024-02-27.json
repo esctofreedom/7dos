@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 1037,
+  "target_tvdb_id": 1640,
+  "source_imdb_id": "nm0000172",
+  "target_imdb_id": "nm0001745",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000172",
+      "tvdb_id": 1037,
+      "name": "Harvey Keitel"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0289765",
+      "votes": 280472,
+      "rating": 7.2,
+      "name": "Red Dragon",
+      "tvdb_id": 9533
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000164",
+      "tvdb_id": 4173,
+      "name": "Anthony Hopkins"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0800369",
+      "votes": 864977,
+      "rating": 7.0,
+      "name": "Thor",
+      "tvdb_id": 10195
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001745",
+      "tvdb_id": 1640,
+      "name": "Stellan Skarsg\u00e5rd"
+    }
+  ]
+}

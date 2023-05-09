@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 976,
+  "target_tvdb_id": 8691,
+  "source_imdb_id": "nm0005458",
+  "target_imdb_id": "nm0757855",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0005458",
+      "tvdb_id": 976,
+      "name": "Jason Statham"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2820852",
+      "votes": 397640,
+      "rating": 7.1,
+      "name": "Furious 7",
+      "tvdb_id": 168259
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004874",
+      "tvdb_id": 12835,
+      "name": "Vin Diesel"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2015381",
+      "votes": 1202667,
+      "rating": 8.0,
+      "name": "Guardians of the Galaxy",
+      "tvdb_id": 118340
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0757855",
+      "tvdb_id": 8691,
+      "name": "Zoe Saldana"
+    }
+  ]
+}

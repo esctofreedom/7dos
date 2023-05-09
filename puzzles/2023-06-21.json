@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 12073,
-  "target_tvdb_id": 1229,
-  "source_imdb_id": "nm0000196",
-  "target_imdb_id": "nm0000313",
+  "source_tvdb_id": 73457,
+  "target_tvdb_id": 3895,
+  "source_imdb_id": "nm0695435",
+  "target_imdb_id": "nm0000323",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0000196",
       "type": "Actor",
-      "name": "Mike Myers",
-      "tvdb_id": 12073
+      "imdb_id": "nm0695435",
+      "tvdb_id": 73457,
+      "name": "Chris Pratt"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0145660",
-      "votes": 239572,
-      "rating": 6.6,
-      "name": "Austin Powers: The Spy Who Shagged Me",
-      "tvdb_id": 817
+      "imdb_id": "tt10648342",
+      "votes": 358743,
+      "rating": 6.2,
+      "name": "Thor: Love and Thunder",
+      "tvdb_id": 616037
     },
     {
-      "imdb_id": "nm0444940",
       "type": "Actor",
-      "name": "Jack Kehler",
-      "tvdb_id": 1240
+      "imdb_id": "nm0000288",
+      "tvdb_id": 3894,
+      "name": "Christian Bale"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0118715",
-      "votes": 824543,
-      "rating": 8.1,
-      "name": "The Big Lebowski",
-      "tvdb_id": 115
+      "imdb_id": "tt0468569",
+      "votes": 2707279,
+      "rating": 9.0,
+      "name": "The Dark Knight",
+      "tvdb_id": 155
     },
     {
-      "imdb_id": "nm0000313",
       "type": "Actor",
-      "name": "Jeff Bridges",
-      "tvdb_id": 1229
+      "imdb_id": "nm0000323",
+      "tvdb_id": 3895,
+      "name": "Michael Caine"
     }
   ]
 }

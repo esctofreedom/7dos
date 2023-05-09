@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 6730,
+  "target_tvdb_id": 1367,
+  "source_imdb_id": "nm0056187",
+  "target_imdb_id": "nm0397102",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0056187",
+      "tvdb_id": 6730,
+      "name": "Sacha Baron Cohen"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0970179",
+      "votes": 328128,
+      "rating": 7.5,
+      "name": "Hugo",
+      "tvdb_id": 44826
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000489",
+      "tvdb_id": 113,
+      "name": "Christopher Lee"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120737",
+      "votes": 1909585,
+      "rating": 8.8,
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "tvdb_id": 120
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0397102",
+      "tvdb_id": 1367,
+      "name": "Alan Howard"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 887,
+  "target_tvdb_id": 2524,
+  "source_imdb_id": "nm0005562",
+  "target_imdb_id": "nm0362766",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0005562",
+      "tvdb_id": 887,
+      "name": "Owen Wilson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1605783",
+      "votes": 433605,
+      "rating": 7.7,
+      "name": "Midnight in Paris",
+      "tvdb_id": 59436
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0182839",
+      "tvdb_id": 8293,
+      "name": "Marion Cotillard"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1345836",
+      "votes": 1735537,
+      "rating": 8.4,
+      "name": "The Dark Knight Rises",
+      "tvdb_id": 49026
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0362766",
+      "tvdb_id": 2524,
+      "name": "Tom Hardy"
+    }
+  ]
+}

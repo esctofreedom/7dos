@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 5081,
+  "target_tvdb_id": 819,
+  "source_imdb_id": "nm1289434",
+  "target_imdb_id": "nm0001570",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1289434",
+      "tvdb_id": 5081,
+      "name": "Emily Blunt"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1276104",
+      "votes": 585768,
+      "rating": 7.4,
+      "name": "Looper",
+      "tvdb_id": 59967
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000246",
+      "tvdb_id": 62,
+      "name": "Bruce Willis"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1748122",
+      "votes": 356088,
+      "rating": 7.8,
+      "name": "Moonrise Kingdom",
+      "tvdb_id": 83666
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001570",
+      "tvdb_id": 819,
+      "name": "Edward Norton"
+    }
+  ]
+}

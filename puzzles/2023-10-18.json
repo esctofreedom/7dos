@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 21657,
+  "target_tvdb_id": 6384,
+  "source_imdb_id": "nm0267812",
+  "target_imdb_id": "nm0000206",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0267812",
+      "tvdb_id": 21657,
+      "name": "Vera Farmiga"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0407887",
+      "votes": 1351191,
+      "rating": 8.5,
+      "name": "The Departed",
+      "tvdb_id": 1422
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000197",
+      "tvdb_id": 514,
+      "name": "Jack Nicholson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0337741",
+      "votes": 124856,
+      "rating": 6.7,
+      "name": "Something's Gotta Give",
+      "tvdb_id": 6964
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000206",
+      "tvdb_id": 6384,
+      "name": "Keanu Reeves"
+    }
+  ]
+}

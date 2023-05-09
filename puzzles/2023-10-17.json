@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 5472,
+  "target_tvdb_id": 1461,
+  "source_imdb_id": "nm0000147",
+  "target_imdb_id": "nm0000123",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000147",
+      "tvdb_id": 5472,
+      "name": "Colin Firth"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1504320",
+      "votes": 690511,
+      "rating": 8.0,
+      "name": "The King's Speech",
+      "tvdb_id": 45269
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0002091",
+      "tvdb_id": 5658,
+      "name": "Michael Gambon"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0432283",
+      "votes": 243431,
+      "rating": 7.9,
+      "name": "Fantastic Mr. Fox",
+      "tvdb_id": 10315
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000123",
+      "tvdb_id": 1461,
+      "name": "George Clooney"
+    }
+  ]
+}

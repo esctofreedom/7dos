@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 22226,
+  "target_tvdb_id": 24045,
+  "source_imdb_id": "nm0748620",
+  "target_imdb_id": "nm0330687",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0748620",
+      "tvdb_id": 22226,
+      "name": "Paul Rudd"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0117509",
+      "votes": 235119,
+      "rating": 6.7,
+      "name": "Romeo + Juliet",
+      "tvdb_id": 454
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000138",
+      "tvdb_id": 6193,
+      "name": "Leonardo DiCaprio"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1375666",
+      "votes": 2403153,
+      "rating": 8.8,
+      "name": "Inception",
+      "tvdb_id": 27205
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0330687",
+      "tvdb_id": 24045,
+      "name": "Joseph Gordon-Levitt"
+    }
+  ]
+}

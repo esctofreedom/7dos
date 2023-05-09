@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 9273,
+  "target_tvdb_id": 854,
+  "source_imdb_id": "nm0010736",
+  "target_imdb_id": "nm0000071",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0010736",
+      "tvdb_id": 9273,
+      "name": "Amy Adams"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0862846",
+      "votes": 72617,
+      "rating": 6.8,
+      "name": "Sunshine Cleaning",
+      "tvdb_id": 13090
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004286",
+      "tvdb_id": 5365,
+      "name": "Clifton Collins Jr."
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0107554",
+      "votes": 61419,
+      "rating": 7.5,
+      "name": "Menace II Society",
+      "tvdb_id": 9516
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000071",
+      "tvdb_id": 854,
+      "name": "James Stewart"
+    }
+  ]
+}

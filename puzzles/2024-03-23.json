@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 70851,
+  "target_tvdb_id": 9560,
+  "source_imdb_id": "nm0085312",
+  "target_imdb_id": "nm0000995",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0085312",
+      "tvdb_id": 70851,
+      "name": "Jack Black"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0942385",
+      "votes": 427941,
+      "rating": 7.1,
+      "name": "Tropic Thunder",
+      "tvdb_id": 7446
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000190",
+      "tvdb_id": 10297,
+      "name": "Matthew McConaughey"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0816692",
+      "votes": 1897864,
+      "rating": 8.6,
+      "name": "Interstellar",
+      "tvdb_id": 157336
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000995",
+      "tvdb_id": 9560,
+      "name": "Ellen Burstyn"
+    }
+  ]
+}

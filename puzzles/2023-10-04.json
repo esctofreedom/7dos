@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 27319,
+  "target_tvdb_id": 5293,
+  "source_imdb_id": "nm0910607",
+  "target_imdb_id": "nm0000353",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0910607",
+      "tvdb_id": 27319,
+      "name": "Christoph Waltz"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1853728",
+      "votes": 1592500,
+      "rating": 8.4,
+      "name": "Django Unchained",
+      "tvdb_id": 68718
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004937",
+      "tvdb_id": 134,
+      "name": "Jamie Foxx"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt10872600",
+      "votes": 789409,
+      "rating": 8.2,
+      "name": "Spider-Man: No Way Home",
+      "tvdb_id": 634649
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000353",
+      "tvdb_id": 5293,
+      "name": "Willem Dafoe"
+    }
+  ]
+}

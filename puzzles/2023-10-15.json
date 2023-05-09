@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 72466,
+  "target_tvdb_id": 1038,
+  "source_imdb_id": "nm0268199",
+  "target_imdb_id": "nm0000149",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0268199",
+      "tvdb_id": 72466,
+      "name": "Colin Farrell"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0183649",
+      "votes": 275592,
+      "rating": 7.1,
+      "name": "Phone Booth",
+      "tvdb_id": 1817
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001845",
+      "tvdb_id": 2178,
+      "name": "Forest Whitaker"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0258000",
+      "votes": 285745,
+      "rating": 6.8,
+      "name": "Panic Room",
+      "tvdb_id": 4547
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000149",
+      "tvdb_id": 1038,
+      "name": "Jodie Foster"
+    }
+  ]
+}

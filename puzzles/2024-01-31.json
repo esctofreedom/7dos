@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 996701,
+  "target_tvdb_id": 62,
+  "source_imdb_id": "nm1886602",
+  "target_imdb_id": "nm0000246",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1886602",
+      "tvdb_id": 996701,
+      "name": "Miles Teller"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2582802",
+      "votes": 898359,
+      "rating": 8.5,
+      "name": "Whiplash",
+      "tvdb_id": 244786
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0799777",
+      "tvdb_id": 18999,
+      "name": "J.K. Simmons"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0119395",
+      "votes": 120278,
+      "rating": 6.4,
+      "name": "The Jackal",
+      "tvdb_id": 4824
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000246",
+      "tvdb_id": 62,
+      "name": "Bruce Willis"
+    }
+  ]
+}

@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 18269,
-  "target_tvdb_id": 1269,
-  "source_imdb_id": "nm0000409",
-  "target_imdb_id": "nm0000126",
+  "source_tvdb_id": 6162,
+  "target_tvdb_id": 3490,
+  "source_imdb_id": "nm0079273",
+  "target_imdb_id": "nm0004778",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0000409",
       "type": "Actor",
-      "name": "Brendan Fraser",
-      "tvdb_id": 18269
+      "imdb_id": "nm0079273",
+      "tvdb_id": 6162,
+      "name": "Paul Bettany"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0494238",
-      "votes": 80105,
-      "rating": 6.1,
-      "name": "Inkheart",
-      "tvdb_id": 2309
+      "imdb_id": "tt2395427",
+      "votes": 881783,
+      "rating": 7.3,
+      "name": "Avengers: Age of Ultron",
+      "tvdb_id": 99861
     },
     {
-      "imdb_id": "nm0833380",
       "type": "Actor",
-      "name": "Richard Strange",
-      "tvdb_id": 79502
+      "imdb_id": "nm0470981",
+      "tvdb_id": 3491,
+      "name": "Thomas Kretschmann"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0102798",
-      "votes": 199967,
-      "rating": 6.9,
-      "name": "Robin Hood: Prince of Thieves",
-      "tvdb_id": 8367
+      "imdb_id": "tt0360717",
+      "votes": 432227,
+      "rating": 7.2,
+      "name": "King Kong",
+      "tvdb_id": 254
     },
     {
-      "imdb_id": "nm0000126",
       "type": "Actor",
-      "name": "Kevin Costner",
-      "tvdb_id": 1269
+      "imdb_id": "nm0004778",
+      "tvdb_id": 3490,
+      "name": "Adrien Brody"
     }
   ]
 }

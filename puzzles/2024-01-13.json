@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 114,
+  "target_tvdb_id": 1038,
+  "source_imdb_id": "nm0089217",
+  "target_imdb_id": "nm0000149",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0089217",
+      "tvdb_id": 114,
+      "name": "Orlando Bloom"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0167260",
+      "votes": 1880701,
+      "rating": 9.0,
+      "name": "The Lord of the Rings: The Return of the King",
+      "tvdb_id": 122
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000293",
+      "tvdb_id": 48,
+      "name": "Sean Bean"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0408790",
+      "votes": 166149,
+      "rating": 6.3,
+      "name": "Flightplan",
+      "tvdb_id": 9315
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000149",
+      "tvdb_id": 1038,
+      "name": "Jodie Foster"
+    }
+  ]
+}

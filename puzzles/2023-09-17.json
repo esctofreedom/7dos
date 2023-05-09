@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 3392,
+  "target_tvdb_id": 4937,
+  "source_imdb_id": "nm0000140",
+  "target_imdb_id": "nm0000681",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000140",
+      "tvdb_id": 3392,
+      "name": "Michael Douglas"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0478970",
+      "votes": 689185,
+      "rating": 7.3,
+      "name": "Ant-Man",
+      "tvdb_id": 102899
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0748620",
+      "tvdb_id": 22226,
+      "name": "Paul Rudd"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0357413",
+      "votes": 365542,
+      "rating": 7.1,
+      "name": "Anchorman: The Legend of Ron Burgundy",
+      "tvdb_id": 8699
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000681",
+      "tvdb_id": 4937,
+      "name": "Vince Vaughn"
+    }
+  ]
+}

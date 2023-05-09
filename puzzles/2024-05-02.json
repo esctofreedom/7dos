@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 18918,
+  "target_tvdb_id": 30614,
+  "source_imdb_id": "nm0425005",
+  "target_imdb_id": "nm0331516",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0425005",
+      "tvdb_id": 18918,
+      "name": "Dwayne Johnson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0425061",
+      "votes": 222123,
+      "rating": 6.5,
+      "name": "Get Smart",
+      "tvdb_id": 11665
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0136797",
+      "tvdb_id": 4495,
+      "name": "Steve Carell"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1570728",
+      "votes": 532097,
+      "rating": 7.4,
+      "name": "Crazy, Stupid, Love.",
+      "tvdb_id": 50646
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0331516",
+      "tvdb_id": 30614,
+      "name": "Ryan Gosling"
+    }
+  ]
+}

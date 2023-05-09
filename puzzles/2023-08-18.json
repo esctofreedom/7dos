@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 819,
+  "target_tvdb_id": 62064,
+  "source_imdb_id": "nm0001570",
+  "target_imdb_id": "nm1517976",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001570",
+      "tvdb_id": 819,
+      "name": "Edward Norton"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120586",
+      "votes": 1140151,
+      "rating": 8.5,
+      "name": "American History X",
+      "tvdb_id": 73
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0839486",
+      "tvdb_id": 824,
+      "name": "Ethan Suplee"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0477080",
+      "votes": 201551,
+      "rating": 6.8,
+      "name": "Unstoppable",
+      "tvdb_id": 44048
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1517976",
+      "tvdb_id": 62064,
+      "name": "Chris Pine"
+    }
+  ]
+}

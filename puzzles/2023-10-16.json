@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 504,
+  "target_tvdb_id": 190,
+  "source_imdb_id": "nm0000209",
+  "target_imdb_id": "nm0000142",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000209",
+      "tvdb_id": 504,
+      "name": "Tim Robbins"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0111161",
+      "votes": 2734155,
+      "rating": 9.3,
+      "name": "The Shawshank Redemption",
+      "tvdb_id": 278
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000151",
+      "tvdb_id": 192,
+      "name": "Morgan Freeman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0405159",
+      "votes": 698263,
+      "rating": 8.1,
+      "name": "Million Dollar Baby",
+      "tvdb_id": 70
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000142",
+      "tvdb_id": 190,
+      "name": "Clint Eastwood"
+    }
+  ]
+}

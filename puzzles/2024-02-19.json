@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 6885,
+  "target_tvdb_id": 3223,
+  "source_imdb_id": "nm0000234",
+  "target_imdb_id": "nm0000375",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000234",
+      "tvdb_id": 6885,
+      "name": "Charlize Theron"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1446714",
+      "votes": 620211,
+      "rating": 7.0,
+      "name": "Prometheus",
+      "tvdb_id": 70981
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0636426",
+      "tvdb_id": 87722,
+      "name": "Noomi Rapace"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1515091",
+      "votes": 464766,
+      "rating": 7.4,
+      "name": "Sherlock Holmes: A Game of Shadows",
+      "tvdb_id": 58574
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000375",
+      "tvdb_id": 3223,
+      "name": "Robert Downey Jr."
+    }
+  ]
+}

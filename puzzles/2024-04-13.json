@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 16828,
+  "target_tvdb_id": 4,
+  "source_imdb_id": "nm0262635",
+  "target_imdb_id": "nm0000402",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0262635",
+      "tvdb_id": 16828,
+      "name": "Chris Evans"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1843866",
+      "votes": 862951,
+      "rating": 7.8,
+      "name": "Captain America: The Winter Soldier",
+      "tvdb_id": 100402
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000168",
+      "tvdb_id": 2231,
+      "name": "Samuel L. Jackson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2527338",
+      "votes": 465144,
+      "rating": 6.5,
+      "name": "Star Wars: Episode IX - The Rise of Skywalker",
+      "tvdb_id": 181812
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000402",
+      "tvdb_id": 4,
+      "name": "Carrie Fisher"
+    }
+  ]
+}

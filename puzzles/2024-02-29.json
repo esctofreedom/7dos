@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 6383,
+  "target_tvdb_id": 23659,
+  "source_imdb_id": "nm0001173",
+  "target_imdb_id": "nm0002071",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001173",
+      "tvdb_id": 6383,
+      "name": "Aaron Eckhart"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0468569",
+      "votes": 2707279,
+      "rating": 9.0,
+      "name": "The Dark Knight",
+      "tvdb_id": 155
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0350454",
+      "tvdb_id": 1579,
+      "name": "Maggie Gyllenhaal"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0420223",
+      "votes": 232126,
+      "rating": 7.5,
+      "name": "Stranger Than Fiction",
+      "tvdb_id": 1262
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0002071",
+      "tvdb_id": 23659,
+      "name": "Will Ferrell"
+    }
+  ]
+}

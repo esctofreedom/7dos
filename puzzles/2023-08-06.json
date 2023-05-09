@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 173431,
-  "target_tvdb_id": 139,
-  "source_imdb_id": "nm0021600",
-  "target_imdb_id": "nm0000235",
+  "source_tvdb_id": 21657,
+  "target_tvdb_id": 27428,
+  "source_imdb_id": "nm0267812",
+  "target_imdb_id": "nm1093951",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0021600",
       "type": "Actor",
-      "name": "Bruce Allpress",
-      "tvdb_id": 173431
+      "imdb_id": "nm0267812",
+      "tvdb_id": 21657,
+      "name": "Vera Farmiga"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0167261",
-      "votes": 1697780,
-      "rating": 8.8,
-      "name": "The Lord of the Rings: The Two Towers",
-      "tvdb_id": 121
+      "imdb_id": "tt1872194",
+      "votes": 195758,
+      "rating": 7.4,
+      "name": "The Judge",
+      "tvdb_id": 205587
     },
     {
-      "imdb_id": "nm0000293",
       "type": "Actor",
-      "name": "Sean Bean",
-      "tvdb_id": 48
+      "imdb_id": "nm0000375",
+      "tvdb_id": 3223,
+      "name": "Robert Downey Jr."
     },
     {
       "type": "Film",
-      "imdb_id": "tt0814255",
-      "votes": 193436,
-      "rating": 5.8,
-      "name": "Percy Jackson & the Olympians: The Lightning Thief",
-      "tvdb_id": 32657
+      "imdb_id": "tt2395427",
+      "votes": 881783,
+      "rating": 7.3,
+      "name": "Avengers: Age of Ultron",
+      "tvdb_id": 99861
     },
     {
-      "imdb_id": "nm0000235",
       "type": "Actor",
-      "name": "Uma Thurman",
-      "tvdb_id": 139
+      "imdb_id": "nm1093951",
+      "tvdb_id": 27428,
+      "name": "Aaron Taylor-Johnson"
     }
   ]
 }

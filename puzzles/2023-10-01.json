@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 880,
+  "target_tvdb_id": 3,
+  "source_imdb_id": "nm0000255",
+  "target_imdb_id": "nm0000148",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000255",
+      "tvdb_id": 880,
+      "name": "Ben Affleck"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2267998",
+      "votes": 1004941,
+      "rating": 8.1,
+      "name": "Gone Girl",
+      "tvdb_id": 210577
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000688",
+      "tvdb_id": 6068,
+      "name": "Sela Ward"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0106977",
+      "votes": 303662,
+      "rating": 7.8,
+      "name": "The Fugitive",
+      "tvdb_id": 5503
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000148",
+      "tvdb_id": 3,
+      "name": "Harrison Ford"
+    }
+  ]
+}

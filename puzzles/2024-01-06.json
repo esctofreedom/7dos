@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 2888,
+  "target_tvdb_id": 12898,
+  "source_imdb_id": "nm0000226",
+  "target_imdb_id": "nm0000741",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000226",
+      "tvdb_id": 2888,
+      "name": "Will Smith"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0119654",
+      "votes": 582276,
+      "rating": 7.3,
+      "name": "Men in Black",
+      "tvdb_id": 607
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001724",
+      "tvdb_id": 4252,
+      "name": "Tony Shalhoub"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0177789",
+      "votes": 168793,
+      "rating": 7.4,
+      "name": "Galaxy Quest",
+      "tvdb_id": 926
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000741",
+      "tvdb_id": 12898,
+      "name": "Tim Allen"
+    }
+  ]
+}

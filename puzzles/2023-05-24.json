@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 530,
-  "target_tvdb_id": 4495,
-  "source_imdb_id": "nm0005251",
-  "target_imdb_id": "nm0136797",
+  "source_tvdb_id": 205,
+  "target_tvdb_id": 74568,
+  "source_imdb_id": "nm0000379",
+  "target_imdb_id": "nm1165110",
   "min_moves_to_solve": 3,
+  "source_birthday": false,
   "best_solution": [
     {
-      "imdb_id": "nm0005251",
       "type": "Actor",
-      "name": "Carrie-Anne Moss",
-      "tvdb_id": 530
+      "imdb_id": "nm0000379",
+      "tvdb_id": 205,
+      "name": "Kirsten Dunst"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0199753",
-      "votes": 58959,
-      "rating": 5.7,
-      "name": "Red Planet",
-      "tvdb_id": 8870
+      "imdb_id": "tt0338013",
+      "votes": 1027917,
+      "rating": 8.3,
+      "name": "Eternal Sunshine of the Spotless Mind",
+      "tvdb_id": 38
     },
     {
-      "imdb_id": "nm0000973",
       "type": "Actor",
-      "name": "Benjamin Bratt",
-      "tvdb_id": 4589
+      "imdb_id": "nm0749263",
+      "tvdb_id": 103,
+      "name": "Mark Ruffalo"
     },
     {
       "type": "Film",
-      "imdb_id": "tt1690953",
-      "votes": 409188,
-      "rating": 7.3,
-      "name": "Despicable Me 2",
-      "tvdb_id": 93456
+      "imdb_id": "tt0848228",
+      "votes": 1411541,
+      "rating": 8.0,
+      "name": "The Avengers",
+      "tvdb_id": 24428
     },
     {
-      "imdb_id": "nm0136797",
       "type": "Actor",
-      "name": "Steve Carell",
-      "tvdb_id": 4495
+      "imdb_id": "nm1165110",
+      "tvdb_id": 74568,
+      "name": "Chris Hemsworth"
     }
   ]
 }

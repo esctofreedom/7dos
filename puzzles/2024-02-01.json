@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 17604,
+  "target_tvdb_id": 1532,
+  "source_imdb_id": "nm0719637",
+  "target_imdb_id": "nm0000195",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0719637",
+      "tvdb_id": 17604,
+      "name": "Jeremy Renner"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0848228",
+      "votes": 1411541,
+      "rating": 8.0,
+      "name": "The Avengers",
+      "tvdb_id": 24428
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0424060",
+      "tvdb_id": 1245,
+      "name": "Scarlett Johansson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0335266",
+      "votes": 465972,
+      "rating": 7.7,
+      "name": "Lost in Translation",
+      "tvdb_id": 153
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000195",
+      "tvdb_id": 1532,
+      "name": "Bill Murray"
+    }
+  ]
+}

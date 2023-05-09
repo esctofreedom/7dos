@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 2283,
+  "target_tvdb_id": 23532,
+  "source_imdb_id": "nm0001804",
+  "target_imdb_id": "nm0000867",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001804",
+      "tvdb_id": 2283,
+      "name": "Stanley Tucci"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1392170",
+      "votes": 943735,
+      "rating": 7.2,
+      "name": "The Hunger Games",
+      "tvdb_id": 70160
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000661",
+      "tvdb_id": 55636,
+      "name": "Donald Sutherland"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1499658",
+      "votes": 456972,
+      "rating": 6.9,
+      "name": "Horrible Bosses",
+      "tvdb_id": 51540
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000867",
+      "tvdb_id": 23532,
+      "name": "Jason Bateman"
+    }
+  ]
+}

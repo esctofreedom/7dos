@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 10205,
-  "target_tvdb_id": 530,
-  "source_imdb_id": "nm0000244",
-  "target_imdb_id": "nm0005251",
+  "source_tvdb_id": 854,
+  "target_tvdb_id": 2228,
+  "source_imdb_id": "nm0000071",
+  "target_imdb_id": "nm0000576",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0000244",
       "type": "Actor",
-      "name": "Sigourney Weaver",
-      "tvdb_id": 10205
+      "imdb_id": "nm0000071",
+      "tvdb_id": 854,
+      "name": "James Stewart"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0311289",
-      "votes": 93563,
-      "rating": 7.0,
-      "name": "Holes",
-      "tvdb_id": 8326
+      "imdb_id": "tt0052561",
+      "votes": 68204,
+      "rating": 8.0,
+      "name": "Anatomy of a Murder",
+      "tvdb_id": 93
     },
     {
-      "imdb_id": "nm0479471",
       "type": "Actor",
-      "name": "Shia LaBeouf",
-      "tvdb_id": 10959
+      "imdb_id": "nm0004730",
+      "tvdb_id": 863,
+      "name": "Orson Bean"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0486822",
-      "votes": 240336,
-      "rating": 6.8,
-      "name": "Disturbia",
-      "tvdb_id": 8271
+      "imdb_id": "tt0120601",
+      "votes": 343045,
+      "rating": 7.7,
+      "name": "Being John Malkovich",
+      "tvdb_id": 492
     },
     {
-      "imdb_id": "nm0005251",
       "type": "Actor",
-      "name": "Carrie-Anne Moss",
-      "tvdb_id": 530
+      "imdb_id": "nm0000576",
+      "tvdb_id": 2228,
+      "name": "Sean Penn"
     }
   ]
 }

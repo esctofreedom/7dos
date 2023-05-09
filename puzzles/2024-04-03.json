@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 3084,
+  "target_tvdb_id": 93210,
+  "source_imdb_id": "nm0000008",
+  "target_imdb_id": "nm1727304",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000008",
+      "tvdb_id": 3084,
+      "name": "Marlon Brando"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0078788",
+      "votes": 680101,
+      "rating": 8.5,
+      "name": "Apocalypse Now",
+      "tvdb_id": 28
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000148",
+      "tvdb_id": 3,
+      "name": "Harrison Ford"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2488496",
+      "votes": 944891,
+      "rating": 7.8,
+      "name": "Star Wars: Episode VII - The Force Awakens",
+      "tvdb_id": 140607
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1727304",
+      "tvdb_id": 93210,
+      "name": "Domhnall Gleeson"
+    }
+  ]
+}

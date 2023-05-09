@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 5576,
-  "target_tvdb_id": 54693,
-  "source_imdb_id": "nm0000174",
-  "target_imdb_id": "nm1297015",
+  "source_tvdb_id": 8289,
+  "target_tvdb_id": 887,
+  "source_imdb_id": "nm0001082",
+  "target_imdb_id": "nm0005562",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0000174",
       "type": "Actor",
-      "name": "Val Kilmer",
-      "tvdb_id": 5576
+      "imdb_id": "nm0001082",
+      "tvdb_id": 8289,
+      "name": "Billy Crudup"
     },
     {
       "type": "Film",
-      "imdb_id": "tt1095217",
-      "votes": 78886,
-      "rating": 6.6,
-      "name": "Bad Lieutenant: Port of Call New Orleans",
-      "tvdb_id": 11699
+      "imdb_id": "tt0119698",
+      "votes": 404941,
+      "rating": 8.3,
+      "name": "Princess Mononoke",
+      "tvdb_id": 128
     },
     {
-      "imdb_id": "nm0000115",
       "type": "Actor",
-      "name": "Nicolas Cage",
-      "tvdb_id": 2963
+      "imdb_id": "nm0000671",
+      "tvdb_id": 879,
+      "name": "Billy Bob Thornton"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0481499",
-      "votes": 221696,
-      "rating": 7.2,
-      "name": "The Croods",
-      "tvdb_id": 49519
+      "imdb_id": "tt0120591",
+      "votes": 435147,
+      "rating": 6.7,
+      "name": "Armageddon",
+      "tvdb_id": 95
     },
     {
-      "imdb_id": "nm1297015",
       "type": "Actor",
-      "name": "Emma Stone",
-      "tvdb_id": 54693
+      "imdb_id": "nm0005562",
+      "tvdb_id": 887,
+      "name": "Owen Wilson"
     }
   ]
 }

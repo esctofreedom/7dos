@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 64,
+  "target_tvdb_id": 3129,
+  "source_imdb_id": "nm0000198",
+  "target_imdb_id": "nm0000619",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000198",
+      "tvdb_id": 64,
+      "name": "Gary Oldman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0119116",
+      "votes": 484439,
+      "rating": 7.6,
+      "name": "The Fifth Element",
+      "tvdb_id": 18
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000246",
+      "tvdb_id": 62,
+      "name": "Bruce Willis"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0110912",
+      "votes": 2101050,
+      "rating": 8.9,
+      "name": "Pulp Fiction",
+      "tvdb_id": 680
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000619",
+      "tvdb_id": 3129,
+      "name": "Tim Roth"
+    }
+  ]
+}

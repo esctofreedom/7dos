@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 3061,
+  "target_tvdb_id": 2176,
+  "source_imdb_id": "nm0000191",
+  "target_imdb_id": "nm0000169",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000191",
+      "tvdb_id": 3061,
+      "name": "Ewan McGregor"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0117951",
+      "votes": 699227,
+      "rating": 8.1,
+      "name": "Trainspotting",
+      "tvdb_id": 627
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0531808",
+      "tvdb_id": 9015,
+      "name": "Kelly Macdonald"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0477348",
+      "votes": 997439,
+      "rating": 8.2,
+      "name": "No Country for Old Men",
+      "tvdb_id": 6977
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000169",
+      "tvdb_id": 2176,
+      "name": "Tommy Lee Jones"
+    }
+  ]
+}

@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 10959,
-  "target_tvdb_id": 4517,
-  "source_imdb_id": "nm0479471",
-  "target_imdb_id": "nm0000582",
+  "source_tvdb_id": 1100,
+  "target_tvdb_id": 6730,
+  "source_imdb_id": "nm0000216",
+  "target_imdb_id": "nm0056187",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0479471",
       "type": "Actor",
-      "name": "Shia LaBeouf",
-      "tvdb_id": 10959
+      "imdb_id": "nm0000216",
+      "tvdb_id": 1100,
+      "name": "Arnold Schwarzenegger"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0423294",
-      "votes": 84152,
-      "rating": 6.7,
-      "name": "Surf's Up",
-      "tvdb_id": 9408
+      "imdb_id": "tt0111503",
+      "votes": 267795,
+      "rating": 7.3,
+      "name": "True Lies",
+      "tvdb_id": 36955
     },
     {
-      "imdb_id": "nm0000249",
       "type": "Actor",
-      "name": "James Woods",
-      "tvdb_id": 4512
+      "imdb_id": "nm0046223",
+      "tvdb_id": 173810,
+      "name": "Sayed Badreya"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0112641",
-      "votes": 532516,
-      "rating": 8.2,
-      "name": "Casino",
-      "tvdb_id": 524
+      "imdb_id": "tt1645170",
+      "votes": 317452,
+      "rating": 6.4,
+      "name": "The Dictator",
+      "tvdb_id": 76493
     },
     {
-      "imdb_id": "nm0000582",
       "type": "Actor",
-      "name": "Joe Pesci",
-      "tvdb_id": 4517
+      "imdb_id": "nm0056187",
+      "tvdb_id": 6730,
+      "name": "Sacha Baron Cohen"
     }
   ]
 }

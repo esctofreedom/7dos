@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 11108,
+  "target_tvdb_id": 118,
+  "source_imdb_id": "nm0670408",
+  "target_imdb_id": "nm0001691",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0670408",
+      "tvdb_id": 11108,
+      "name": "Simon Pegg"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0425112",
+      "votes": 515671,
+      "rating": 7.8,
+      "name": "Hot Fuzz",
+      "tvdb_id": 4638
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0631490",
+      "tvdb_id": 2440,
+      "name": "Bill Nighy"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0449088",
+      "votes": 664879,
+      "rating": 7.1,
+      "name": "Pirates of the Caribbean: At World's End",
+      "tvdb_id": 285
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001691",
+      "tvdb_id": 118,
+      "name": "Geoffrey Rush"
+    }
+  ]
+}

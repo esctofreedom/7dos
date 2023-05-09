@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 72129,
+  "target_tvdb_id": 204,
+  "source_imdb_id": "nm2225369",
+  "target_imdb_id": "nm0000701",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm2225369",
+      "tvdb_id": 72129,
+      "name": "Jennifer Lawrence"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt11286314",
+      "votes": 555062,
+      "rating": 7.2,
+      "name": "Don't Look Up",
+      "tvdb_id": 646380
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000138",
+      "tvdb_id": 6193,
+      "name": "Leonardo DiCaprio"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0120338",
+      "votes": 1215558,
+      "rating": 7.9,
+      "name": "Titanic",
+      "tvdb_id": 597
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000701",
+      "tvdb_id": 204,
+      "name": "Kate Winslet"
+    }
+  ]
+}

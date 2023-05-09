@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 976,
-  "target_tvdb_id": 776,
-  "source_imdb_id": "nm0005458",
-  "target_imdb_id": "nm0000552",
+  "source_tvdb_id": 6941,
+  "target_tvdb_id": 2232,
+  "source_imdb_id": "nm0000139",
+  "target_imdb_id": "nm0000474",
   "min_moves_to_solve": 3,
+  "source_birthday": false,
   "best_solution": [
     {
-      "imdb_id": "nm0005458",
       "type": "Actor",
-      "name": "Jason Statham",
-      "tvdb_id": 976
+      "imdb_id": "nm0000139",
+      "tvdb_id": 6941,
+      "name": "Cameron Diaz"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0452608",
-      "votes": 213082,
-      "rating": 6.4,
-      "name": "Death Race",
-      "tvdb_id": 10483
-    },
-    {
-      "imdb_id": "nm0574534",
-      "type": "Actor",
-      "name": "Ian McShane",
-      "tvdb_id": 6972
-    },
-    {
-      "type": "Film",
-      "imdb_id": "tt0413267",
-      "votes": 317481,
+      "imdb_id": "tt1033643",
+      "votes": 180615,
       "rating": 6.1,
-      "name": "Shrek the Third",
-      "tvdb_id": 810
+      "name": "What Happens in Vegas",
+      "tvdb_id": 9029
     },
     {
-      "imdb_id": "nm0000552",
       "type": "Actor",
-      "name": "Eddie Murphy",
-      "tvdb_id": 776
+      "imdb_id": "nm0302108",
+      "tvdb_id": 58225,
+      "name": "Zach Galifianakis"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2562232",
+      "votes": 643891,
+      "rating": 7.7,
+      "name": "Birdman or (The Unexpected Virtue of Ignorance)",
+      "tvdb_id": 194662
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000474",
+      "tvdb_id": 2232,
+      "name": "Michael Keaton"
     }
   ]
 }

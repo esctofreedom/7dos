@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 4517,
+  "target_tvdb_id": 17288,
+  "source_imdb_id": "nm0000582",
+  "target_imdb_id": "nm1055413",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000582",
+      "tvdb_id": 4517,
+      "name": "Joe Pesci"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1302006",
+      "votes": 401561,
+      "rating": 7.8,
+      "name": "The Irishman",
+      "tvdb_id": 398978
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001593",
+      "tvdb_id": 10690,
+      "name": "Anna Paquin"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1877832",
+      "votes": 723350,
+      "rating": 7.9,
+      "name": "X-Men: Days of Future Past",
+      "tvdb_id": 127585
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1055413",
+      "tvdb_id": 17288,
+      "name": "Michael Fassbender"
+    }
+  ]
+}

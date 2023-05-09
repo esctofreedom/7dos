@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 5530,
+  "target_tvdb_id": 22226,
+  "source_imdb_id": "nm0564215",
+  "target_imdb_id": "nm0748620",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0564215",
+      "tvdb_id": 5530,
+      "name": "James McAvoy"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3385516",
+      "votes": 444498,
+      "rating": 6.9,
+      "name": "X-Men: Apocalypse",
+      "tvdb_id": 246655
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0498278",
+      "tvdb_id": 7624,
+      "name": "Stan Lee"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0478970",
+      "votes": 689185,
+      "rating": 7.3,
+      "name": "Ant-Man",
+      "tvdb_id": 102899
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0748620",
+      "tvdb_id": 22226,
+      "name": "Paul Rudd"
+    }
+  ]
+}

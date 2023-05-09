@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 118,
+  "target_tvdb_id": 7447,
+  "source_imdb_id": "nm0001691",
+  "target_imdb_id": "nm0000285",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001691",
+      "tvdb_id": 118,
+      "name": "Geoffrey Rush"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0325980",
+      "votes": 1149544,
+      "rating": 8.1,
+      "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "tvdb_id": 22
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0089217",
+      "tvdb_id": 114,
+      "name": "Orlando Bloom"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0368709",
+      "votes": 71360,
+      "rating": 6.3,
+      "name": "Elizabethtown",
+      "tvdb_id": 9621
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000285",
+      "tvdb_id": 7447,
+      "name": "Alec Baldwin"
+    }
+  ]
+}

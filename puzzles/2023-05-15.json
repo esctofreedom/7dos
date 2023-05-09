@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 27319,
-  "target_tvdb_id": 18269,
-  "source_imdb_id": "nm0910607",
-  "target_imdb_id": "nm0000409",
+  "source_tvdb_id": 65731,
+  "target_tvdb_id": 13240,
+  "source_imdb_id": "nm0941777",
+  "target_imdb_id": "nm0000242",
   "min_moves_to_solve": 3,
+  "source_birthday": false,
   "best_solution": [
     {
-      "imdb_id": "nm0910607",
       "type": "Actor",
-      "name": "Christoph Waltz",
-      "tvdb_id": 27319
+      "imdb_id": "nm0941777",
+      "tvdb_id": 65731,
+      "name": "Sam Worthington"
     },
     {
       "type": "Film",
-      "imdb_id": "tt1389072",
-      "votes": 115232,
-      "rating": 5.8,
-      "name": "Downsizing",
-      "tvdb_id": 301337
+      "imdb_id": "tt0499549",
+      "votes": 1338763,
+      "rating": 7.9,
+      "name": "Avatar",
+      "tvdb_id": 19995
     },
     {
-      "imdb_id": "nm2186865",
       "type": "Actor",
-      "name": "Hong Chau",
-      "tvdb_id": 1360317
+      "imdb_id": "nm0000610",
+      "tvdb_id": 1771,
+      "name": "Giovanni Ribisi"
     },
     {
       "type": "Film",
-      "imdb_id": "tt13833688",
-      "votes": 135844,
-      "rating": 7.7,
-      "name": "The Whale",
-      "tvdb_id": 785084
+      "imdb_id": "tt1637725",
+      "votes": 627643,
+      "rating": 6.9,
+      "name": "Ted",
+      "tvdb_id": 72105
     },
     {
-      "imdb_id": "nm0000409",
       "type": "Actor",
-      "name": "Brendan Fraser",
-      "tvdb_id": 18269
+      "imdb_id": "nm0000242",
+      "tvdb_id": 13240,
+      "name": "Mark Wahlberg"
     }
   ]
 }

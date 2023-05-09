@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 5576,
+  "target_tvdb_id": 5294,
+  "source_imdb_id": "nm0000174",
+  "target_imdb_id": "nm0252230",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000174",
+      "tvdb_id": 5576,
+      "name": "Val Kilmer"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0453467",
+      "votes": 317076,
+      "rating": 7.1,
+      "name": "Deja Vu",
+      "tvdb_id": 7551
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000243",
+      "tvdb_id": 5292,
+      "name": "Denzel Washington"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0765429",
+      "votes": 434997,
+      "rating": 7.8,
+      "name": "American Gangster",
+      "tvdb_id": 4982
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0252230",
+      "tvdb_id": 5294,
+      "name": "Chiwetel Ejiofor"
+    }
+  ]
+}

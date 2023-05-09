@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 65731,
+  "target_tvdb_id": 2232,
+  "source_imdb_id": "nm0941777",
+  "target_imdb_id": "nm0000474",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0941777",
+      "tvdb_id": 65731,
+      "name": "Sam Worthington"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0499549",
+      "votes": 1338763,
+      "rating": 7.9,
+      "name": "Avatar",
+      "tvdb_id": 19995
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm4798882",
+      "tvdb_id": null,
+      "name": "Brad Jacobowitz"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2562232",
+      "votes": 643891,
+      "rating": 7.7,
+      "name": "Birdman or (The Unexpected Virtue of Ignorance)",
+      "tvdb_id": 194662
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000474",
+      "tvdb_id": 2232,
+      "name": "Michael Keaton"
+    }
+  ]
+}

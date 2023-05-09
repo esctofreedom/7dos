@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 7060,
+  "target_tvdb_id": 4756,
+  "source_imdb_id": "nm0293509",
+  "target_imdb_id": "nm0000111",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0293509",
+      "tvdb_id": 7060,
+      "name": "Martin Freeman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0314331",
+      "votes": 502629,
+      "rating": 7.6,
+      "name": "Love Actually",
+      "tvdb_id": 508
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000100",
+      "tvdb_id": 10730,
+      "name": "Rowan Atkinson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0110357",
+      "votes": 1080805,
+      "rating": 8.5,
+      "name": "The Lion King",
+      "tvdb_id": 8587
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000111",
+      "tvdb_id": 4756,
+      "name": "Matthew Broderick"
+    }
+  ]
+}

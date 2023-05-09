@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 4785,
+  "target_tvdb_id": 5294,
+  "source_imdb_id": "nm0000156",
+  "target_imdb_id": "nm0252230",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000156",
+      "tvdb_id": 4785,
+      "name": "Jeff Goldblum"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3501632",
+      "votes": 771855,
+      "rating": 7.9,
+      "name": "Thor: Ragnarok",
+      "tvdb_id": 284053
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1212722",
+      "tvdb_id": 71580,
+      "name": "Benedict Cumberbatch"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1211837",
+      "votes": 761886,
+      "rating": 7.5,
+      "name": "Doctor Strange",
+      "tvdb_id": 284052
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0252230",
+      "tvdb_id": 5294,
+      "name": "Chiwetel Ejiofor"
+    }
+  ]
+}

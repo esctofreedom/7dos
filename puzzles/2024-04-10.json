@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 5472,
+  "target_tvdb_id": 19292,
+  "source_imdb_id": "nm0000147",
+  "target_imdb_id": "nm0001191",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000147",
+      "tvdb_id": 5472,
+      "name": "Colin Firth"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1504320",
+      "votes": 690511,
+      "rating": 8.0,
+      "name": "The King's Speech",
+      "tvdb_id": 45269
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001602",
+      "tvdb_id": 529,
+      "name": "Guy Pearce"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0960731",
+      "votes": 97927,
+      "rating": 6.0,
+      "name": "Bedtime Stories",
+      "tvdb_id": 10202
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0001191",
+      "tvdb_id": 19292,
+      "name": "Adam Sandler"
+    }
+  ]
+}

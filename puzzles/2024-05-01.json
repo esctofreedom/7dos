@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 500,
+  "target_tvdb_id": 21007,
+  "source_imdb_id": "nm0000129",
+  "target_imdb_id": "nm1706767",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000129",
+      "tvdb_id": 500,
+      "name": "Tom Cruise"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0369339",
+      "votes": 414730,
+      "rating": 7.5,
+      "name": "Collateral",
+      "tvdb_id": 1538
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004937",
+      "tvdb_id": 134,
+      "name": "Jamie Foxx"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1853728",
+      "votes": 1592500,
+      "rating": 8.4,
+      "name": "Django Unchained",
+      "tvdb_id": 68718
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1706767",
+      "tvdb_id": 21007,
+      "name": "Jonah Hill"
+    }
+  ]
+}

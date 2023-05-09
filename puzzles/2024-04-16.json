@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 73968,
+  "target_tvdb_id": 10980,
+  "source_imdb_id": "nm0147147",
+  "target_imdb_id": "nm0705356",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0147147",
+      "tvdb_id": 73968,
+      "name": "Henry Cavill"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2975590",
+      "votes": 710461,
+      "rating": 6.4,
+      "name": "Batman v Superman: Dawn of Justice",
+      "tvdb_id": 209112
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0251986",
+      "tvdb_id": 44735,
+      "name": "Jesse Eisenberg"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3110958",
+      "votes": 301677,
+      "rating": 6.4,
+      "name": "Now You See Me 2",
+      "tvdb_id": 291805
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0705356",
+      "tvdb_id": 10980,
+      "name": "Daniel Radcliffe"
+    }
+  ]
+}

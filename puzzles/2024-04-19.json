@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 17051,
+  "target_tvdb_id": 17178,
+  "source_imdb_id": "nm0290556",
+  "target_imdb_id": "nm0933940",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0290556",
+      "tvdb_id": 17051,
+      "name": "James Franco"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0145487",
+      "votes": 834989,
+      "rating": 7.4,
+      "name": "Spider-Man",
+      "tvdb_id": 557
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000353",
+      "tvdb_id": 5293,
+      "name": "Willem Dafoe"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1477834",
+      "votes": 488838,
+      "rating": 6.8,
+      "name": "Aquaman",
+      "tvdb_id": 297802
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0933940",
+      "tvdb_id": 17178,
+      "name": "Patrick Wilson"
+    }
+  ]
+}

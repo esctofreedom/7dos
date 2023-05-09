@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 18918,
+  "target_tvdb_id": 192,
+  "source_imdb_id": "nm0425005",
+  "target_imdb_id": "nm0000151",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0425005",
+      "tvdb_id": 18918,
+      "name": "Dwayne Johnson"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1397514",
+      "votes": 107542,
+      "rating": 5.7,
+      "name": "Journey 2: The Mysterious Island",
+      "tvdb_id": 72545
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000323",
+      "tvdb_id": 3895,
+      "name": "Michael Caine"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0468569",
+      "votes": 2707279,
+      "rating": 9.0,
+      "name": "The Dark Knight",
+      "tvdb_id": 155
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000151",
+      "tvdb_id": 192,
+      "name": "Morgan Freeman"
+    }
+  ]
+}

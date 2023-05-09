@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 569,
+  "target_tvdb_id": 368,
+  "source_imdb_id": "nm0000160",
+  "target_imdb_id": "nm0000702",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000160",
+      "tvdb_id": 569,
+      "name": "Ethan Hawke"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt11138512",
+      "votes": 225973,
+      "rating": 7.0,
+      "name": "The Northman",
+      "tvdb_id": 639933
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000353",
+      "tvdb_id": 5293,
+      "name": "Willem Dafoe"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0144084",
+      "votes": 651517,
+      "rating": 7.6,
+      "name": "American Psycho",
+      "tvdb_id": 1359
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000702",
+      "tvdb_id": 368,
+      "name": "Reese Witherspoon"
+    }
+  ]
+}

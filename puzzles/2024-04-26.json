@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 38673,
+  "target_tvdb_id": 4491,
+  "source_imdb_id": "nm1475594",
+  "target_imdb_id": "nm0000098",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1475594",
+      "tvdb_id": 38673,
+      "name": "Channing Tatum"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1232829",
+      "votes": 573036,
+      "rating": 7.2,
+      "name": "21 Jump Street",
+      "tvdb_id": 64688
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0644406",
+      "tvdb_id": 17039,
+      "name": "Nick Offerman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1723121",
+      "votes": 461840,
+      "rating": 7.0,
+      "name": "We're the Millers",
+      "tvdb_id": 138832
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000098",
+      "tvdb_id": 4491,
+      "name": "Jennifer Aniston"
+    }
+  ]
+}

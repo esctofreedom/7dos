@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 6941,
+  "target_tvdb_id": 8891,
+  "source_imdb_id": "nm0000139",
+  "target_imdb_id": "nm0000237",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000139",
+      "tvdb_id": 6941,
+      "name": "Cameron Diaz"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0110475",
+      "votes": 397469,
+      "rating": 6.9,
+      "name": "The Mask",
+      "tvdb_id": 854
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0338886",
+      "tvdb_id": 11803,
+      "name": "Peter Greene"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0110912",
+      "votes": 2101050,
+      "rating": 8.9,
+      "name": "Pulp Fiction",
+      "tvdb_id": 680
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000237",
+      "tvdb_id": 8891,
+      "name": "John Travolta"
+    }
+  ]
+}

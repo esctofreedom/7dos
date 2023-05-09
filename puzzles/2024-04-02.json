@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 17288,
+  "target_tvdb_id": 134,
+  "source_imdb_id": "nm1055413",
+  "target_imdb_id": "nm0004937",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm1055413",
+      "tvdb_id": 17288,
+      "name": "Michael Fassbender"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0361748",
+      "votes": 1485428,
+      "rating": 8.3,
+      "name": "Inglourious Basterds",
+      "tvdb_id": 16869
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0910607",
+      "tvdb_id": 27319,
+      "name": "Christoph Waltz"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1853728",
+      "votes": 1592500,
+      "rating": 8.4,
+      "name": "Django Unchained",
+      "tvdb_id": 68718
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004937",
+      "tvdb_id": 134,
+      "name": "Jamie Foxx"
+    }
+  ]
+}

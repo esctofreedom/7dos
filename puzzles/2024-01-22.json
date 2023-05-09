@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 2440,
+  "target_tvdb_id": 4495,
+  "source_imdb_id": "nm0631490",
+  "target_imdb_id": "nm0136797",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0631490",
+      "tvdb_id": 2440,
+      "name": "Bill Nighy"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0383574",
+      "votes": 734303,
+      "rating": 7.3,
+      "name": "Pirates of the Caribbean: Dead Man's Chest",
+      "tvdb_id": 58
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0461136",
+      "tvdb_id": 116,
+      "name": "Keira Knightley"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1307068",
+      "votes": 116625,
+      "rating": 6.7,
+      "name": "Seeking a Friend for the End of the World",
+      "tvdb_id": 88005
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0136797",
+      "tvdb_id": 4495,
+      "name": "Steve Carell"
+    }
+  ]
+}

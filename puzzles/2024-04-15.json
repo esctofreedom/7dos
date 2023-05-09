@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 19274,
+  "target_tvdb_id": 72129,
+  "source_imdb_id": "nm0736622",
+  "target_imdb_id": "nm2225369",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0736622",
+      "tvdb_id": 19274,
+      "name": "Seth Rogen"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0829482",
+      "votes": 597604,
+      "rating": 7.6,
+      "name": "Superbad",
+      "tvdb_id": 8363
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm1706767",
+      "tvdb_id": 21007,
+      "name": "Jonah Hill"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt11286314",
+      "votes": 555062,
+      "rating": 7.2,
+      "name": "Don't Look Up",
+      "tvdb_id": 646380
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm2225369",
+      "tvdb_id": 72129,
+      "name": "Jennifer Lawrence"
+    }
+  ]
+}

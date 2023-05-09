@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 1230,
+  "target_tvdb_id": 3036,
+  "source_imdb_id": "nm0000422",
+  "target_imdb_id": "nm0000131",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000422",
+      "tvdb_id": 1230,
+      "name": "John Goodman"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0198781",
+      "votes": 928601,
+      "rating": 8.1,
+      "name": "Monsters, Inc.",
+      "tvdb_id": 585
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000345",
+      "tvdb_id": 7904,
+      "name": "Billy Crystal"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0265029",
+      "votes": 58898,
+      "rating": 5.7,
+      "name": "America's Sweethearts",
+      "tvdb_id": 11467
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000131",
+      "tvdb_id": 3036,
+      "name": "John Cusack"
+    }
+  ]
+}

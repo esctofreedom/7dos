@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 134,
+  "target_tvdb_id": 9642,
+  "source_imdb_id": "nm0004937",
+  "target_imdb_id": "nm0000179",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0004937",
+      "tvdb_id": 134,
+      "name": "Jamie Foxx"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1853728",
+      "votes": 1592500,
+      "rating": 8.4,
+      "name": "Django Unchained",
+      "tvdb_id": 68718
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000138",
+      "tvdb_id": 6193,
+      "name": "Leonardo DiCaprio"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0338751",
+      "votes": 370181,
+      "rating": 7.5,
+      "name": "The Aviator",
+      "tvdb_id": 2567
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000179",
+      "tvdb_id": 9642,
+      "name": "Jude Law"
+    }
+  ]
+}

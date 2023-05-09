@@ -1,43 +1,44 @@
 {
-  "source_tvdb_id": 18269,
-  "target_tvdb_id": 514,
-  "source_imdb_id": "nm0000409",
-  "target_imdb_id": "nm0000197",
+  "source_tvdb_id": 1283,
+  "target_tvdb_id": 17288,
+  "source_imdb_id": "nm0000307",
+  "target_imdb_id": "nm1055413",
   "min_moves_to_solve": 3,
+  "source_birthday": true,
   "best_solution": [
     {
-      "imdb_id": "nm0000409",
       "type": "Actor",
-      "name": "Brendan Fraser",
-      "tvdb_id": 18269
+      "imdb_id": "nm0000307",
+      "tvdb_id": 1283,
+      "name": "Helena Bonham Carter"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0120616",
-      "votes": 442485,
-      "rating": 7.1,
-      "name": "The Mummy",
-      "tvdb_id": 564
+      "imdb_id": "tt0137523",
+      "votes": 2176824,
+      "rating": 8.8,
+      "name": "Fight Club",
+      "tvdb_id": 550
     },
     {
-      "imdb_id": "nm0153704",
       "type": "Actor",
-      "name": "Carl Chase",
-      "tvdb_id": 127166
+      "imdb_id": "nm0000093",
+      "tvdb_id": 287,
+      "name": "Brad Pitt"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0096895",
-      "votes": 385918,
-      "rating": 7.5,
-      "name": "Batman",
-      "tvdb_id": 268
+      "imdb_id": "tt0361748",
+      "votes": 1485428,
+      "rating": 8.3,
+      "name": "Inglourious Basterds",
+      "tvdb_id": 16869
     },
     {
-      "imdb_id": "nm0000197",
       "type": "Actor",
-      "name": "Jack Nicholson",
-      "tvdb_id": 514
+      "imdb_id": "nm1055413",
+      "tvdb_id": 17288,
+      "name": "Michael Fassbender"
     }
   ]
 }

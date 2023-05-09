@@ -1,0 +1,44 @@
+{
+  "source_tvdb_id": 6941,
+  "target_tvdb_id": 1327,
+  "source_imdb_id": "nm0000139",
+  "target_imdb_id": "nm0005212",
+  "min_moves_to_solve": 3,
+  "source_birthday": true,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000139",
+      "tvdb_id": 6941,
+      "name": "Cameron Diaz"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0457939",
+      "votes": 300223,
+      "rating": 6.9,
+      "name": "The Holiday",
+      "tvdb_id": 1581
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000701",
+      "tvdb_id": 204,
+      "name": "Kate Winslet"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0424095",
+      "votes": 131559,
+      "rating": 6.6,
+      "name": "Flushed Away",
+      "tvdb_id": 11619
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0005212",
+      "tvdb_id": 1327,
+      "name": "Ian McKellen"
+    }
+  ]
+}
