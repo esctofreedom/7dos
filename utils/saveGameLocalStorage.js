@@ -24,8 +24,6 @@ export const saveGameLocalStorage = (
 
       console.log("TODAYY");
 
-      console.log("movesLeft", movesLeft);
-      console.log("gameSave.movesLeft", gameSave.movesLeft);
       if (movesLeft < gameSave.movesLeft || !gameSave.movesLeft) {
         console.log("SAVE MEEE PLEASE!");
         window.localStorage.setItem("7dos-today", JSON.stringify(gameObj));
@@ -33,6 +31,10 @@ export const saveGameLocalStorage = (
     }
   } else {
     console.log("NOT TODAY");
-    window.localStorage.setItem("7dos-today", JSON.stringify(gameObj));
+
+    if (topGameState.length > 0 && bottomGameState.length > 0) {
+      window.localStorage.setItem("7dos-today", JSON.stringify(gameObj));
+    }
+    // window.localStorage.setItem("7dos-today", JSON.stringify(gameObj));
   }
 };
