@@ -1,18 +1,38 @@
 import dayjs from "dayjs";
+import { CloudCog } from "lucide-react";
 
-export const saveGameLocalStorage = (movesTaken) => {
+export const saveGameLocalStorage = (
+  topGameState,
+  bottomGameState,
+  movesLeft
+) => {
   const gameObj = {
     date: dayjs().format("MM/DD/YYYY"),
-    hasWon: true,
-    movesTaken,
+    topGameState,
+    bottomGameState,
+    movesLeft,
   };
 
-  const gameHistory = JSON.parse(localStorage.getItem("7dos"));
+  const localStorage = window.localStorage.getItem("7dos-today");
 
-  if (gameHistory) {
-    gameHistory.push(gameObj);
-    localStorage.setItem("7dos", JSON.stringify(gameHistory));
+  if (localStorage) {
+    const gameSave = JSON.parse(localStorage);
+
+    if (gameSave.date === dayjs().format("MM/DD/YYYY")) {
+      // check if movesLeft is less than gameSave.movesLeft
+      // if it is, replace gameSave.movesLeft with movesLeft
+
+      console.log("TODAYY");
+
+      console.log("movesLeft", movesLeft);
+      console.log("gameSave.movesLeft", gameSave.movesLeft);
+      if (movesLeft < gameSave.movesLeft || !gameSave.movesLeft) {
+        console.log("SAVE MEEE PLEASE!");
+        window.localStorage.setItem("7dos-today", JSON.stringify(gameObj));
+      }
+    }
   } else {
-    localStorage.setItem("7dos", JSON.stringify([gameObj]));
+    console.log("NOT TODAY");
+    window.localStorage.setItem("7dos-today", JSON.stringify(gameObj));
   }
 };

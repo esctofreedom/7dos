@@ -20,7 +20,7 @@ export const ModalFM = ({ isOpen, setIsOpen, children }) => {
           onMouseDown={() => setIsOpen(false)}
         >
           <motion.div
-            className=" z-50 shadow-blue-500/50 shadow-2xl flex flex-col w-[90%] lg:w-[50%] h-min bg-slate-800 border-2 border-blue-500/50 mt-4  rounded-lg overflow-clip  px-2 py-4"
+            className=" z-50 shadow-blue-500/40 shadow-xl flex flex-col w-[90%] lg:w-[30%] h-min bg-slate-900 border-2 border-blue-500/50 mt-4  rounded-lg overflow-clip  px-2 py-4"
             initial={{ y: "100%" }}
             animate={{
               y: 0,
@@ -30,6 +30,7 @@ export const ModalFM = ({ isOpen, setIsOpen, children }) => {
               y: "100%",
               transition: { duration: 0.3, ease: [0.36, 0.66, 0.04, 1] },
             }}
+            onMouseDown={(e) => e.stopPropagation()}
           >
             <button
               className="p-2 rounded-full bg-slate-800 hover:bg-slate-700 absolute top-8 right-9 "

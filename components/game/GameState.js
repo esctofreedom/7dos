@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { GameCard } from "./GameCard";
 
 import { motion } from "framer-motion";
-import { XCircle } from "lucide-react";
+import { X, XCircle } from "lucide-react";
 
 //
 const ReusableState = ({
@@ -14,6 +14,8 @@ const ReusableState = ({
   setDrawerOpen,
   setSelectedItem,
   isMobile,
+  movesLeft,
+  setMovesLeft,
 }) => {
   // if origin is botto, then invert sort order
   let sortedState;
@@ -31,6 +33,7 @@ const ReusableState = ({
     });
 
     setState(newState);
+    setMovesLeft(movesLeft - 1);
   };
 
   return (
@@ -67,10 +70,24 @@ const ReusableState = ({
                     e.stopPropagation();
                     removeItem(item);
                   }}
-                  className=" items-center z-40 justify-center opacity-0 cursor-pointer group-hover:opacity-100
+                  className="hidden md:block items-center z-40 justify-center opacity-0 cursor-pointer group-hover:opacity-100
                 absolute right-2 top-2 bg-white rounded-full p-0  hover:scale-125 transition-all shadow-sm ease-in-out"
                 >
                   <XCircle className="h-7 w-7 text-red-500 " />
+                </div>
+              )}
+
+              {/* Mobile Delete */}
+              {isLast && !isStarting && (
+                <div
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    removeItem(item);
+                  }}
+                  className="md:hidden  items-center z-40 justify-center cursor-pointer group-hover:opacity-100
+                absolute -right-16 top-1/2 -translate-y-[50%] bg-slate-700 hover:bg-slate-700 rounded-full p-2  "
+                >
+                  <X className="h-6 w-6 text-slate-200  " />
                 </div>
               )}
 
@@ -120,6 +137,8 @@ export const GameState = ({
   drawerOpen,
   setDrawerOpen,
   setSelectedItem,
+  movesLeft,
+  setMovesLeft,
 }) => {
   // calculate length of both states
   const lengthAllStates = topState.length + bottomState.length;
@@ -186,6 +205,8 @@ export const GameState = ({
         setDrawerOpen={setDrawerOpen}
         setSelectedItem={setSelectedItem}
         isMobile={isMobile}
+        movesLeft={movesLeft}
+        setMovesLeft={setMovesLeft}
       />
       <div className="min-h-[50px] "></div>
 
@@ -198,6 +219,8 @@ export const GameState = ({
         setDrawerOpen={setDrawerOpen}
         setSelectedItem={setSelectedItem}
         isMobile={isMobile}
+        movesLeft={movesLeft}
+        setMovesLeft={setMovesLeft}
       />
     </div>
   );

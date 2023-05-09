@@ -9,7 +9,12 @@ import { WinState } from "../components/game/WinState";
 import ConfettiExplosion from "react-confetti-explosion";
 import { testTopData, testBottomData } from "../utils/testData";
 import dayjs from "dayjs";
+import { gameEndedLocalStorage } from "../utils/gameEndedLocalStorage";
+import { checkLost } from "../utils/checkLost";
+import { LostState } from "../components/game/LostState";
 import { saveGameLocalStorage } from "../utils/saveGameLocalStorage";
+import { checkGameSave } from "../utils/checkGameSave";
+import { filterActorData } from "../utils/filterActorData";
 
 export async function getServerSideProps({ query }) {
   const { starting, ending } = query;
@@ -54,40 +59,46 @@ export async function getServerSideProps({ query }) {
 const Game = ({ startingActor, endingActor }) => {
   const [selectedItem, setSelectedItem] = useState(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [topGameState, setTopGameState] = useState([]);
 
-  const isTesting = false;
-  const [topGameState, setTopGameState] = useState(
-    isTesting
-      ? testTopData
-      : [
-          {
-            type: "actor",
-            item: startingActor,
-            data: startingActor.credits.cast,
-          },
-        ]
-  );
+  const [bottomGameState, setBottomGameState] = useState([]);
 
-  const [bottomGameState, setBottomGameState] = useState(
-    isTesting
-      ? testBottomData
-      : [
-          {
-            type: "actor",
-            item: endingActor,
-            data: endingActor.credits.cast,
-          },
-        ]
-  );
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      // check if game save exists in local storage
+      const save = JSON.parse(localStorage.getItem("7dos-today"));
+      console.log("save", save);
+
+      if (save) {
+        setTopGameState(save.topGameState);
+        setBottomGameState(save.bottomGameState);
+        setMovesLeft(save.movesLeft);
+      } else {
+        setTopGameState([filterActorData(startingActor)]);
+        setBottomGameState([filterActorData(endingActor)]);
+      }
+    }
+  }, []);
+  // const [topGameState, setTopGameState] = useState([
+  //   filterActorData(startingActor),
+  // ]);
+
+  // const [bottomGameState, setBottomGameState] = useState([
+  //   filterActorData(endingActor),
+  // ]);
+
+  // check if game save for today exists
+  // if it does, load it
 
   const allowedMoves = 7;
   const [movesLeft, setMovesLeft] = useState(allowedMoves);
 
-  // function that checks if the actor is in the game state matches starting or ending actor
-
   const [hasWon, setHasWon] = useState(false);
+  const [hasLost, setHasLost] = useState(false);
 
+  // CHECK WIN
   useEffect(() => {
+    // Returns boolean
     const win = checkWin(
       bottomGameState,
       topGameState,
@@ -96,23 +107,33 @@ const Game = ({ startingActor, endingActor }) => {
     );
 
     if (win) {
-      saveGameLocalStorage(7 - movesLeft);
+      gameEndedLocalStorage(true, 7 - movesLeft);
       setHasWon(true);
     }
+
+    const lost = checkLost(hasWon, movesLeft);
+
+    if (lost) {
+      gameEndedLocalStorage(false, 0);
+      setHasLost(true);
+    }
+
+    saveGameLocalStorage(topGameState, bottomGameState, movesLeft);
+
+    console.log("STATES CHANGED!!!", topGameState, bottomGameState, movesLeft);
 
     // if (movesLeft === 0 && !win) {
     //   alert("You Lose!");
     // }
   }, [bottomGameState, topGameState]);
 
-  // get localstporage with key "7dos"
+  // useEffect(() => {
+  //   console.log("checking gamesave");
+  //   checkGameSave(setTopGameState, setBottomGameState, setMovesLeft);
+  // }, []);
 
-  // wait until
-  if (typeof window !== "undefined") {
-    const history = JSON.parse(localStorage.getItem("7dos"));
-    console.log("history", history);
-  }
-
+  console.log("topGameState", topGameState);
+  console.log("bottomGameState", bottomGameState);
   return (
     <div className="flex flex-col items-center justify-center   flex-grow ">
       {/* Drawer for Actor's Movies */}
@@ -138,7 +159,7 @@ const Game = ({ startingActor, endingActor }) => {
           setDrawerOpen={setDrawerOpen}
         />
       )}
-      {!hasWon && (
+      {!hasWon && !hasLost && (
         <>
           <MovesLeft allowedMoves={allowedMoves} movesLeft={movesLeft} />
           {/* <button
@@ -152,7 +173,7 @@ const Game = ({ startingActor, endingActor }) => {
         </>
       )}
       {/* Top game State */}
-      {!hasWon && (
+      {!hasWon && !hasLost && (
         <GameState
           topState={topGameState}
           bottomState={bottomGameState}
@@ -161,6 +182,8 @@ const Game = ({ startingActor, endingActor }) => {
           drawerOpen={drawerOpen}
           setDrawerOpen={setDrawerOpen}
           setSelectedItem={setSelectedItem}
+          movesLeft={movesLeft}
+          setMovesLeft={setMovesLeft}
         />
       )}
 
@@ -170,6 +193,13 @@ const Game = ({ startingActor, endingActor }) => {
           bottomGameState={bottomGameState}
           allowedMoves={allowedMoves}
           movesLeft={movesLeft}
+        />
+      )}
+
+      {hasLost && (
+        <LostState
+          topGameState={topGameState}
+          bottomGameState={bottomGameState}
         />
       )}
     </div>

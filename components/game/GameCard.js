@@ -51,13 +51,15 @@ export const GameCard = ({
       <div className={` max-h-[87%]`}>
         <img
           src={`https://image.tmdb.org/t/p/w500/${url}`}
-          alt={""}
           className={`h-full w-full object-cover
           ${!isClickable && "opacity-70"}
           `}
           // height={height}
           // width={height * 0.7}
           // width={width}
+          onError={(e) => {
+            fallbackImage(e);
+          }}
         />
       </div>
       <div className="flex items-center flex-grow  justify-center truncate text-ellipsis p-2 text-xs ">
@@ -67,4 +69,16 @@ export const GameCard = ({
   );
 
   return content;
+};
+
+const fallbackImage = (e) => {
+  e.preventDefault();
+  e.target.onerror = null;
+  e.target.style.display = "none"; // hide the broken image
+  // create gradient background from black to blue
+  e.target.parentNode.style.backgroundImage =
+    "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0, 10, 97,0.5) 100%)";
+  e.target.parentNode.style.backgroundSize = "cover";
+  e.target.parentNode.style.backgroundPosition = "center";
+  e.target.parentNode.style.backgroundRepeat = "no-repeat";
 };

@@ -11,7 +11,7 @@ export const HowToPlay = () => {
     >
       <ModalFM isOpen={isOpen} setIsOpen={setIsOpen}>
         <div className="py-6 px-8">
-          <h2 className="mb-3"> How to Play</h2>
+          <h2 className="mb-3">🎬 How to Play</h2>
 
           <p>
             The goal of 7DOS is to connect 2 actors in the fewest number of
@@ -19,8 +19,8 @@ export const HowToPlay = () => {
           </p>
           <ul>
             <li>
-              Step 1: Select either actor and you will see all the movies they
-              have appeared in.
+              <b>Step 1:</b> Select either actor and you will see all the movies
+              they have appeared in.
             </li>
             <li>Step 2: Select a movie that the actor has appeared in</li>
             <li>
