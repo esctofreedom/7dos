@@ -4,6 +4,7 @@ import dayjs from "dayjs";
 import axios from "axios";
 import { GameCard } from "./GameCard";
 import { filterMovieData } from "../../utils/filterMovieData";
+import { filterActorData } from "../../utils/filterActorData";
 
 export function MovieDock({
   type,
@@ -20,7 +21,7 @@ export function MovieDock({
 
   // if type is movie, order by date
   // if type is actor, order by popularity
-  const [numberDisplayed, setNumberDisplayed] = useState(200);
+  const [numberDisplayed, setNumberDisplayed] = useState(300);
   let sortedItems;
 
   if (type === "movie") {
@@ -29,8 +30,14 @@ export function MovieDock({
         return b.popularity - a.popularity;
       })
       .slice(0, numberDisplayed);
+
+    // Type actor means it's displaying movies
   } else if (type === "actor") {
     sortedItems = items
+      .filter((item) => {
+        // filter out movies that don't have a release date
+        return item.release_date;
+      })
       .sort((a, b) => {
         // use isSameOrBefore to sort by date
         return dayjs(a.release_date).isSameOrBefore(dayjs(b.release_date))
@@ -82,12 +89,8 @@ export function MovieDock({
     await axios // get movie credits
       .get(url)
       .then((response) => {
-        const newData = response.data.credits.cast;
-        const newItem = {
-          type: "actor",
-          item: actor,
-          data: newData,
-        };
+        const newData = response.data;
+        const newItem = filterActorData(newData);
         const newGameState = [...gameState, newItem];
         setGameState(newGameState);
       });

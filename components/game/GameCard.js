@@ -1,3 +1,5 @@
+import dayjs from "dayjs";
+
 export const GameCard = ({
   type,
   isMobile,
@@ -33,7 +35,7 @@ export const GameCard = ({
         rotate: [0, 0, 270, 270, 0],
         borderRadius: ["20%", "20%", "50%", "50%", "20%"],
       }}
-      className={`flex  flex-col bg-black/80 text-white/90 font-bold border-2 ${
+      className={`flex  flex-col relative group bg-black/80 text-white/90 font-bold border-2 ${
         isClickable && !isDocked
           ? "border-blue-500 shadow-blue-600/50 shadow-lg"
           : " shadow-xl border-slate-700"
@@ -48,7 +50,18 @@ export const GameCard = ({
       }}
       onClick={onClick}
     >
-      <div className={` max-h-[87%]`}>
+      {type === "movie" && isDocked && (
+        <div className="p-4 flex-col group-hover:opacity-100 z-20 opacity-0 transition ease-in-out duration-150 absolute flex items-center justify-center top-0 left-0 w-full h-full bg-black/70">
+          <span className="text-slate-200 text-xs mb-4">
+            {item.release_date
+              ? dayjs(item.release_date).format("YYYY")
+              : "N/A"}
+          </span>
+
+          <span className="text-sm text-center">{item.title}</span>
+        </div>
+      )}
+      <div className={`relative h-[87%] `}>
         <img
           src={`https://image.tmdb.org/t/p/w500/${url}`}
           className={`h-full w-full object-cover
@@ -63,7 +76,9 @@ export const GameCard = ({
         />
       </div>
       <div className="flex items-center flex-grow  justify-center truncate text-ellipsis p-2 text-xs ">
-        {type === "movie" ? item.title : item.name}
+        <span className="text-ellipsis overflow-hidden">
+          {type === "movie" ? item.title : item.name}
+        </span>
       </div>
     </div>
   );
@@ -77,7 +92,7 @@ const fallbackImage = (e) => {
   e.target.style.display = "none"; // hide the broken image
   // create gradient background from black to blue
   e.target.parentNode.style.backgroundImage =
-    "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0, 10, 97,0.5) 100%)";
+    "linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0, 10, 97,0.5) 100%)";
   e.target.parentNode.style.backgroundSize = "cover";
   e.target.parentNode.style.backgroundPosition = "center";
   e.target.parentNode.style.backgroundRepeat = "no-repeat";

@@ -44,7 +44,7 @@ export const GameHistory = () => {
             <div className="flex flex-col justify-center items-center">
               <span className="text-sm text-slate-300">Played</span>
               <span className="text-2xl text-white font-extrabold">
-                {gamesPlayed}
+                {gamesPlayed || 0}
               </span>
             </div>
 
@@ -52,7 +52,10 @@ export const GameHistory = () => {
             <div className="flex flex-col justify-center items-center">
               <span className="text-sm text-slate-300">Win %</span>
               <span className="text-2xl text-white font-extrabold">
-                {winPct.toFixed(0)}%
+                {
+                  // if winPct is NaN, return 0
+                  isNaN(winPct) ? 0 : winPct.toFixed(0)
+                }
               </span>
             </div>
 
@@ -86,12 +89,6 @@ const Histogram = ({ data, wins }) => {
   const inFive = onlyWins.filter((game) => game.movesTaken === 5).length;
   const inSeven = onlyWins.filter((game) => game.movesTaken === 7).length;
 
-  console.log("inOne", inOne);
-  console.log("inThree", inThree);
-  console.log("inFive", inFive);
-  console.log("inSeven", inSeven);
-
-  console.log("wins", wins);
   return (
     <div className="flex flex-col gap-6 w-full justify-start items-start my-8">
       <span>Moves Taken:</span>

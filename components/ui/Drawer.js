@@ -36,7 +36,7 @@ export const Drawer = ({ children, drawerOpen, setDrawerOpen }) => {
             exit="closed"
             variants={variants}
             transition={{ duration: 0.3 }}
-            className="hidden md:block fixed left-0 right-0 bottom-0 z-40 p-4 overflow-y-auto  w-full h-[80%]  bg-slate-800"
+            className="hidden md:block fixed left-0 right-0 bottom-0 z-40 p-4 overflow-y-auto  w-full h-[80%]  bg-slate-900 border-t-2 border-blue-500/50"
             onMouseDown={(e) => e.stopPropagation()}
           >
             <button

@@ -1,5 +1,4 @@
 import dayjs from "dayjs";
-import { CloudCog } from "lucide-react";
 
 export const saveGameLocalStorage = (
   topGameState,
@@ -22,6 +21,9 @@ export const saveGameLocalStorage = (
       // check if movesLeft is less than gameSave.movesLeft
       // if it is, replace gameSave.movesLeft with movesLeft
 
+      console.log("day 1", gameSave.date);
+      console.log("day 2", dayjs().format("MM/DD/YYYY"));
+
       console.log("TODAYY");
 
       console.log("movesLeft", movesLeft);
@@ -30,9 +32,15 @@ export const saveGameLocalStorage = (
         console.log("SAVE MEEE PLEASE!");
         window.localStorage.setItem("7dos-today", JSON.stringify(gameObj));
       }
+    } else {
+      console.log("NOT TODAY");
+
+      // delete
+      window.localStorage.removeItem("7dos-today");
+      window.localStorage.setItem("7dos-today", JSON.stringify(gameObj));
     }
   } else {
-    console.log("NOT TODAY");
+    console.log("NO LOCAL STORAGE. CREATING SAVE GAME");
     window.localStorage.setItem("7dos-today", JSON.stringify(gameObj));
   }
 };
