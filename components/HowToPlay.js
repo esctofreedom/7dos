@@ -14,8 +14,8 @@ export const HowToPlay = () => {
           <h2 className="mb-3">🎬 How to Play</h2>
 
           <p>
-            The goal of 7DOS is to connect 2 actors in the fewest number of
-            steps as you can.
+            The goal of <b className="text-blue-500">7 Degrees of Separation</b>{" "}
+            is to connect 2 actors in the fewest steps.
           </p>
           <ul>
             <li>
@@ -29,9 +29,9 @@ export const HowToPlay = () => {
             </li>
           </ul>
 
-          <span className="text-sm italic pt-8">
+          {/* <span className="text-sm italic pt-8">
             This little game was created by <a href="https://twitter.com/d_vatvani">D. Vatvani</a> and <a href="https://twitter.com/ricardcodes">R. Torres</a>
-          </span>
+          </span> */}
         </div>
       </ModalFM>
       {/* <span className="text-sm">How to Play</span> */}

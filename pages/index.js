@@ -7,14 +7,14 @@ import { MovieDrawer } from "../components/game/MovieDrawer";
 import { checkWin } from "../utils/checkWin";
 import { WinState } from "../components/game/WinState";
 import ConfettiExplosion from "react-confetti-explosion";
-import { testTopData, testBottomData } from "../utils/testData";
+
 import dayjs from "dayjs";
 import { gameEndedLocalStorage } from "../utils/gameEndedLocalStorage";
 import { checkLost } from "../utils/checkLost";
 import { LostState } from "../components/game/LostState";
 import { saveGameLocalStorage } from "../utils/saveGameLocalStorage";
 import { checkGameSave } from "../utils/checkGameSave";
-import { filterActorData } from "../utils/filterActorData";
+import { formatOptimalSolution } from "../utils/formatOptimalSolution";
 
 export async function getServerSideProps({ query }) {
   const { starting, ending } = query;
@@ -34,6 +34,8 @@ export async function getServerSideProps({ query }) {
     endingActorId = puzzleData.target_tvdb_id; //521;
   }
 
+  const optimalSolution = puzzleData.best_solution;
+
   const baseUrl = "https://api.themoviedb.org/3/";
 
   const getActorData = async (actorId) => {
@@ -52,31 +54,18 @@ export async function getServerSideProps({ query }) {
     props: {
       startingActor,
       endingActor,
+      optimalSolution,
     },
   };
 }
 
-const Game = ({ startingActor, endingActor }) => {
+const Game = ({ startingActor, endingActor, optimalSolution }) => {
   const [selectedItem, setSelectedItem] = useState(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [topGameState, setTopGameState] = useState([]);
-
   const [bottomGameState, setBottomGameState] = useState([]);
-
-  // const [topGameState, setTopGameState] = useState([
-  //   filterActorData(startingActor),
-  // ]);
-
-  // const [bottomGameState, setBottomGameState] = useState([
-  //   filterActorData(endingActor),
-  // ]);
-
-  // check if game save for today exists
-  // if it does, load it
-
   const allowedMoves = 7;
   const [movesLeft, setMovesLeft] = useState(allowedMoves);
-
   const [hasWon, setHasWon] = useState(false);
   const [hasLost, setHasLost] = useState(false);
 
@@ -122,6 +111,7 @@ const Game = ({ startingActor, endingActor }) => {
     );
   }, []);
 
+  const formattedOptimal = formatOptimalSolution(optimalSolution);
   return (
     <div className="flex flex-col items-center justify-center   flex-grow ">
       {/* Drawer for Actor's Movies */}
@@ -176,11 +166,13 @@ const Game = ({ startingActor, endingActor }) => {
           bottomGameState={bottomGameState}
         />
       )}
+
       <GameState
         topState={topGameState}
         bottomState={bottomGameState}
         setTopState={setTopGameState}
         setBottomState={setBottomGameState}
+        optimalSolution={formattedOptimal}
         drawerOpen={drawerOpen}
         setDrawerOpen={setDrawerOpen}
         setSelectedItem={setSelectedItem}
