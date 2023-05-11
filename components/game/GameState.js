@@ -220,17 +220,19 @@ export const GameState = ({
 
   return (
     <div className="flex lg:flex-row flex-col max-w-7xl mx-auto  w-full flex-grow ">
-      <ReusableState
-        origin="top"
-        widthPixels={widthPixels}
-        state={topState}
-        setState={setTopState}
-        drawerOpen={drawerOpen}
-        setDrawerOpen={setDrawerOpen}
-        setSelectedItem={setSelectedItem}
-        isMobile={isMobile}
-      />
-      <div className="min-h-[50px] "></div>
+      {!hasWon && !hasLost && (
+        <>
+          <ReusableState
+            origin="top"
+            widthPixels={widthPixels}
+            state={topState}
+            setState={setTopState}
+            drawerOpen={drawerOpen}
+            setDrawerOpen={setDrawerOpen}
+            setSelectedItem={setSelectedItem}
+            isMobile={isMobile}
+          />
+          <div className="min-h-[50px] "></div>
 
           <ReusableState
             origin="bottom"
