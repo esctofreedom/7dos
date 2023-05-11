@@ -63,22 +63,6 @@ const Game = ({ startingActor, endingActor }) => {
 
   const [bottomGameState, setBottomGameState] = useState([]);
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      // check if game save exists in local storage
-      const save = JSON.parse(localStorage.getItem("7dos-today"));
-      console.log("save", save);
-
-      if (save) {
-        setTopGameState(save.topGameState);
-        setBottomGameState(save.bottomGameState);
-        setMovesLeft(save.movesLeft);
-      } else {
-        setTopGameState([filterActorData(startingActor)]);
-        setBottomGameState([filterActorData(endingActor)]);
-      }
-    }
-  }, []);
   // const [topGameState, setTopGameState] = useState([
   //   filterActorData(startingActor),
   // ]);
@@ -96,37 +80,6 @@ const Game = ({ startingActor, endingActor }) => {
   const [hasWon, setHasWon] = useState(false);
   const [hasLost, setHasLost] = useState(false);
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      // check if game save exists in local storage
-      const save = JSON.parse(localStorage.getItem("7dos-today"));
-      console.log("save", save);
-
-      if (save) {
-        setTopGameState(save.topGameState);
-        setBottomGameState(save.bottomGameState);
-        setMovesLeft(save.movesLeft);
-      } else {
-        console.log(
-          "filterActorData(endingActor)",
-          filterActorData(endingActor)
-        );
-        setTopGameState([filterActorData(startingActor)]);
-        setBottomGameState([filterActorData(endingActor)]);
-      }
-    }
-  }, []);
-  // const [topGameState, setTopGameState] = useState([
-  //   filterActorData(startingActor),
-  // ]);
-
-  // const [bottomGameState, setBottomGameState] = useState([
-  //   filterActorData(endingActor),
-  // ]);
-
-  // check if game save for today exists
-  // if it does, load it
-
   // CHECK WIN
   useEffect(() => {
     // Returns boolean
@@ -137,34 +90,38 @@ const Game = ({ startingActor, endingActor }) => {
       endingActor
     );
 
+    let lost;
     if (win) {
       gameEndedLocalStorage(true, 7 - movesLeft);
       setHasWon(true);
-    }
-
-    const lost = checkLost(hasWon, movesLeft);
-
-    if (lost) {
-      gameEndedLocalStorage(false, 0);
-      setHasLost(true);
+      // lost = checkLost(true, movesLeft);
+    } else {
+      lost = checkLost(false, movesLeft);
+      if (lost) {
+        gameEndedLocalStorage(false, 0);
+        setHasLost(true);
+      }
     }
 
     saveGameLocalStorage(topGameState, bottomGameState, movesLeft);
 
-    console.log("STATES CHANGED!!!", topGameState, bottomGameState, movesLeft);
+    // console.log("STATES CHANGED!!!", topGameState, bottomGameState, movesLeft);
 
     // if (movesLeft === 0 && !win) {
     //   alert("You Lose!");
     // }
   }, [bottomGameState, topGameState]);
 
-  // useEffect(() => {
-  //   console.log("checking gamesave");
-  //   checkGameSave(setTopGameState, setBottomGameState, setMovesLeft);
-  // }, []);
+  useEffect(() => {
+    checkGameSave(
+      setTopGameState,
+      setBottomGameState,
+      setMovesLeft,
+      startingActor,
+      endingActor
+    );
+  }, []);
 
-  console.log("topGameState", topGameState);
-  console.log("bottomGameState", bottomGameState);
   return (
     <div className="flex flex-col items-center justify-center   flex-grow ">
       {/* Drawer for Actor's Movies */}
@@ -173,7 +130,6 @@ const Game = ({ startingActor, endingActor }) => {
           force={0.8}
           duration={3000}
           width={1600}
-          height={"120vh"}
           particleCount={500}
         />
       )}
@@ -205,20 +161,6 @@ const Game = ({ startingActor, endingActor }) => {
         </>
       )}
       {/* Top game State */}
-      {!hasWon && !hasLost && (
-        <GameState
-          topState={topGameState}
-          bottomState={bottomGameState}
-          setTopState={setTopGameState}
-          setBottomState={setBottomGameState}
-          drawerOpen={drawerOpen}
-          setDrawerOpen={setDrawerOpen}
-          setSelectedItem={setSelectedItem}
-          movesLeft={movesLeft}
-          setMovesLeft={setMovesLeft}
-        />
-      )}
-
       {hasWon && (
         <WinState
           topGameState={topGameState}
@@ -234,6 +176,19 @@ const Game = ({ startingActor, endingActor }) => {
           bottomGameState={bottomGameState}
         />
       )}
+      <GameState
+        topState={topGameState}
+        bottomState={bottomGameState}
+        setTopState={setTopGameState}
+        setBottomState={setBottomGameState}
+        drawerOpen={drawerOpen}
+        setDrawerOpen={setDrawerOpen}
+        setSelectedItem={setSelectedItem}
+        movesLeft={movesLeft}
+        setMovesLeft={setMovesLeft}
+        hasWon={hasWon}
+        hasLost={hasLost}
+      />
     </div>
   );
 };

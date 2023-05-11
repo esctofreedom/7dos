@@ -163,12 +163,16 @@ export const GameState = ({
   drawerOpen,
   setDrawerOpen,
   setSelectedItem,
+  movesLeft,
+  setMovesLeft,
+  hasWon,
+  hasLost,
 }) => {
   // calculate length of both states
   const lengthAllStates = topState.length + bottomState.length;
 
   const [widthPixels, setWidthPixels] = useState(150);
-  const maxGameWidth = 800;
+  const maxGameWidth = 900;
 
   // detect if mobile
   const [isMobile, setIsMobile] = useState(false);
@@ -231,6 +235,10 @@ export const GameState = ({
             setDrawerOpen={setDrawerOpen}
             setSelectedItem={setSelectedItem}
             isMobile={isMobile}
+            movesLeft={movesLeft}
+            setMovesLeft={setMovesLeft}
+            hasWon={hasWon}
+            hasLost={hasLost}
           />
           <div className="min-h-[50px] "></div>
 
@@ -245,6 +253,8 @@ export const GameState = ({
             isMobile={isMobile}
             movesLeft={movesLeft}
             setMovesLeft={setMovesLeft}
+            hasWon={hasWon}
+            hasLost={hasLost}
           />
         </>
       )}
