@@ -1,23 +1,40 @@
 import dayjs from "dayjs";
-import React from "react";
+import { filterActorData } from "./filterActorData";
 
 export const checkGameSave = (
   setTopGameState,
   setBottomGameState,
-  setMovesLeft
+  setMovesLeft,
+  startingActor,
+  endingActor
 ) => {
-  const gameSave = JSON.parse(localStorage.getItem("7dos-today"));
+  if (typeof window !== "undefined") {
+    // check if game save exists in local storage
+    const save = JSON.parse(localStorage.getItem("7dos-today"));
 
-  // check if it's today
-  if (gameSave && gameSave.date === dayjs().format("MM/DD/YYYY")) {
-    // load gameSave
-    const topGameState = gameSave.topGameState;
-    const bottomGameState = gameSave.bottomGameState;
-    const movesLeft = gameSave.movesLeft;
+    // check if date is today
 
-    // load gameSave into state
-    setTopGameState(topGameState);
-    setBottomGameState(bottomGameState);
-    setMovesLeft(movesLeft);
+    if (save && save.date === dayjs().format("MM/DD/YYYY")) {
+      console.log("found saved game from today");
+
+      console.log("save moves left", save.movesLeft);
+      if (save.topGameState.length === 0) {
+        setTopGameState([filterActorData(startingActor)]);
+      } else {
+        setTopGameState(save.topGameState);
+      }
+      if (save.bottomGameState.length === 0) {
+        setBottomGameState([filterActorData(endingActor)]);
+      } else {
+        setBottomGameState(save.bottomGameState);
+      }
+      
+      setMovesLeft(save.movesLeft);
+    } else {
+      console.log("no saved game found. saving today's starting and ending");
+
+      setTopGameState([filterActorData(startingActor)]);
+      setBottomGameState([filterActorData(endingActor)]);
+    }
   }
 };

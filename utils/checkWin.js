@@ -4,7 +4,15 @@ export const checkWin = (
   startingActor,
   endingActor
 ) => {
-  if (!topGameState?.length === 0 && !bottomGameState?.length === 0) {
+  //console log all
+  // console.log("bottomGameState", bottomGameState);
+  // console.log("topGameState", topGameState);
+  // console.log("startingActor", startingActor);
+  // console.log("endingActor", endingActor);
+
+  // console.log("bottomGameState.length", bottomGameState.length);
+  // console.log("topGameState.length", topGameState.length);
+  if (topGameState?.length !== 0 && bottomGameState?.length !== 0) {
     // exclude first item in both arrays
     const bottomGameStateWithoutFirstItem = bottomGameState.slice(1);
     const topGameStateWithoutFirstItem = topGameState.slice(1);
@@ -54,5 +62,7 @@ export const checkWin = (
     } else {
       return false;
     }
+  } else {
+    return false;
   }
 };

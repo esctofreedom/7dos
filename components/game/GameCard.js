@@ -1,3 +1,5 @@
+import dayjs from "dayjs";
+
 export const GameCard = ({
   type,
   isMobile,
@@ -49,9 +51,9 @@ export const GameCard = ({
 
   const content = (
     <div
-      className={`flex  flex-col bg-black/80 text-white/90 font-bold border-2 ${styles} 
+      className={`flex  flex-col relative group bg-black/80 text-white/90 font-bold border-2 ${styles} 
 
-
+   
 
     rounded-lg overflow-clip animate transition-all ease-in-out`}
       style={{
@@ -60,7 +62,18 @@ export const GameCard = ({
       }}
       onClick={onClick}
     >
-      <div className={` max-h-[87%]`}>
+      {type === "movie" && isDocked && (
+        <div className="p-4 flex-col group-hover:opacity-100 z-20 opacity-0 transition ease-in-out duration-150 absolute flex items-center justify-center top-0 left-0 w-full h-full bg-black/70">
+          <span className="text-slate-200 text-xs mb-4">
+            {item.release_date
+              ? dayjs(item.release_date).format("YYYY")
+              : "N/A"}
+          </span>
+
+          <span className="text-sm text-center">{item.title}</span>
+        </div>
+      )}
+      <div className={`relative h-[87%] `}>
         <img
           src={`https://image.tmdb.org/t/p/w500/${url}`}
           className={`h-full w-full object-cover
@@ -75,7 +88,9 @@ export const GameCard = ({
         />
       </div>
       <div className="flex items-center flex-grow  justify-center truncate text-ellipsis p-2 text-xs ">
-        {type === "movie" ? item.title : item.name}
+        <span className="text-ellipsis overflow-hidden">
+          {type === "movie" ? item.title : item.name}
+        </span>
       </div>
     </div>
   );
