@@ -7,6 +7,8 @@ export const GameCard = ({
   onClick,
   isClickable,
   isDocked,
+  hasWon,
+  hasLost,
 }) => {
   let url;
   if (type === "movie") {
@@ -14,6 +16,8 @@ export const GameCard = ({
   } else if (type === "actor") {
     url = `https://image.tmdb.org/t/p/w500/${item.profile_path}`;
   }
+
+  //🎂
 
   let width, height;
 
@@ -26,20 +30,28 @@ export const GameCard = ({
     width = widthPixels;
   }
 
+  let styles, imageStyles;
+  if (hasWon) {
+    styles = "border-green-500 shadow-green-600/50 shadow-lg";
+  } else if (hasLost) {
+    styles = "border-red-500 shadow-red-600/50 shadow-lg";
+  } else {
+    if (isClickable && !isDocked && !hasWon && !hasLost) {
+      styles =
+        "border-blue-500 shadow-blue-600/50 shadow-lg hover:scale-105 cursor-pointer";
+    } else if (isDocked) {
+      styles = "border-slate-700 shadow-xl hover:scale-105 cursor-pointer";
+    } else {
+      styles = "border-slate-700 shadow-xl ";
+      imageStyles = "opacity-70";
+    }
+  }
+
   const content = (
     <div
-      animate={{
-        scale: [1, 2, 2, 1, 1],
-        rotate: [0, 0, 270, 270, 0],
-        borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-      }}
-      className={`flex  flex-col bg-black/80 text-white/90 font-bold border-2 ${
-        isClickable && !isDocked
-          ? "border-blue-500 shadow-blue-600/50 shadow-lg"
-          : " shadow-xl border-slate-700"
-      } 
+      className={`flex  flex-col bg-black/80 text-white/90 font-bold border-2 ${styles} 
 
-    ${isClickable ? "hover:scale-105 cursor-pointer " : ""}
+
 
     rounded-lg overflow-clip animate transition-all ease-in-out`}
       style={{
@@ -52,7 +64,7 @@ export const GameCard = ({
         <img
           src={`https://image.tmdb.org/t/p/w500/${url}`}
           className={`h-full w-full object-cover
-          ${!isClickable && "opacity-70"}
+          ${imageStyles}
           `}
           // height={height}
           // width={height * 0.7}

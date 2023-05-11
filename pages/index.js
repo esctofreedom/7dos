@@ -96,6 +96,37 @@ const Game = ({ startingActor, endingActor }) => {
   const [hasWon, setHasWon] = useState(false);
   const [hasLost, setHasLost] = useState(false);
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      // check if game save exists in local storage
+      const save = JSON.parse(localStorage.getItem("7dos-today"));
+      console.log("save", save);
+
+      if (save) {
+        setTopGameState(save.topGameState);
+        setBottomGameState(save.bottomGameState);
+        setMovesLeft(save.movesLeft);
+      } else {
+        console.log(
+          "filterActorData(endingActor)",
+          filterActorData(endingActor)
+        );
+        setTopGameState([filterActorData(startingActor)]);
+        setBottomGameState([filterActorData(endingActor)]);
+      }
+    }
+  }, []);
+  // const [topGameState, setTopGameState] = useState([
+  //   filterActorData(startingActor),
+  // ]);
+
+  // const [bottomGameState, setBottomGameState] = useState([
+  //   filterActorData(endingActor),
+  // ]);
+
+  // check if game save for today exists
+  // if it does, load it
+
   // CHECK WIN
   useEffect(() => {
     // Returns boolean
@@ -142,6 +173,7 @@ const Game = ({ startingActor, endingActor }) => {
           force={0.8}
           duration={3000}
           width={1600}
+          height={"120vh"}
           particleCount={500}
         />
       )}

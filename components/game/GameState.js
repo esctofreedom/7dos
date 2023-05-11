@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { GameCard } from "./GameCard";
 
 import { motion } from "framer-motion";
-import { X, XCircle } from "lucide-react";
+import { XCircle } from "lucide-react";
 
 //
-const ReusableState = ({
+export const ReusableState = ({
   origin,
   widthPixels,
   state,
@@ -16,6 +16,8 @@ const ReusableState = ({
   isMobile,
   movesLeft,
   setMovesLeft,
+  hasWon,
+  hasLost,
 }) => {
   // if origin is botto, then invert sort order
   let sortedState;
@@ -33,13 +35,25 @@ const ReusableState = ({
     });
 
     setState(newState);
+
+    // If we want deleting a move to count as a move
     setMovesLeft(movesLeft - 1);
   };
 
+  let cardStyles;
+  if (hasWon) {
+    cardStyles = "border-emerald-500 border-solid";
+  } else if (hasLost) {
+    cardStyles = "border-red-500 border-solid";
+  } else {
+    cardStyles = "border-white/50 border-white/50 border-dashed";
+  }
+
   return (
     <div
-      className={`flex lg:flex-row flex-col flex-grow  mx-auto
+      className={`flex lg:flex-row flex-col   mx-auto
       ${origin === "top" ? "justify-start" : "justify-end"}
+      ${hasWon || hasLost ? "flex-shrink " : "flex-grow"}
     `}
     >
       {sortedState?.map((item, index) => {
@@ -58,13 +72,17 @@ const ReusableState = ({
           >
             {/* if index is not 0, add  line */}
             {index !== 0 && (
-              <div className="border-l-2 lg:border-t-2 lg:border-l-0 w-0 lg:h-0 border-white/50 lg:min-w-[30px] min-h-[20px] border-dashed"></div>
+              <div
+                className={`border-l-2 lg:border-t-2 lg:border-l-0 w-0 lg:h-0  lg:min-w-[30px] min-h-[20px] 
+              ${cardStyles}
+              `}
+              ></div>
             )}
 
             <div className="relative group">
               {/* If is not starting, show delete circle */}
               {/* only show if it is last item */}
-              {isLast && !isStarting && (
+              {isLast && !isStarting && !hasLost && !hasWon && (
                 <div
                   onClick={(e) => {
                     e.stopPropagation();
@@ -97,13 +115,17 @@ const ReusableState = ({
                   item={item.item}
                   isMobile={isMobile}
                   widthPixels={widthPixels}
-                  // isClickable={isLast ? true : false}
-                  onClick={(e) => {
-                    isLast && setSelectedItem(item);
-                    isLast && setDrawerOpen(!drawerOpen);
-                  }}
                   isClickable={isLast ? true : false}
+                  onClick={(e) => {
+                    if (!hasWon && !hasLost && isLast) {
+                      setSelectedItem(item);
+                      setDrawerOpen(!drawerOpen);
+                    }
+                  }}
+                  // isClickable={false}
                   isStarting={isStarting}
+                  hasWon={hasWon}
+                  hasLost={hasLost}
                 />
               ) : (
                 <GameCard
@@ -111,13 +133,17 @@ const ReusableState = ({
                   item={item.item}
                   isMobile={isMobile}
                   widthPixels={widthPixels}
-                  // isClickable={isLast ? true : false}
-                  onClick={(e) => {
-                    isLast && setSelectedItem(item);
-                    isLast && setDrawerOpen(!drawerOpen);
-                  }}
                   isClickable={isLast ? true : false}
+                  onClick={(e) => {
+                    if (!hasWon && !hasLost && isLast) {
+                      setSelectedItem(item);
+                      setDrawerOpen(!drawerOpen);
+                    }
+                  }}
+                  // isClickable={false}
                   isStarting={false}
+                  hasWon={hasWon}
+                  hasLost={hasLost}
                 />
               )}
             </div>
@@ -137,8 +163,6 @@ export const GameState = ({
   drawerOpen,
   setDrawerOpen,
   setSelectedItem,
-  movesLeft,
-  setMovesLeft,
 }) => {
   // calculate length of both states
   const lengthAllStates = topState.length + bottomState.length;
@@ -205,23 +229,71 @@ export const GameState = ({
         setDrawerOpen={setDrawerOpen}
         setSelectedItem={setSelectedItem}
         isMobile={isMobile}
-        movesLeft={movesLeft}
-        setMovesLeft={setMovesLeft}
       />
       <div className="min-h-[50px] "></div>
 
-      <ReusableState
-        origin="bottom"
-        widthPixels={widthPixels}
-        state={bottomState}
-        setState={setBottomState}
-        drawerOpen={drawerOpen}
-        setDrawerOpen={setDrawerOpen}
-        setSelectedItem={setSelectedItem}
-        isMobile={isMobile}
-        movesLeft={movesLeft}
-        setMovesLeft={setMovesLeft}
-      />
+          <ReusableState
+            origin="bottom"
+            widthPixels={widthPixels}
+            state={bottomState}
+            setState={setBottomState}
+            drawerOpen={drawerOpen}
+            setDrawerOpen={setDrawerOpen}
+            setSelectedItem={setSelectedItem}
+            isMobile={isMobile}
+            movesLeft={movesLeft}
+            setMovesLeft={setMovesLeft}
+          />
+        </>
+      )}
+
+      {/* WIN STATE */}
+      {hasWon || hasLost ? (
+        <div className="flex mx-auto items-center">
+          <ReusableState
+            origin="top"
+            widthPixels={widthPixels}
+            state={topState}
+            setState={setBottomState}
+            drawerOpen={drawerOpen}
+            setDrawerOpen={setDrawerOpen}
+            setSelectedItem={setSelectedItem}
+            isMobile={isMobile}
+            movesLeft={movesLeft}
+            setMovesLeft={setMovesLeft}
+            hasWon={hasWon}
+            hasLost={hasLost}
+          />
+          {hasWon && (
+            <div
+              className={`border-l-2 lg:border-t-2 lg:border-l-0 w-0 lg:h-0  lg:min-w-[30px] min-h-[20px] 
+              border-emerald-500
+              `}
+            />
+          )}
+          {hasLost && (
+            <div
+              className={`border-l-2 lg:border-t-2 lg:border-l-0 w-0 lg:h-0  lg:min-w-[30px] min-h-[20px] 
+            border-red-500
+            `}
+            />
+          )}
+          <ReusableState
+            origin="bottom"
+            widthPixels={widthPixels}
+            state={bottomState}
+            setState={setBottomState}
+            drawerOpen={drawerOpen}
+            setDrawerOpen={setDrawerOpen}
+            setSelectedItem={setSelectedItem}
+            isMobile={isMobile}
+            movesLeft={movesLeft}
+            setMovesLeft={setMovesLeft}
+            hasWon={hasWon}
+            hasLost={hasLost}
+          />
+        </div>
+      ) : null}
     </div>
   );
 };
