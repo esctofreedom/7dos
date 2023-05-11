@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { GameCard } from "./GameCard";
 
 import { motion } from "framer-motion";
-import { XCircle } from "lucide-react";
+import { X, XCircle } from "lucide-react";
 
 //
 export const ReusableState = ({
