@@ -1,0 +1,49 @@
+{
+  "source_tvdb_id": 3223,
+  "target_tvdb_id": 6856,
+  "source_imdb_id": "nm0000375",
+  "target_imdb_id": "nm0000621",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000375",
+      "tvdb_id": 3223,
+      "name": "Robert Downey Jr.",
+      "image_url": "https://image.tmdb.org/t/p/w500/im9SAqJPZKEbVZGmjXuLI4O7RvM.jpg"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0848228",
+      "votes": 1411541,
+      "rating": 8.0,
+      "name": "The Avengers",
+      "tvdb_id": 24428,
+      "image_url": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg"
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000168",
+      "tvdb_id": 2231,
+      "name": "Samuel L. Jackson",
+      "image_url": "https://image.tmdb.org/t/p/w500/nCJJ3NVksYNxIzEHcyC1XziwPVj.jpg"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt3460252",
+      "votes": 620842,
+      "rating": 7.8,
+      "name": "The Hateful Eight",
+      "tvdb_id": 273248,
+      "image_url": "https://image.tmdb.org/t/p/w500/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg"
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000621",
+      "tvdb_id": 6856,
+      "name": "Kurt Russell",
+      "image_url": "https://image.tmdb.org/t/p/w500/6g1d98oH4miG4k0ZiZWmF3Dt0bO.jpg"
+    }
+  ]
+}

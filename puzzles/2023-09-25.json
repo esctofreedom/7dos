@@ -1,8 +1,8 @@
 {
   "source_tvdb_id": 2888,
-  "target_tvdb_id": 3967,
+  "target_tvdb_id": 2387,
   "source_imdb_id": "nm0000226",
-  "target_imdb_id": "nm0000295",
+  "target_imdb_id": "nm0001772",
   "min_moves_to_solve": 3,
   "source_birthday": true,
   "best_solution": [
@@ -10,35 +10,40 @@
       "type": "Actor",
       "imdb_id": "nm0000226",
       "tvdb_id": 2888,
-      "name": "Will Smith"
+      "name": "Will Smith",
+      "image_url": "https://image.tmdb.org/t/p/w500/6a6cl4ZNufJzrx5HZKWPU1BjjRF.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt1386697",
-      "votes": 697460,
-      "rating": 5.9,
-      "name": "Suicide Squad",
-      "tvdb_id": 297761
+      "imdb_id": "tt0116629",
+      "votes": 585093,
+      "rating": 7.0,
+      "name": "Independence Day",
+      "tvdb_id": 602,
+      "image_url": "https://image.tmdb.org/t/p/w500/p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0000255",
-      "tvdb_id": 880,
-      "name": "Ben Affleck"
+      "imdb_id": "nm0000653",
+      "tvdb_id": 1213786,
+      "name": "Brent Spiner",
+      "image_url": "https://image.tmdb.org/t/p/w500/wHaOTfxOEKOPssDYaSSB5zenml4.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0213149",
-      "votes": 339910,
-      "rating": 6.2,
-      "name": "Pearl Harbor",
-      "tvdb_id": 676
+      "imdb_id": "tt0117731",
+      "votes": 128406,
+      "rating": 7.6,
+      "name": "Star Trek: First Contact",
+      "tvdb_id": 199,
+      "image_url": "https://image.tmdb.org/t/p/w500/vrC1lkTktFQ4AqBfqf4PXoDDLcw.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0000295",
-      "tvdb_id": 3967,
-      "name": "Kate Beckinsale"
+      "imdb_id": "nm0001772",
+      "tvdb_id": 2387,
+      "name": "Patrick Stewart",
+      "image_url": "https://image.tmdb.org/t/p/w500/3yExCGqCMfSOVVHdEYTJhXaTtFZ.jpg"
     }
   ]
 }

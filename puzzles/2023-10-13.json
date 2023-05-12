@@ -1,8 +1,8 @@
 {
   "source_tvdb_id": 6730,
-  "target_tvdb_id": 1367,
+  "target_tvdb_id": 738,
   "source_imdb_id": "nm0056187",
-  "target_imdb_id": "nm0397102",
+  "target_imdb_id": "nm0000125",
   "min_moves_to_solve": 3,
   "source_birthday": true,
   "best_solution": [
@@ -10,35 +10,40 @@
       "type": "Actor",
       "imdb_id": "nm0056187",
       "tvdb_id": 6730,
-      "name": "Sacha Baron Cohen"
+      "name": "Sacha Baron Cohen",
+      "image_url": "https://image.tmdb.org/t/p/w500/8J2LxfW3owPTc9OzbBoUbADFOBb.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0970179",
-      "votes": 328128,
-      "rating": 7.5,
-      "name": "Hugo",
-      "tvdb_id": 44826
+      "imdb_id": "tt0889583",
+      "votes": 150989,
+      "rating": 5.9,
+      "name": "Br\u00fcno",
+      "tvdb_id": 18480,
+      "image_url": "https://image.tmdb.org/t/p/w500/xLFYL5gwCPnMDp5Qmd5wiRSsRPX.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0000489",
-      "tvdb_id": 113,
-      "name": "Christopher Lee"
+      "imdb_id": "nm0000148",
+      "tvdb_id": 3,
+      "name": "Harrison Ford",
+      "image_url": "https://image.tmdb.org/t/p/w500/5M7oN3sznp99hWYQ9sX0xheswWX.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0120737",
-      "votes": 1909585,
-      "rating": 8.8,
-      "name": "The Lord of the Rings: The Fellowship of the Ring",
-      "tvdb_id": 120
+      "imdb_id": "tt0097576",
+      "votes": 768675,
+      "rating": 8.2,
+      "name": "Indiana Jones and the Last Crusade",
+      "tvdb_id": 89,
+      "image_url": "https://image.tmdb.org/t/p/w500/sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0397102",
-      "tvdb_id": 1367,
-      "name": "Alan Howard"
+      "imdb_id": "nm0000125",
+      "tvdb_id": 738,
+      "name": "Sean Connery",
+      "image_url": "https://image.tmdb.org/t/p/w500/dXQj9iz41GunGRJqXvdf5ST1P1g.jpg"
     }
   ]
 }

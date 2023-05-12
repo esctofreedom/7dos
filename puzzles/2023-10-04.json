@@ -10,7 +10,8 @@
       "type": "Actor",
       "imdb_id": "nm0910607",
       "tvdb_id": 27319,
-      "name": "Christoph Waltz"
+      "name": "Christoph Waltz",
+      "image_url": "https://image.tmdb.org/t/p/w500/2Hhztd4mUEV9Y25rfkXDwzL9QI9.jpg"
     },
     {
       "type": "Film",
@@ -18,13 +19,15 @@
       "votes": 1592500,
       "rating": 8.4,
       "name": "Django Unchained",
-      "tvdb_id": 68718
+      "tvdb_id": 68718,
+      "image_url": "https://image.tmdb.org/t/p/w500/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg"
     },
     {
       "type": "Actor",
       "imdb_id": "nm0004937",
       "tvdb_id": 134,
-      "name": "Jamie Foxx"
+      "name": "Jamie Foxx",
+      "image_url": "https://image.tmdb.org/t/p/w500/oZa2WXbsXRfJp7eI2oorREAaDrd.jpg"
     },
     {
       "type": "Film",
@@ -32,13 +35,15 @@
       "votes": 789409,
       "rating": 8.2,
       "name": "Spider-Man: No Way Home",
-      "tvdb_id": 634649
+      "tvdb_id": 634649,
+      "image_url": "https://image.tmdb.org/t/p/w500/uJYYizSuA9Y3DCs0qS4qWvHfZg4.jpg"
     },
     {
       "type": "Actor",
       "imdb_id": "nm0000353",
       "tvdb_id": 5293,
-      "name": "Willem Dafoe"
+      "name": "Willem Dafoe",
+      "image_url": "https://image.tmdb.org/t/p/w500/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg"
     }
   ]
 }

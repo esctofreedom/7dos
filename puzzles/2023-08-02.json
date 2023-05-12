@@ -1,8 +1,8 @@
 {
   "source_tvdb_id": 65731,
-  "target_tvdb_id": 190,
+  "target_tvdb_id": 7447,
   "source_imdb_id": "nm0941777",
-  "target_imdb_id": "nm0000142",
+  "target_imdb_id": "nm0000285",
   "min_moves_to_solve": 3,
   "source_birthday": true,
   "best_solution": [
@@ -10,35 +10,40 @@
       "type": "Actor",
       "imdb_id": "nm0941777",
       "tvdb_id": 65731,
-      "name": "Sam Worthington"
+      "name": "Sam Worthington",
+      "image_url": "https://image.tmdb.org/t/p/w500/mflBcox36s9ZPbsZPVOuhf6axaJ.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt1568338",
-      "votes": 155207,
-      "rating": 6.6,
-      "name": "Man on a Ledge",
-      "tvdb_id": 49527
+      "imdb_id": "tt0499549",
+      "votes": 1338763,
+      "rating": 7.9,
+      "name": "Avatar",
+      "tvdb_id": 19995,
+      "image_url": "https://image.tmdb.org/t/p/w500/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm1107001",
-      "tvdb_id": 53650,
-      "name": "Anthony Mackie"
+      "imdb_id": "nm0000244",
+      "tvdb_id": 10205,
+      "name": "Sigourney Weaver",
+      "image_url": "https://image.tmdb.org/t/p/w500/sHWCLx54yLtaFtppp5ADjAsrWIc.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0405159",
-      "votes": 698263,
-      "rating": 8.1,
-      "name": "Million Dollar Baby",
-      "tvdb_id": 70
+      "imdb_id": "tt0096463",
+      "votes": 59500,
+      "rating": 6.8,
+      "name": "Working Girl",
+      "tvdb_id": 3525,
+      "image_url": "https://image.tmdb.org/t/p/w500/q2jfFzZvAzjTaArQR0tjilIZ5aJ.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0000142",
-      "tvdb_id": 190,
-      "name": "Clint Eastwood"
+      "imdb_id": "nm0000285",
+      "tvdb_id": 7447,
+      "name": "Alec Baldwin",
+      "image_url": "https://image.tmdb.org/t/p/w500/hzKy7x574eeUS3wt1R3yvWBRpeR.jpg"
     }
   ]
 }

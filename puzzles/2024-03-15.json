@@ -1,44 +1,49 @@
 {
-  "source_tvdb_id": 17051,
-  "target_tvdb_id": 1640,
-  "source_imdb_id": "nm0290556",
-  "target_imdb_id": "nm0001745",
+  "source_tvdb_id": 569,
+  "target_tvdb_id": 64,
+  "source_imdb_id": "nm0000160",
+  "target_imdb_id": "nm0000198",
   "min_moves_to_solve": 3,
   "source_birthday": false,
   "best_solution": [
     {
       "type": "Actor",
-      "imdb_id": "nm0290556",
-      "tvdb_id": 17051,
-      "name": "James Franco"
+      "imdb_id": "nm0000160",
+      "tvdb_id": 569,
+      "name": "Ethan Hawke",
+      "image_url": "https://image.tmdb.org/t/p/w500/a7rgJl8TYUWAfJuM4fxbLHgD7BL.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0316654",
-      "votes": 669481,
-      "rating": 7.4,
-      "name": "Spider-Man 2",
-      "tvdb_id": 558
+      "imdb_id": "tt0139654",
+      "votes": 448538,
+      "rating": 7.7,
+      "name": "Training Day",
+      "tvdb_id": 2034,
+      "image_url": "https://image.tmdb.org/t/p/w500/bUeiwBQdupBLQthMCHKV7zv56uv.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0000379",
-      "tvdb_id": 205,
-      "name": "Kirsten Dunst"
+      "imdb_id": "nm0000243",
+      "tvdb_id": 5292,
+      "name": "Denzel Washington",
+      "image_url": "https://image.tmdb.org/t/p/w500/jj2Gcobpopokal0YstuCQW0ldJ4.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt1527186",
-      "votes": 187583,
-      "rating": 7.1,
-      "name": "Melancholia",
-      "tvdb_id": 62215
+      "imdb_id": "tt1037705",
+      "votes": 325917,
+      "rating": 6.8,
+      "name": "The Book of Eli",
+      "tvdb_id": 20504,
+      "image_url": "https://image.tmdb.org/t/p/w500/1H1y9ZiqNFaLgQiRDDZLA55PviW.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0001745",
-      "tvdb_id": 1640,
-      "name": "Stellan Skarsg\u00e5rd"
+      "imdb_id": "nm0000198",
+      "tvdb_id": 64,
+      "name": "Gary Oldman",
+      "image_url": "https://image.tmdb.org/t/p/w500/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg"
     }
   ]
 }

@@ -1,44 +1,49 @@
 {
-  "source_tvdb_id": 6730,
-  "target_tvdb_id": 3036,
-  "source_imdb_id": "nm0056187",
-  "target_imdb_id": "nm0000131",
+  "source_tvdb_id": 287,
+  "target_tvdb_id": 134,
+  "source_imdb_id": "nm0000093",
+  "target_imdb_id": "nm0004937",
   "min_moves_to_solve": 3,
   "source_birthday": false,
   "best_solution": [
     {
       "type": "Actor",
-      "imdb_id": "nm0056187",
-      "tvdb_id": 6730,
-      "name": "Sacha Baron Cohen"
+      "imdb_id": "nm0000093",
+      "tvdb_id": 287,
+      "name": "Brad Pitt",
+      "image_url": "https://image.tmdb.org/t/p/w500/gCGT6HYAuLt7YJgMf6ZBCoTqMPj.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt1645170",
-      "votes": 317452,
-      "rating": 6.4,
-      "name": "The Dictator",
-      "tvdb_id": 76493
+      "imdb_id": "tt0361748",
+      "votes": 1485428,
+      "rating": 8.3,
+      "name": "Inglourious Basterds",
+      "tvdb_id": 16869,
+      "image_url": "https://image.tmdb.org/t/p/w500/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm1502654",
-      "tvdb_id": 1202712,
-      "name": "Peter Conboy"
+      "imdb_id": "nm0910607",
+      "tvdb_id": 27319,
+      "name": "Christoph Waltz",
+      "image_url": "https://image.tmdb.org/t/p/w500/2Hhztd4mUEV9Y25rfkXDwzL9QI9.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0450385",
-      "votes": 280761,
-      "rating": 6.8,
-      "name": "1408",
-      "tvdb_id": 3021
+      "imdb_id": "tt1853728",
+      "votes": 1592500,
+      "rating": 8.4,
+      "name": "Django Unchained",
+      "tvdb_id": 68718,
+      "image_url": "https://image.tmdb.org/t/p/w500/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0000131",
-      "tvdb_id": 3036,
-      "name": "John Cusack"
+      "imdb_id": "nm0004937",
+      "tvdb_id": 134,
+      "name": "Jamie Foxx",
+      "image_url": "https://image.tmdb.org/t/p/w500/oZa2WXbsXRfJp7eI2oorREAaDrd.jpg"
     }
   ]
 }

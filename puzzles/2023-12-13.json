@@ -1,8 +1,8 @@
 {
   "source_tvdb_id": 134,
-  "target_tvdb_id": 3895,
+  "target_tvdb_id": 569,
   "source_imdb_id": "nm0004937",
-  "target_imdb_id": "nm0000323",
+  "target_imdb_id": "nm0000160",
   "min_moves_to_solve": 3,
   "source_birthday": true,
   "best_solution": [
@@ -10,35 +10,40 @@
       "type": "Actor",
       "imdb_id": "nm0004937",
       "tvdb_id": 134,
-      "name": "Jamie Foxx"
+      "name": "Jamie Foxx",
+      "image_url": "https://image.tmdb.org/t/p/w500/oZa2WXbsXRfJp7eI2oorREAaDrd.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt1853728",
-      "votes": 1592500,
-      "rating": 8.4,
-      "name": "Django Unchained",
-      "tvdb_id": 68718
+      "imdb_id": "tt1872181",
+      "votes": 510599,
+      "rating": 6.6,
+      "name": "The Amazing Spider-Man 2",
+      "tvdb_id": 102382,
+      "image_url": "https://image.tmdb.org/t/p/w500/c3e9e18SSlvFd1cQaGmUj5tqL5P.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0000138",
-      "tvdb_id": 6193,
-      "name": "Leonardo DiCaprio"
+      "imdb_id": "nm2851530",
+      "tvdb_id": 122889,
+      "name": "Dane DeHaan",
+      "image_url": "https://image.tmdb.org/t/p/w500/uwl0WKqHj6ahsriOEPLks84T70j.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt1375666",
-      "votes": 2403153,
-      "rating": 8.8,
-      "name": "Inception",
-      "tvdb_id": 27205
+      "imdb_id": "tt2239822",
+      "votes": 187467,
+      "rating": 6.4,
+      "name": "Valerian and the City of a Thousand Planets",
+      "tvdb_id": 339964,
+      "image_url": "https://image.tmdb.org/t/p/w500/jfIpMh79fGRqYJ6PwZLCntzgxlF.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0000323",
-      "tvdb_id": 3895,
-      "name": "Michael Caine"
+      "imdb_id": "nm0000160",
+      "tvdb_id": 569,
+      "name": "Ethan Hawke",
+      "image_url": "https://image.tmdb.org/t/p/w500/a7rgJl8TYUWAfJuM4fxbLHgD7BL.jpg"
     }
   ]
 }
