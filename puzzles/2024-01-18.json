@@ -1,8 +1,8 @@
 {
   "source_tvdb_id": 1269,
-  "target_tvdb_id": 1158,
+  "target_tvdb_id": 3131,
   "source_imdb_id": "nm0000126",
-  "target_imdb_id": "nm0000199",
+  "target_imdb_id": "nm0000104",
   "min_moves_to_solve": 3,
   "source_birthday": true,
   "best_solution": [
@@ -10,35 +10,40 @@
       "type": "Actor",
       "imdb_id": "nm0000126",
       "tvdb_id": 1269,
-      "name": "Kevin Costner"
+      "name": "Kevin Costner",
+      "image_url": "https://image.tmdb.org/t/p/w500/608blZipRDZkDpzp8VItB64qMaT.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0094226",
-      "votes": 317787,
-      "rating": 7.8,
-      "name": "The Untouchables",
-      "tvdb_id": 117
+      "imdb_id": "tt0102798",
+      "votes": 199967,
+      "rating": 6.9,
+      "name": "Robin Hood: Prince of Thieves",
+      "tvdb_id": 8367,
+      "image_url": "https://image.tmdb.org/t/p/w500/hbRnWUNJkKKVN5mkcuC5ooqjE4e.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0000134",
-      "tvdb_id": 380,
-      "name": "Robert De Niro"
+      "imdb_id": "nm0000225",
+      "tvdb_id": 2224,
+      "name": "Christian Slater",
+      "image_url": "https://image.tmdb.org/t/p/w500/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0071562",
-      "votes": 1296165,
-      "rating": 9.0,
-      "name": "The Godfather Part II",
-      "tvdb_id": 240
+      "imdb_id": "tt0110148",
+      "votes": 331735,
+      "rating": 7.5,
+      "name": "Interview with the Vampire: The Vampire Chronicles",
+      "tvdb_id": 628,
+      "image_url": "https://image.tmdb.org/t/p/w500/2162lAT2MP36MyJd2sttmj5du5T.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0000199",
-      "tvdb_id": 1158,
-      "name": "Al Pacino"
+      "imdb_id": "nm0000104",
+      "tvdb_id": 3131,
+      "name": "Antonio Banderas",
+      "image_url": "https://image.tmdb.org/t/p/w500/n8YlGookYzgD3cmpMP45BYRNIoh.jpg"
     }
   ]
 }

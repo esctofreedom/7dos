@@ -1,0 +1,49 @@
+{
+  "source_tvdb_id": 4517,
+  "target_tvdb_id": 3489,
+  "source_imdb_id": "nm0000582",
+  "target_imdb_id": "nm0915208",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000582",
+      "tvdb_id": 4517,
+      "name": "Joe Pesci",
+      "image_url": "https://image.tmdb.org/t/p/w500/4AO0Rwdg2ky8Usmgzgj0dvhy7Zw.jpg"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0099685",
+      "votes": 1186782,
+      "rating": 8.7,
+      "name": "Goodfellas",
+      "tvdb_id": 769,
+      "image_url": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg"
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0181068",
+      "tvdb_id": 1788103,
+      "name": "Janis Corsair",
+      "image_url": "https://image.tmdb.org/t/p/w500/x8Nrfzy62JOhYTsiqywas0A869q.jpg"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt2562232",
+      "votes": 643891,
+      "rating": 7.7,
+      "name": "Birdman or (The Unexpected Virtue of Ignorance)",
+      "tvdb_id": 194662,
+      "image_url": "https://image.tmdb.org/t/p/w500/rHUg2AuIuLSIYMYFgavVwqt1jtc.jpg"
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0915208",
+      "tvdb_id": 3489,
+      "name": "Naomi Watts",
+      "image_url": "https://image.tmdb.org/t/p/w500/k6l8BWX1yqfGt95enzEkHoPvON4.jpg"
+    }
+  ]
+}

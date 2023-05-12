@@ -1,44 +1,49 @@
 {
-  "source_tvdb_id": 62064,
-  "target_tvdb_id": 73968,
-  "source_imdb_id": "nm1517976",
-  "target_imdb_id": "nm0147147",
+  "source_tvdb_id": 1327,
+  "target_tvdb_id": 17276,
+  "source_imdb_id": "nm0005212",
+  "target_imdb_id": "nm0124930",
   "min_moves_to_solve": 3,
   "source_birthday": false,
   "best_solution": [
     {
       "type": "Actor",
-      "imdb_id": "nm1517976",
-      "tvdb_id": 62064,
-      "name": "Chris Pine"
+      "imdb_id": "nm0005212",
+      "tvdb_id": 1327,
+      "name": "Ian McKellen",
+      "image_url": "https://image.tmdb.org/t/p/w500/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0451279",
-      "votes": 672170,
-      "rating": 7.4,
-      "name": "Wonder Woman",
-      "tvdb_id": 297762
+      "imdb_id": "tt1877832",
+      "votes": 723350,
+      "rating": 7.9,
+      "name": "X-Men: Days of Future Past",
+      "tvdb_id": 127585,
+      "image_url": "https://image.tmdb.org/t/p/w500/tYfijzolzgoMOtegh1Y7j2Enorg.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm2933757",
-      "tvdb_id": 90633,
-      "name": "Gal Gadot"
+      "imdb_id": "nm1055413",
+      "tvdb_id": 17288,
+      "name": "Michael Fassbender",
+      "image_url": "https://image.tmdb.org/t/p/w500/44HPVHj1DijOuUe0zYuQfSZujKH.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt2975590",
-      "votes": 710461,
-      "rating": 6.4,
-      "name": "Batman v Superman: Dawn of Justice",
-      "tvdb_id": 209112
+      "imdb_id": "tt0416449",
+      "votes": 834419,
+      "rating": 7.6,
+      "name": "300",
+      "tvdb_id": 1271,
+      "image_url": "https://image.tmdb.org/t/p/w500/bH82UMPNU9hx3qzjyHUnwghqmDS.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0147147",
-      "tvdb_id": 73968,
-      "name": "Henry Cavill"
+      "imdb_id": "nm0124930",
+      "tvdb_id": 17276,
+      "name": "Gerard Butler",
+      "image_url": "https://image.tmdb.org/t/p/w500/hAKPWWvUyvcfqPcoBG45c8NRr6e.jpg"
     }
   ]
 }

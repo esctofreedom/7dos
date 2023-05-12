@@ -1,8 +1,8 @@
 {
   "source_tvdb_id": 4785,
-  "target_tvdb_id": 5294,
+  "target_tvdb_id": 1269,
   "source_imdb_id": "nm0000156",
-  "target_imdb_id": "nm0252230",
+  "target_imdb_id": "nm0000126",
   "min_moves_to_solve": 3,
   "source_birthday": true,
   "best_solution": [
@@ -10,35 +10,40 @@
       "type": "Actor",
       "imdb_id": "nm0000156",
       "tvdb_id": 4785,
-      "name": "Jeff Goldblum"
+      "name": "Jeff Goldblum",
+      "image_url": "https://image.tmdb.org/t/p/w500/ceSmXnD0FUSTaq2WIrnZu9caL0t.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt3501632",
-      "votes": 771855,
-      "rating": 7.9,
-      "name": "Thor: Ragnarok",
-      "tvdb_id": 284053
+      "imdb_id": "tt0116629",
+      "votes": 585093,
+      "rating": 7.0,
+      "name": "Independence Day",
+      "tvdb_id": 602,
+      "image_url": "https://image.tmdb.org/t/p/w500/p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm1212722",
-      "tvdb_id": 71580,
-      "name": "Benedict Cumberbatch"
+      "imdb_id": "nm0001521",
+      "tvdb_id": 1581,
+      "name": "Mary McDonnell",
+      "image_url": "https://image.tmdb.org/t/p/w500/qqdaaFLEPXbB8thVJJkYJ4WoAuj.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt1211837",
-      "votes": 761886,
-      "rating": 7.5,
-      "name": "Doctor Strange",
-      "tvdb_id": 284052
+      "imdb_id": "tt0099348",
+      "votes": 275168,
+      "rating": 8.0,
+      "name": "Dances with Wolves",
+      "tvdb_id": 581,
+      "image_url": "https://image.tmdb.org/t/p/w500/cvaBVpS0GzKqBd63pFT8f1E8OKv.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0252230",
-      "tvdb_id": 5294,
-      "name": "Chiwetel Ejiofor"
+      "imdb_id": "nm0000126",
+      "tvdb_id": 1269,
+      "name": "Kevin Costner",
+      "image_url": "https://image.tmdb.org/t/p/w500/608blZipRDZkDpzp8VItB64qMaT.jpg"
     }
   ]
 }

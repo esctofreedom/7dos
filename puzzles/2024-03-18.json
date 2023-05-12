@@ -1,44 +1,49 @@
 {
-  "source_tvdb_id": 204,
-  "target_tvdb_id": 17604,
-  "source_imdb_id": "nm0000701",
-  "target_imdb_id": "nm0719637",
+  "source_tvdb_id": 2387,
+  "target_tvdb_id": 8891,
+  "source_imdb_id": "nm0001772",
+  "target_imdb_id": "nm0000237",
   "min_moves_to_solve": 3,
   "source_birthday": false,
   "best_solution": [
     {
       "type": "Actor",
-      "imdb_id": "nm0000701",
-      "tvdb_id": 204,
-      "name": "Kate Winslet"
+      "imdb_id": "nm0001772",
+      "tvdb_id": 2387,
+      "name": "Patrick Stewart",
+      "image_url": "https://image.tmdb.org/t/p/w500/3yExCGqCMfSOVVHdEYTJhXaTtFZ.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0338013",
-      "votes": 1027917,
-      "rating": 8.3,
-      "name": "Eternal Sunshine of the Spotless Mind",
-      "tvdb_id": 38
+      "imdb_id": "tt3315342",
+      "votes": 783711,
+      "rating": 8.1,
+      "name": "Logan",
+      "tvdb_id": 263115,
+      "image_url": "https://image.tmdb.org/t/p/w500/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0749263",
-      "tvdb_id": 103,
-      "name": "Mark Ruffalo"
+      "imdb_id": "nm0413168",
+      "tvdb_id": 6968,
+      "name": "Hugh Jackman",
+      "image_url": "https://image.tmdb.org/t/p/w500/5Dxx0j9jOAczsTQzZ0OkA5iJBhp.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0848228",
-      "votes": 1411541,
-      "rating": 8.0,
-      "name": "The Avengers",
-      "tvdb_id": 24428
+      "imdb_id": "tt0244244",
+      "votes": 191216,
+      "rating": 6.5,
+      "name": "Swordfish",
+      "tvdb_id": 9705,
+      "image_url": "https://image.tmdb.org/t/p/w500/mM6h4jMqC4q5IaFgBIGKQDLnRU.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0719637",
-      "tvdb_id": 17604,
-      "name": "Jeremy Renner"
+      "imdb_id": "nm0000237",
+      "tvdb_id": 8891,
+      "name": "John Travolta",
+      "image_url": "https://image.tmdb.org/t/p/w500/9axs7CGk01nmGqBAppDR92JHucn.jpg"
     }
   ]
 }

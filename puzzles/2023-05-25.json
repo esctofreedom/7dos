@@ -1,8 +1,8 @@
 {
   "source_tvdb_id": 1327,
-  "target_tvdb_id": 1204,
+  "target_tvdb_id": 504,
   "source_imdb_id": "nm0005212",
-  "target_imdb_id": "nm0000210",
+  "target_imdb_id": "nm0000209",
   "min_moves_to_solve": 3,
   "source_birthday": true,
   "best_solution": [
@@ -10,35 +10,40 @@
       "type": "Actor",
       "imdb_id": "nm0005212",
       "tvdb_id": 1327,
-      "name": "Ian McKellen"
+      "name": "Ian McKellen",
+      "image_url": "https://image.tmdb.org/t/p/w500/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg"
     },
     {
       "type": "Film",
-      "imdb_id": "tt0382625",
-      "votes": 442663,
-      "rating": 6.6,
-      "name": "The Da Vinci Code",
-      "tvdb_id": 591
+      "imdb_id": "tt0120903",
+      "votes": 625861,
+      "rating": 7.3,
+      "name": "X-Men",
+      "tvdb_id": 36657,
+      "image_url": "https://image.tmdb.org/t/p/w500/bRDAc4GogyS9ci3ow7UnInOcriN.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0000158",
-      "tvdb_id": 31,
-      "name": "Tom Hanks"
+      "imdb_id": "nm4798882",
+      "tvdb_id": null,
+      "name": "Brad Jacobowitz",
+      "image_url": ""
     },
     {
       "type": "Film",
-      "imdb_id": "tt0472062",
-      "votes": 121255,
-      "rating": 7.0,
-      "name": "Charlie Wilson's War",
-      "tvdb_id": 6538
+      "imdb_id": "tt0111161",
+      "votes": 2734155,
+      "rating": 9.3,
+      "name": "The Shawshank Redemption",
+      "tvdb_id": 278,
+      "image_url": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg"
     },
     {
       "type": "Actor",
-      "imdb_id": "nm0000210",
-      "tvdb_id": 1204,
-      "name": "Julia Roberts"
+      "imdb_id": "nm0000209",
+      "tvdb_id": 504,
+      "name": "Tim Robbins",
+      "image_url": "https://image.tmdb.org/t/p/w500/A4fHNLX73EQs78f2G6ObfKZnvp4.jpg"
     }
   ]
 }

@@ -1,0 +1,49 @@
+{
+  "source_tvdb_id": 1283,
+  "target_tvdb_id": 23532,
+  "source_imdb_id": "nm0000307",
+  "target_imdb_id": "nm0000867",
+  "min_moves_to_solve": 3,
+  "source_birthday": false,
+  "best_solution": [
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000307",
+      "tvdb_id": 1283,
+      "name": "Helena Bonham Carter",
+      "image_url": "https://image.tmdb.org/t/p/w500/DDeITcCpnBd0CkAIRPhggy9bt5.jpg"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt1707386",
+      "votes": 335733,
+      "rating": 7.5,
+      "name": "Les Mis\u00e9rables",
+      "tvdb_id": 82695,
+      "image_url": "https://image.tmdb.org/t/p/w500/90PyvT7SI5INKhMC6P7B5NJVx4t.jpg"
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000128",
+      "tvdb_id": 934,
+      "name": "Russell Crowe",
+      "image_url": "https://image.tmdb.org/t/p/w500/mGTtPuwE8OR00tkJGmVLJmt8KpW.jpg"
+    },
+    {
+      "type": "Film",
+      "imdb_id": "tt0473705",
+      "votes": 155080,
+      "rating": 7.1,
+      "name": "State of Play",
+      "tvdb_id": 16995,
+      "image_url": "https://image.tmdb.org/t/p/w500/4f8nhHESDhAVKow2M1khmqDdatp.jpg"
+    },
+    {
+      "type": "Actor",
+      "imdb_id": "nm0000867",
+      "tvdb_id": 23532,
+      "name": "Jason Bateman",
+      "image_url": "https://image.tmdb.org/t/p/w500/8e6mt0vGjPo6eW52gqRuXy5YnfN.jpg"
+    }
+  ]
+}
